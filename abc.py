@@ -2763,39 +2763,11 @@
     const msgValid = validateField('fmessage', 'fmessage-error', v => v.trim().length >= 20);
 
     if (nameValid && emailValid && orgValid && typeValid && dateValid && msgValid) {
-      const submitBtn = bookingForm.querySelector('button[type="submit"]');
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
-
-      fetch('http://localhost:8000/api/book', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name:         document.getElementById('fname').value.trim(),
-          email:        document.getElementById('femail').value.trim(),
-          organization: document.getElementById('forg').value.trim(),
-          event_type:   document.getElementById('ftype').value,
-          event_date:   document.getElementById('fdate').value,
-          location:     document.getElementById('flocation').value.trim(),
-          message:      document.getElementById('fmessage').value.trim(),
-        })
-      })
-      .then(res => {
-        if (!res.ok) return res.json().then(d => { throw new Error(d.detail || 'Server error'); });
-        return res.json();
-      })
-      .then(() => {
-        [...bookingForm.children].forEach(child => {
-          if (child.id !== 'formSuccess') child.style.display = 'none';
-        });
-        formSuccess.classList.add('visible');
-        formSuccess.style.display = 'block';
-      })
-      .catch(err => {
-        submitBtn.disabled = false;
-        submitBtn.textContent = '📧 Request Speaking Engagement';
-        alert('Failed to send: ' + err.message + '\n\nMake sure the backend is running on port 8000.');
+      [...bookingForm.children].forEach(child => {
+        if (child.id !== 'formSuccess') child.style.display = 'none';
       });
+      formSuccess.classList.add('visible');
+      formSuccess.style.display = 'block';
     }
   });
 
