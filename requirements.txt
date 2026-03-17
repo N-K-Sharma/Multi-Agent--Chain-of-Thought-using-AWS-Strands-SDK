@@ -1,20 +1,114 @@
-strands-agents
-strands-agents-tools
-bedrock-agentcore
-bedrock-agentcore-starter-toolkit
-requests
-##
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nitin Kumar Sharma | AI/ML & Agentic AI Expert | Global Speaker</title>
-  <meta name="description" content="Nitin Kumar Sharma - AI/ML & Agentic AI Expert, Global Speaker. 300+ events, 10+ countries, enterprise AI transformation." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0A2463" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- ═══ Primary SEO ═══ -->
+  <title>Nitin Kumar Sharma | Agentic AI Architect & Global AI/ML Speaker | Cognizant</title>
+  <meta name="description" content="Nitin Kumar Sharma — Manager & AI/ML Project Head at Cognizant. Agentic AI Architect, global keynote speaker with 250+ seminars, 10,000+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security. Book for speaking engagements." />
+  <meta name="keywords" content="Nitin Kumar Sharma, Agentic AI, AI ML Expert, Generative AI Speaker, LangGraph, CrewAI, RAG, MLOps, LLM Security, AI Architect, Cognizant AI, Enterprise AI, AutoGen, Machine Learning, Keynote Speaker, AI Transformation, LangChain, Agentic RAG, AI Strategy, Deep Learning, NLP, AI Consultant India" />
+  <meta name="author" content="Nitin Kumar Sharma" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="https://nitinkumarsharma.ai/" />
+
+  <!-- ═══ Open Graph (Facebook, LinkedIn, WhatsApp) ═══ -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Nitin Kumar Sharma | Agentic AI Architect & Global AI/ML Speaker" />
+  <meta property="og:description" content="Manager & AI/ML Project Head at Cognizant. Pioneer in Agentic AI — 250+ global seminars, 10K+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security. Available for keynotes & enterprise workshops." />
+  <meta property="og:image" content="Nitin.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Nitin Kumar Sharma - Agentic AI Architect and Global Speaker" />
+  <meta property="og:url" content="https://nitinkumarsharma.ai/" />
+  <meta property="og:site_name" content="Nitin Kumar Sharma | AI Leader" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="profile:first_name" content="Nitin Kumar" />
+  <meta property="profile:last_name" content="Sharma" />
+
+  <!-- ═══ Twitter / X Card ═══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nitin Kumar Sharma | Agentic AI Architect & Global Speaker" />
+  <meta name="twitter:description" content="Manager & AI/ML Project Head at Cognizant. 250+ global seminars, 10K+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security." />
+  <meta name="twitter:image" content="Nitin.png" />
+  <meta name="twitter:image:alt" content="Nitin Kumar Sharma - AI/ML Expert" />
+  <meta name="twitter:creator" content="@NitinKSharmaAI" />
+  <meta name="twitter:site" content="@NitinKSharmaAI" />
+
+  <!-- ═══ JSON-LD Structured Data ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://nitinkumarsharma.ai/#person",
+        "name": "Nitin Kumar Sharma",
+        "givenName": "Nitin Kumar",
+        "familyName": "Sharma",
+        "jobTitle": "Manager - Project Head (AI/ML) | Agentic AI Architect",
+        "description": "Globally recognized AI/ML Expert and Agentic AI Architect at Cognizant. Pioneer in Architected Cognition with 13+ years of experience. Delivered 250+ keynotes, trained 10,000+ professionals worldwide.",
+        "image": "Nitin.png",
+        "url": "https://nitinkumarsharma.ai/",
+        "sameAs": [
+          "https://www.linkedin.com/in/nitin-ai-ml-manager/"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Cognizant",
+          "url": "https://www.cognizant.com"
+        },
+        "knowsAbout": [
+          "Agentic AI", "Generative AI", "LangGraph", "CrewAI", "LangChain",
+          "AutoGen", "RAG", "MLOps", "LLM Security", "Prompt Injection",
+          "Machine Learning", "Deep Learning", "NLP", "AI Strategy",
+          "TensorFlow", "PyTorch", "AWS", "Azure", "Kubeflow", "MLflow"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "AI/ML Manager & Agentic AI Architect",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "India"
+          }
+        },
+        "alumniOf": [],
+        "award": "250+ Global Seminars | 10,000+ Professionals Trained"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nitinkumarsharma.ai/#website",
+        "url": "https://nitinkumarsharma.ai/",
+        "name": "Nitin Kumar Sharma | AI Leader",
+        "description": "Official portfolio of Nitin Kumar Sharma — Agentic AI Architect, Global Speaker, and AI/ML Manager at Cognizant.",
+        "author": { "@id": "https://nitinkumarsharma.ai/#person" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://nitinkumarsharma.ai/#service",
+        "name": "Nitin Kumar Sharma - AI Speaking & Advisory",
+        "description": "Enterprise AI keynotes, workshops, MLOps consulting, and Agentic AI strategy sessions.",
+        "provider": { "@id": "https://nitinkumarsharma.ai/#person" },
+        "serviceType": ["Keynote Speaking", "AI/ML Training", "Enterprise AI Consulting", "Agentic AI Workshops"],
+        "areaServed": "Worldwide",
+        "url": "https://nitinkumarsharma.ai/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- ═══ Performance & Fonts ═══ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preload" href="Nitin.png" as="image" />
   <style>
     :root {
       --primary: #0A2463;
@@ -1551,43 +1645,167 @@ requests
     #back-to-top:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(30,136,229,0.5); }
 
     /* ===== RESPONSIVE ===== */
-    @media (max-width: 1024px) {
-      .expertise-grid { grid-template-columns: repeat(2, 1fr); }
-      .about-stats { grid-template-columns: repeat(2, 1fr); }
-      .counters-grid { grid-template-columns: repeat(2, 1fr); }
-      .achievement-cards { grid-template-columns: repeat(2, 1fr); }
-      .footer-main { grid-template-columns: 1fr 1fr; gap: 40px; }
+    /* ═══════════════════════════════════════════════════════
+       RESPONSIVE — All Platforms
+       Breakpoints:
+         1440px → MacBook / large laptop
+         1024px → iPad landscape / small laptop
+         900px  → iPad portrait / tablet
+         768px  → iPad mini / tablet portrait
+         640px  → large phone landscape
+         480px  → standard Android/iPhone
+         375px  → iPhone SE / small Android
+    ═══════════════════════════════════════════════════════ */
+
+    /* ── Global iOS/Android touch fixes ── */
+    * { -webkit-tap-highlight-color: transparent; }
+    input, select, textarea, button { font-size: 16px; } /* prevents iOS auto-zoom */
+    img { max-width: 100%; height: auto; display: block; }
+
+    /* ── MacBook / Large screen (1440px+) ── */
+    @media (min-width: 1440px) {
+      .container { max-width: 1320px; padding: 0 48px; }
+      .section { padding: 120px 0; }
+      .hero-h1 { font-size: 4rem; }
+      .section-title { font-size: 3rem; }
+      .expertise-grid { grid-template-columns: repeat(3, 1fr); gap: 32px; }
+      .counters-grid { gap: 32px; }
     }
+
+    /* ── Laptop / Small desktop (1024px–1439px) ── */
+    @media (max-width: 1439px) and (min-width: 1025px) {
+      .container { max-width: 1100px; padding: 0 32px; }
+    }
+
+    /* ── iPad landscape / Small laptop (≤1024px) ── */
+    @media (max-width: 1024px) {
+      .container { padding: 0 28px; }
+      .expertise-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .about-stats { grid-template-columns: repeat(2, 1fr); }
+      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .achievement-cards { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+      .footer-main { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .section { padding: 88px 0; }
+    }
+
+    /* ── iPad portrait / Tablet (≤900px) ── */
     @media (max-width: 900px) {
-      .hero-content { grid-template-columns: 1fr; gap: 48px; text-align: center; }
-      .hero-subtitle { margin: 0 auto 36px; }
-      .hero-btns { justify-content: center; }
-      .hero-social-proof { justify-content: center; }
+      .container { padding: 0 24px; }
+      .section { padding: 80px 0; }
+      .hero-content { grid-template-columns: 1fr; gap: 40px; text-align: center; }
+      .hero-subtitle { margin: 0 auto 32px; max-width: 520px; }
+      .hero-btns { justify-content: center; flex-wrap: wrap; }
+      .hero-social-proof { justify-content: center; flex-wrap: wrap; }
       .hero-right { order: -1; }
-      .hero-avatar-wrap { width: 260px; height: 260px; }
+      .hero-avatar-wrap { width: 240px; height: 240px; margin: 0 auto; }
       .badge-llm, .badge-rag { top: 44px; }
       .badge-agentic, .badge-finetune { top: 112px; }
       .badge-mlops { bottom: 28px; }
-      .about-grid { grid-template-columns: 1fr; }
-      .about-img { max-width: 400px; margin: 0 auto; aspect-ratio: 1; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .about-img { max-width: 360px; margin: 0 auto; aspect-ratio: 1; }
       .chat-grid { grid-template-columns: 1fr; }
-      .speaking-grid { grid-template-columns: 1fr; }
+      .speaking-grid { grid-template-columns: 1fr; gap: 40px; }
+      .section-title { font-size: clamp(1.7rem, 3.5vw, 2.4rem); }
+      .section-subtitle { font-size: 1rem; max-width: 100%; }
       .nav-links { display: none; }
-      .nav-cta .btn { display: none; }
+      .nav-cta .btn:not(.btn-navy) { display: none; }
       .hamburger { display: flex; }
+      .footer-main { grid-template-columns: 1fr 1fr; gap: 32px; }
     }
-    @media (max-width: 640px) {
+
+    /* ── iPad mini / Tablet portrait (≤768px) ── */
+    @media (max-width: 768px) {
+      .container { padding: 0 20px; }
       .section { padding: 72px 0; }
-      .expertise-grid { grid-template-columns: 1fr; }
-      .counters-grid { grid-template-columns: repeat(2, 1fr); }
-      .achievement-cards { grid-template-columns: 1fr; }
-      .form-row { grid-template-columns: 1fr; }
-      .booking-form-card { padding: 28px 20px; }
-      .footer-main { grid-template-columns: 1fr; gap: 40px; padding: 56px 0 48px; }
-      .footer-bottom { flex-direction: column; align-items: flex-start; }
+      .hero-avatar-wrap { width: 220px; height: 220px; }
+      .about-stats { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .achievement-cards { grid-template-columns: 1fr; gap: 16px; }
+      .footer-main { grid-template-columns: 1fr; gap: 32px; padding: 56px 0 40px; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .section-label { font-size: 0.7rem; }
+      .btn { padding: 12px 24px; font-size: 0.9rem; }
+      .booking-form-card { padding: 32px 24px; }
       .testimonial-card { padding: 28px 20px; }
-      .hero-avatar-wrap { width: 200px; height: 200px; }
     }
+
+    /* ── Large phones landscape / Standard Android & iPhone (≤640px) ── */
+    @media (max-width: 640px) {
+      .container { padding: 0 16px; }
+      .section { padding: 64px 0; }
+      .section-title { font-size: clamp(1.5rem, 6vw, 2rem); }
+      .section-subtitle { font-size: 0.95rem; }
+      .hero-h1 { font-size: clamp(1.9rem, 7vw, 2.6rem); }
+      .hero-avatar-wrap { width: 190px; height: 190px; }
+      .expertise-grid { grid-template-columns: 1fr; gap: 16px; }
+      .about-stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .achievement-cards { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; gap: 0; }
+      .booking-form-card { padding: 24px 16px; border-radius: 12px; }
+      .footer-main { grid-template-columns: 1fr; gap: 28px; padding: 48px 0 36px; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .testimonial-card { padding: 24px 16px; }
+      .btn { padding: 12px 20px; font-size: 0.875rem; white-space: normal; text-align: center; }
+      .hero-btns { flex-direction: column; align-items: center; gap: 12px; width: 100%; }
+      .hero-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
+      .nav-logo .logo-sub { display: none; }
+      .payment-card { padding: 24px 16px !important; }
+      .payment-qr-box { width: 140px !important; height: 140px !important; }
+    }
+
+    /* ── iPhone SE / Small Android (≤480px) ── */
+    @media (max-width: 480px) {
+      .container { padding: 0 14px; }
+      .section { padding: 56px 0; }
+      .hero-avatar-wrap { width: 170px; height: 170px; }
+      .hero-badge { font-size: 0.72rem; padding: 6px 14px; }
+      .section-title { font-size: clamp(1.35rem, 7vw, 1.8rem); }
+      .about-stats { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .counters-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .logo-monogram { width: 34px; height: 34px; font-size: 0.85rem; }
+      .logo-name { font-size: 0.85rem; }
+      .testimonial-card { padding: 20px 14px; }
+      .booking-form-card { padding: 20px 14px; }
+      .footer-linkedin-cta { font-size: 0.85rem; padding: 14px 20px; }
+    }
+
+    /* ── iPhone SE 1st gen / very small (≤375px) ── */
+    @media (max-width: 375px) {
+      .container { padding: 0 12px; }
+      .hero-avatar-wrap { width: 150px; height: 150px; }
+      .section-title { font-size: 1.3rem; }
+      .hero-h1 { font-size: 1.7rem; }
+      .btn { padding: 11px 18px; font-size: 0.85rem; }
+    }
+
+    /* ── Print / PDF ── */
+    @media print {
+      .navbar, .mobile-menu, #back-to-top, #heroParticles,
+      .hero-orb, .hero-grid-bg { display: none !important; }
+      .section { padding: 40px 0; }
+      body { background: #fff; color: #000; }
+    }
+
+    /* ── Safe area for iPhone notch / Dynamic Island ── */
+    @supports (padding: max(0px)) {
+      .navbar .container {
+        padding-left: max(24px, env(safe-area-inset-left));
+        padding-right: max(24px, env(safe-area-inset-right));
+      }
+      body { padding-bottom: env(safe-area-inset-bottom); }
+    }
+
+    /* ── Section alignment fixes ── */
+    .section-header { text-align: center; margin-bottom: 56px; }
+    .section-header .section-subtitle { margin: 0 auto; }
+    .expertise-grid, .achievement-cards, .counters-grid { align-items: stretch; }
+    .expertise-card, .achievement-card { height: 100%; display: flex; flex-direction: column; }
+    .speaking-grid { align-items: start; }
+    .about-grid { align-items: center; }
+    .testimonial-card { height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+    .footer-main { align-items: start; }
+
   </style>
 </head>
 <body>
@@ -1665,7 +1883,7 @@ requests
             <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
             Book for Speaking
           </a>
-          <a href="#" class="btn btn-outline">
+          <a href="Nitin_Kumar_Sharma_Profile.pdf" download="Nitin_Kumar_Sharma_Profile.pdf" class="btn btn-outline">
             <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
             Download Profile
           </a>
@@ -2271,6 +2489,36 @@ requests
   </div>
 </section>
 
+<!-- ===== PAYMENT ===== -->
+<section id="payment" class="section">
+  <div class="container">
+    <div class="reveal" style="text-align:center;margin-bottom:48px;">
+      <span class="section-label">Secure Payment</span>
+      <h2 class="section-title">To Book Mr. Sharma- Pay here</h2>
+      <p class="section-subtitle">Scan the QR code with any UPI app to pay directly.</p>
+    </div>
+    <div class="reveal payment-card" style="display:flex;flex-direction:column;align-items:center;gap:16px;max-width:340px;width:100%;margin:0 auto;">
+      <div style="background:var(--card-bg,#161b22);border:1px solid rgba(0,212,255,0.25);border-radius:16px;padding:32px 28px;display:flex;flex-direction:column;align-items:center;gap:16px;width:100%;">
+        <p style="color:#ffffff;font-size:0.9rem;text-align:center;margin:0;line-height:1.6;">Use GPay, PhonePe, Paytm or any UPI app to scan and pay.</p>
+
+        <!-- QR Code Image: place your qr-code.png file in this folder -->
+        <div class="payment-qr-box" style="width:180px;height:180px;border:2px solid #00d4ff;border-radius:10px;background:#fff;overflow:hidden;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(0,212,255,0.25);">
+          <img src="qr-code.png" alt="UPI QR Code - Scan to pay Nitin Kumar Sharma"
+               style="width:100%;height:100%;object-fit:contain;"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div style="display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;color:#555;font-size:0.75rem;">
+            <div style="font-size:2rem;margin-bottom:6px;">&#x2338;</div>
+            Add <strong>qr-code.png</strong><br/>to this folder
+          </div>
+        </div>
+
+        <p style="font-size:0.85rem;color:#ffffff;margin:0;text-align:center;">UPI ID: <span style="color:#00d4ff;font-weight:600;">yourname@upi</span></p>
+        <p style="font-size:0.78rem;color:#00d4ff;margin:0;text-align:center;opacity:0.85;letter-spacing:0.03em;">GPay &bull; PhonePe &bull; Paytm &bull; Any UPI App</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== FOOTER ===== -->
 <footer id="footer">
   <div id="contact"></div>
@@ -2515,12 +2763,39 @@ requests
     const msgValid = validateField('fmessage', 'fmessage-error', v => v.trim().length >= 20);
 
     if (nameValid && emailValid && orgValid && typeValid && dateValid && msgValid) {
-      // Hide form fields and show success
-      [...bookingForm.children].forEach(child => {
-        if (child.id !== 'formSuccess') child.style.display = 'none';
+      const submitBtn = bookingForm.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      fetch('http://localhost:8000/api/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name:         document.getElementById('fname').value.trim(),
+          email:        document.getElementById('femail').value.trim(),
+          organization: document.getElementById('forg').value.trim(),
+          event_type:   document.getElementById('ftype').value,
+          event_date:   document.getElementById('fdate').value,
+          location:     document.getElementById('flocation').value.trim(),
+          message:      document.getElementById('fmessage').value.trim(),
+        })
+      })
+      .then(res => {
+        if (!res.ok) return res.json().then(d => { throw new Error(d.detail || 'Server error'); });
+        return res.json();
+      })
+      .then(() => {
+        [...bookingForm.children].forEach(child => {
+          if (child.id !== 'formSuccess') child.style.display = 'none';
+        });
+        formSuccess.classList.add('visible');
+        formSuccess.style.display = 'block';
+      })
+      .catch(err => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = '📧 Request Speaking Engagement';
+        alert('Failed to send: ' + err.message + '\n\nMake sure the backend is running on port 8000.');
       });
-      formSuccess.classList.add('visible');
-      formSuccess.style.display = 'block';
     }
   });
 
@@ -2536,19 +2811,45 @@ requests
     }
   });
 
-  // ===== CHAT INTERFACE =====
-  // -- Config: set USE_OLLAMA=false when hosting online, USE_OLLAMA=true for local --
-  const USE_OLLAMA   = true;
-  const GROQ_API_KEY = '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';
-  const GROQ_MODEL   = 'llama-3.1-8b-instant';
-  const OLLAMA_URL   = 'http://localhost:11434';
-  const OLLAMA_MODEL = 'llama3.2';
-  const SYSTEM_PROMPT = "You are an AI assistant on Nitin Kumar Sharma's personal website. Nitin is a globally recognized AI/ML expert, Generative AI strategist, enterprise transformation leader, and keynote speaker with 15+ years of experience. He has delivered 250+ keynotes across 50+ countries, trained 50,000+ professionals, and works with Fortune 500 companies. His expertise covers Generative AI, LLMs, Agentic AI, RAG, MLOps, LLM Fine-Tuning, NLP, Azure AI, AWS ML, LangChain, TensorFlow, PyTorch. LinkedIn: https://www.linkedin.com/in/nitin-ai-ml-manager/ - Answer questions about Nitin and general AI/ML topics. For booking direct users to the Book for Speaking section. Keep replies under 180 words. Plain text only.";
-
+  // ===== CHAT INTERFACE (Offline FAQ Bot) =====
   const chatInput    = document.getElementById('chatInput');
   const chatSendBtn  = document.getElementById('chatSendBtn');
   const chatMessages = document.getElementById('chatMessages');
-  const chatHistory  = [];
+
+  const FAQ = [
+    { keys: ['who','nitin','about','introduce','yourself'],
+      ans: "Nitin Kumar Sharma is a Manager & Project Head (AI/ML) at Cognizant and a globally recognized Agentic AI Architect. With 13+ years of experience, he has delivered 250+ seminars across the globe and trained 10,000+ professionals in AI/ML and Generative AI." },
+    { keys: ['expertise','skill','speciali','know','expert'],
+      ans: "Nitin's core expertise includes: Agentic RAG, LangGraph, CrewAI, LLM Security & Prompt Injection hardening, MLOps (Kubeflow, MLflow), Public Services AI Stack, Multi-agent orchestration with AutoGen, and enterprise AI strategy on Azure & AWS." },
+    { keys: ['speak','book','keynote','seminar','event','engag','hire','invite'],
+      ans: "To book Nitin for a speaking engagement, keynote, or workshop — scroll to the 'Book for Speaking' section on this page and fill out the request form, or connect directly on LinkedIn: linkedin.com/in/nitin-ai-ml-manager/" },
+    { keys: ['contact','email','reach','linkedin','connect'],
+      ans: "You can connect with Nitin on LinkedIn at linkedin.com/in/nitin-ai-ml-manager/ or use the booking form in the 'Book for Speaking' section of this website." },
+    { keys: ['experience','year','long','work','career'],
+      ans: "Nitin has 13+ years of experience in project leadership and AI/ML. He leads mission-critical AI portfolios at Cognizant, specializing in production-grade reasoning agents and autonomous enterprise systems." },
+    { keys: ['seminar','jec','kukas','talk','audience','train'],
+      ans: "Nitin has delivered 250+ global seminars, including a landmark session at JEC Kukas for 200+ engineering students. His sessions cover AI in Industrial Systems, MLOps Scaling, and Real-world Agentic AI use cases." },
+    { keys: ['langgraph','crewai','langchain','autogen','rag','agent','agentic'],
+      ans: "Nitin is an expert in Agentic AI frameworks including LangGraph, CrewAI, LangChain, and AutoGen. He designs multi-agent systems that reason, plan, and execute complex enterprise workflows autonomously." },
+    { keys: ['mlops','mlflow','kubeflow','pipeline','deploy','docker','kubernetes'],
+      ans: "Nitin builds robust MLOps pipelines with CI/CD integration, automated retraining, and monitoring using tools like MLflow, Kubeflow, Docker, and Kubernetes for production-grade AI systems." },
+    { keys: ['security','llm security','prompt injection','owasp','red team'],
+      ans: "Nitin specializes in ML Security — hardening LLM runtimes against prompt injection attacks, building autonomous security orchestration agents, and applying OWASP LLM Top 10 defenses in enterprise environments." },
+    { keys: ['pay','payment','razorpay','fee','cost','price','charge'],
+      ans: "You can pay for a speaking engagement booking directly on this website using Razorpay (cards, UPI, net banking) or by scanning the QR code in the Payment section below." },
+    { keys: ['hello','hi','hey','good morning','good afternoon','good evening','greet'],
+      ans: "Hello! I'm Nitin's AI assistant. I can answer questions about Nitin's expertise, experience, seminars, and how to book him for speaking engagements. How can I help you?" },
+    { keys: ['thank','thanks','great','awesome','wonderful'],
+      ans: "You're welcome! Feel free to ask anything else about Nitin or reach out via LinkedIn for direct inquiries." },
+  ];
+
+  function getOfflineReply(msg) {
+    const lower = msg.toLowerCase();
+    for (const faq of FAQ) {
+      if (faq.keys.some(k => lower.includes(k))) return faq.ans;
+    }
+    return "I can answer questions about Nitin Kumar Sharma's expertise, experience, seminars, and speaking bookings. Try asking: 'Who is Nitin?', 'What are his skills?', or 'How do I book him for an event?'";
+  }
 
   function addMessage(text, isUser, isError) {
     const wrap   = document.createElement('div');
@@ -2586,52 +2887,19 @@ requests
     if (el) el.remove();
   }
 
-  async function callOllama(messages) {
-    const res = await fetch(OLLAMA_URL + '/api/chat', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: OLLAMA_MODEL, messages: messages, stream: false })
-    });
-    if (!res.ok) throw new Error('ollama');
-    return (await res.json()).message.content;
-  }
-
-  async function callGroq(messages) {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + GROQ_API_KEY, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: GROQ_MODEL, messages: messages, max_tokens: 512, temperature: 0.7 })
-    });
-    if (!res.ok) throw new Error('groq');
-    return (await res.json()).choices[0].message.content;
-  }
-
-  async function handleChatSend() {
+  function handleChatSend() {
     var msg = chatInput.value.trim();
     if (!msg || chatSendBtn.disabled) return;
     addMessage(msg, true, false);
-    chatHistory.push({ role: 'user', content: msg });
     chatInput.value = '';
     chatSendBtn.disabled = true;
     showTyping();
-    var messages = [{ role: 'system', content: SYSTEM_PROMPT }].concat(chatHistory.slice(-10));
-    try {
-      var reply = USE_OLLAMA ? await callOllama(messages) : await callGroq(messages);
+    setTimeout(function() {
       removeTyping();
-      addMessage(reply, false, false);
-      chatHistory.push({ role: 'assistant', content: reply });
-    } catch (err) {
-      removeTyping();
-      addMessage(
-        USE_OLLAMA
-          ? 'Ollama is not running. Start it with: ollama serve'
-          : 'Could not reach AI service. Please try again later.',
-        false, true
-      );
-    } finally {
+      addMessage(getOfflineReply(msg), false, false);
       chatSendBtn.disabled = false;
       chatInput.focus();
-    }
+    }, 700);
   }
 
   chatSendBtn.addEventListener('click', handleChatSend);
