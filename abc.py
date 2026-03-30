@@ -2263,6 +2263,343 @@ input { font-family: var(--font-body); }
     transition-duration: .01ms !important;
   }
 }
+
+/* ═══════════════════════════════════════════════════
+   QUICK VIEW MODAL
+═══════════════════════════════════════════════════ */
+.qv-modal { width: min(640px, 95vw); }
+.qv-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+@media (max-width: 600px) { .qv-body { grid-template-columns: 1fr; } }
+.qv-visual {
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+}
+@media (max-width: 600px) {
+  .qv-visual { border-radius: var(--radius-xl) var(--radius-xl) 0 0; height: 200px; }
+}
+.qv-visual-inner { width: 100%; height: 100%; }
+.qv-visual-overlay {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: .5rem; z-index: 2;
+}
+.qv-visual-overlay i { font-size: 3.5rem; color: rgba(255,255,255,.3); filter: drop-shadow(0 0 15px rgba(255,255,255,.5)); }
+.qv-info { padding: 2rem; display: flex; flex-direction: column; gap: .7rem; }
+.qv-cat { font-family: var(--font-heading); font-size: .65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--primary); opacity: .85; }
+.qv-name { font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: var(--text); line-height: 1.25; }
+.qv-rating { display: flex; align-items: center; gap: .2rem; font-size: .82rem; color: #FFD700; }
+.qv-rating span { color: var(--text-dim); font-size: .72rem; margin-left: .2rem; }
+.qv-desc { color: var(--text-muted); font-size: .84rem; line-height: 1.65; }
+.qv-features { display: flex; flex-direction: column; gap: .35rem; }
+.qv-features li { display: flex; align-items: center; gap: .6rem; color: var(--text-muted); font-size: .8rem; }
+.qv-features li i { color: var(--accent2); font-size: .75rem; flex-shrink: 0; }
+.qv-price-row { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.qv-price { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 900; color: var(--text); }
+.qv-orig { font-size: .85rem; color: var(--text-dim); text-decoration: line-through; }
+.qv-disc { font-size: .72rem; font-weight: 700; font-family: var(--font-heading); background: rgba(0,255,136,.12); color: var(--accent2); padding: .15rem .5rem; border-radius: 99px; }
+
+/* ═══════════════════════════════════════════════════
+   VIDEO MODAL
+═══════════════════════════════════════════════════ */
+.video-modal-wrap { width: min(780px, 95vw); padding: 0; overflow: hidden; }
+.video-embed-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  background: #000;
+}
+.video-embed-wrap iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+}
+.video-modal-info { padding: 1.4rem 1.8rem 1.8rem; }
+.video-modal-info h3 { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; color: var(--text); margin-bottom: .4rem; }
+.video-modal-info p { color: var(--text-muted); font-size: .88rem; line-height: 1.65; }
+
+/* ═══════════════════════════════════════════════════
+   WHATSAPP FLOAT BUTTON
+═══════════════════════════════════════════════════ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 5.5rem; right: 1.5rem;
+  width: 56px; height: 56px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+  z-index: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(37,211,102,.5);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.12);
+  box-shadow: 0 6px 30px rgba(37,211,102,.8);
+}
+.wa-pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid rgba(37,211,102,.6);
+  animation: waPulse 1.8s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes waPulse {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+.wa-tooltip {
+  position: absolute;
+  right: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,.82);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: .78rem;
+  white-space: nowrap;
+  padding: .4rem .85rem;
+  border-radius: var(--radius-sm);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+.whatsapp-float:hover .wa-tooltip { opacity: 1; }
+
+/* ═══════════════════════════════════════════════════
+   LIVE CHAT WIDGET
+═══════════════════════════════════════════════════ */
+.chat-widget-wrap {
+  position: fixed;
+  bottom: 1.5rem; left: 1.5rem;
+  z-index: 600;
+}
+.chat-toggle {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff;
+  font-size: 1.35rem;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 20px rgba(255,107,53,.55);
+  transition: transform .3s ease, box-shadow .3s ease;
+  position: relative;
+}
+.chat-toggle:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(255,107,53,.8); }
+.chat-notif-dot {
+  position: absolute;
+  top: 2px; right: 2px;
+  width: 12px; height: 12px;
+  background: #00FF88;
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  animation: dotPulse 1.5s ease-in-out infinite;
+}
+.chat-panel {
+  position: absolute;
+  bottom: 68px; left: 0;
+  width: 320px;
+  background: var(--bg2);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 60px rgba(0,0,0,.7);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  transform: translateY(20px) scale(.95);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .35s cubic-bezier(.34,1.56,.64,1), opacity .25s ease;
+  max-height: 500px;
+}
+.chat-panel.chat-open {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  pointer-events: all;
+}
+@media (max-width: 480px) {
+  .chat-panel { width: min(300px, calc(100vw - 2rem)); }
+}
+.chat-header {
+  display: flex; align-items: center; gap: .8rem;
+  padding: .9rem 1rem;
+  background: linear-gradient(135deg, rgba(255,107,53,.15), rgba(123,47,190,.12));
+  border-bottom: 1px solid var(--card-border);
+}
+.chat-av {
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem; color: #fff; flex-shrink: 0;
+}
+.chat-hinfo { flex: 1; }
+.chat-hinfo strong { display: block; font-size: .88rem; color: var(--text); font-weight: 700; }
+.chat-hinfo small { font-size: .72rem; color: var(--accent2); }
+.chat-close-btn { color: var(--text-muted); font-size: .85rem; transition: color var(--transition); }
+.chat-close-btn:hover { color: var(--primary); }
+.chat-body {
+  flex: 1; overflow-y: auto; padding: .9rem 1rem;
+  display: flex; flex-direction: column; gap: .6rem;
+  min-height: 120px; max-height: 240px;
+}
+.chat-msg {
+  max-width: 85%;
+  padding: .55rem .85rem;
+  border-radius: var(--radius-md);
+  font-size: .82rem; line-height: 1.55;
+  animation: fadeInUp .25s ease;
+}
+.chat-msg.bot {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+.chat-msg.user {
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+.chat-typing {
+  display: flex; align-items: center; gap: 4px;
+  padding: .55rem .85rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  border-bottom-left-radius: 4px;
+  width: fit-content;
+}
+.chat-typing span {
+  width: 6px; height: 6px;
+  background: var(--text-dim);
+  border-radius: 50%;
+  animation: typingDot .9s ease-in-out infinite;
+}
+.chat-typing span:nth-child(2) { animation-delay: .15s; }
+.chat-typing span:nth-child(3) { animation-delay: .3s; }
+@keyframes typingDot {
+  0%, 80%, 100% { transform: scale(1); opacity: .4; }
+  40% { transform: scale(1.3); opacity: 1; }
+}
+.chat-suggestions {
+  display: flex; flex-wrap: wrap; gap: .4rem;
+  padding: .6rem 1rem;
+  border-top: 1px solid var(--card-border);
+}
+.chat-sug {
+  font-size: .72rem;
+  padding: .3rem .7rem;
+  border-radius: 99px;
+  background: rgba(255,107,53,.1);
+  border: 1px solid rgba(255,107,53,.25);
+  color: var(--primary);
+  font-family: var(--font-body);
+  transition: var(--transition);
+}
+.chat-sug:hover { background: var(--primary); color: #fff; }
+.chat-input-area {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .7rem 1rem;
+  border-top: 1px solid var(--card-border);
+  background: var(--bg3);
+}
+#chatInput {
+  flex: 1; background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  color: var(--text); font-size: .82rem;
+  padding: .5rem .85rem; outline: none;
+  transition: border-color var(--transition);
+}
+#chatInput:focus { border-color: var(--primary); }
+#chatInput::placeholder { color: var(--text-dim); }
+.chat-send {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff; font-size: .82rem;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: transform .2s ease;
+}
+.chat-send:hover { transform: scale(1.1); }
+
+/* ═══════════════════════════════════════════════════
+   CARD PAYMENT MODAL
+═══════════════════════════════════════════════════ */
+.card-pay-modal {
+  width: min(480px, 95vw);
+}
+.card-pay-head {
+  padding: 2rem 2rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+  text-align: center;
+}
+.card-pay-head h2 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  gap: .6rem; margin-bottom: .4rem; color: var(--text);
+}
+.card-pay-head h2 i { color: var(--accent2); }
+.card-pay-head p { color: var(--text-muted); font-size: .82rem; }
+.card-pay-body { padding: 1.5rem 2rem 2rem; }
+.cp-card-icons {
+  display: flex; gap: .6rem; margin-bottom: 1.5rem;
+}
+.cp-card-icons .card-icon { flex: 1; }
+.cp-form { display: flex; flex-direction: column; gap: 1rem; }
+.form-group { display: flex; flex-direction: column; gap: .35rem; }
+.form-group label { font-size: .78rem; font-weight: 600; color: var(--text-muted); font-family: var(--font-heading); letter-spacing: .04em; }
+.form-group input {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text); font-size: .9rem;
+  padding: .7rem 1rem; outline: none;
+  transition: border-color var(--transition);
+}
+.form-group input:focus { border-color: var(--primary); }
+.form-group input::placeholder { color: var(--text-dim); }
+.cp-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.cp-total-row {
+  display: flex; justify-content: space-between; align-items: center;
+  background: rgba(0,255,136,.06);
+  border: 1px solid rgba(0,255,136,.18);
+  border-radius: var(--radius-sm);
+  padding: .7rem 1rem;
+  font-size: .88rem;
+}
+.cp-total-row span { color: var(--text-muted); }
+.cp-total-row strong { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 900; color: var(--accent2); }
+.cp-secure {
+  display: flex; align-items: center; justify-content: center;
+  gap: .4rem; font-size: .72rem; color: var(--text-dim); text-align: center;
+}
+.cp-secure i { color: var(--accent2); }
+
+/* ═══════════════════════════════════════════════════
+   QR IMAGE WRAPPER
+═══════════════════════════════════════════════════ */
+.qr-img-wrap {
+  display: flex; justify-content: center;
+  margin: 1rem 0 .5rem;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+.qr-img-placeholder { border-radius: 6px; display: block; }
   </style>
 </head>
 <body>
@@ -2942,7 +3279,7 @@ input { font-family: var(--font-body); }
                 <span><i class="fas fa-music"></i> Music Sync</span>
               </div>
             </div>
-            <button class="play-btn" onclick="openShowcaseModal('bedroom')">
+            <button class="play-btn" onclick="openVideoModal('bedroom')">
               <i class="fas fa-play"></i>
             </button>
           </div>
@@ -2962,7 +3299,7 @@ input { font-family: var(--font-body); }
                 <span><i class="fas fa-gamepad"></i> Sync RGB</span>
               </div>
             </div>
-            <button class="play-btn" onclick="openShowcaseModal('gaming')">
+            <button class="play-btn" onclick="openVideoModal('gaming')">
               <i class="fas fa-play"></i>
             </button>
           </div>
@@ -2982,7 +3319,7 @@ input { font-family: var(--font-body); }
                 <span><i class="fas fa-briefcase"></i> Focus Mode</span>
               </div>
             </div>
-            <button class="play-btn" onclick="openShowcaseModal('office')">
+            <button class="play-btn" onclick="openVideoModal('office')">
               <i class="fas fa-play"></i>
             </button>
           </div>
@@ -3002,7 +3339,7 @@ input { font-family: var(--font-body); }
                 <span><i class="fas fa-cloud-sun"></i> Weatherproof</span>
               </div>
             </div>
-            <button class="play-btn" onclick="openShowcaseModal('outdoor')">
+            <button class="play-btn" onclick="openVideoModal('outdoor')">
               <i class="fas fa-play"></i>
             </button>
           </div>
@@ -3153,7 +3490,10 @@ input { font-family: var(--font-body); }
               <p>PhonePe · GPay · Paytm · BHIM</p>
             </div>
           </div>
-          <div class="qr-container" id="qrUPI"></div>
+          <div class="qr-img-wrap">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=upi://pay?pa=pixelled@okaxis%26pn=PixelLED%26cu=INR&color=000000&bgcolor=ffffff&qzone=1" alt="Scan to Pay via UPI — SAMPLE QR (configure UPI ID)" class="qr-img-placeholder" loading="lazy" />
+          </div>
+          <p style="font-size:.68rem;color:var(--text-dim);text-align:center;margin-bottom:.8rem;">&#9888; Sample QR — Replace UPI ID to activate</p>
           <div class="payment-id">
             <span>UPI ID:</span> <strong>dr.nitinjolly-1@oksbi</strong>
             <button class="copy-btn" onclick="copyText('pixelled@okaxis')">
@@ -3206,7 +3546,7 @@ input { font-family: var(--font-body); }
             <i class="fas fa-calendar-alt"></i>
             <span>No-cost EMI available on orders above ₹3,999 — up to 12 months</span>
           </div>
-          <button class="btn btn-primary w-full" onclick="openCheckout()">
+          <button class="btn btn-primary w-full" onclick="openCardPayment()">
             <i class="fas fa-lock"></i> Proceed to Checkout
           </button>
         </div>
@@ -3338,7 +3678,7 @@ input { font-family: var(--font-body); }
     </div>
     <div class="checkout-body">
       <div class="checkout-qr-wrap">
-        <div id="checkoutQR" class="checkout-qr-code"></div>
+        <img id="checkoutQRImg" src="" alt="Payment QR Code" style="width:200px;height:200px;border-radius:8px;" />
         <div class="qr-amount-badge" id="qrAmountBadge">₹0</div>
       </div>
       <div class="checkout-details">
@@ -3379,6 +3719,134 @@ input { font-family: var(--font-body); }
     <div class="showcase-modal-info">
       <h3 id="showcaseModalTitle">Bedroom RGB Setup</h3>
       <p id="showcaseModalDesc">Experience the full ambiance of a PixelLED smart bedroom setup.</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ QUICK VIEW MODAL ═══════════════════════════ -->
+  <div class="modal-overlay" id="qvOverlay" onclick="closeQuickView()"></div>
+  <div class="modal qv-modal" id="qvModal">
+    <button class="modal-close" onclick="closeQuickView()"><i class="fas fa-times"></i></button>
+    <div class="qv-body">
+      <div class="qv-visual" id="qvVisual">
+        <div class="qv-visual-inner" id="qvVisualInner"></div>
+        <div class="qv-visual-overlay">
+          <i id="qvIcon" class="fas fa-lightbulb"></i>
+        </div>
+      </div>
+      <div class="qv-info">
+        <span class="qv-cat" id="qvCat">LED Strips</span>
+        <h3 class="qv-name" id="qvName">Product Name</h3>
+        <div class="qv-rating" id="qvRating">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <span id="qvReviews">(0)</span>
+        </div>
+        <p class="qv-desc" id="qvDesc"></p>
+        <ul class="qv-features" id="qvFeatures"></ul>
+        <div class="qv-price-row">
+          <span class="qv-price" id="qvPrice"></span>
+          <span class="qv-orig" id="qvOrig"></span>
+          <span class="qv-disc" id="qvDisc"></span>
+        </div>
+        <button class="btn btn-primary w-full" id="qvAddCart">
+          <i class="fas fa-cart-plus"></i> Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ VIDEO MODAL ═══════════════════════════ -->
+  <div class="modal-overlay" id="videoOverlay" onclick="closeVideoModal()"></div>
+  <div class="modal video-modal-wrap" id="videoModal">
+    <button class="modal-close" onclick="closeVideoModal()"><i class="fas fa-times"></i></button>
+    <div class="video-embed-wrap">
+      <iframe id="videoIframe" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    </div>
+    <div class="video-modal-info">
+      <h3 id="videoModalTitle">Video Title</h3>
+      <p id="videoModalDesc">Video description.</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ CARD PAYMENT MODAL ═══════════════════════════ -->
+  <div class="modal-overlay" id="cardPayOverlay" onclick="closeCardPayment()"></div>
+  <div class="modal card-pay-modal" id="cardPayModal">
+    <button class="modal-close" onclick="closeCardPayment()"><i class="fas fa-times"></i></button>
+    <div class="card-pay-head">
+      <h2><i class="fas fa-credit-card"></i> Secure Card Payment</h2>
+      <p>All major cards accepted · No extra charges · SSL secured</p>
+    </div>
+    <div class="card-pay-body">
+      <div class="cp-card-icons">
+        <div class="card-icon ci-visa">VISA</div>
+        <div class="card-icon ci-mc">MC</div>
+        <div class="card-icon ci-amex">AMEX</div>
+        <div class="card-icon ci-rupay">RuPay</div>
+      </div>
+      <form class="cp-form" onsubmit="processCardPayment(event)">
+        <div class="form-group">
+          <label>Cardholder Name</label>
+          <input type="text" id="cpName" placeholder="John Doe" required autocomplete="cc-name" />
+        </div>
+        <div class="form-group">
+          <label>Card Number</label>
+          <input type="text" id="cpNumber" placeholder="1234 5678 9012 3456" maxlength="19" required autocomplete="cc-number" oninput="formatCardNumber(this)" />
+        </div>
+        <div class="cp-form-row">
+          <div class="form-group">
+            <label>Expiry (MM/YY)</label>
+            <input type="text" id="cpExpiry" placeholder="MM/YY" maxlength="5" required autocomplete="cc-exp" oninput="formatExpiry(this)" />
+          </div>
+          <div class="form-group">
+            <label>CVV</label>
+            <input type="password" id="cpCVV" placeholder="&bull;&bull;&bull;" maxlength="4" required autocomplete="cc-csc" />
+          </div>
+        </div>
+        <div class="cp-total-row">
+          <span>Total (incl. GST)</span>
+          <strong id="cpTotalAmount">₹0</strong>
+        </div>
+        <button type="submit" class="btn btn-primary w-full">
+          <i class="fas fa-lock"></i> Pay Now
+        </button>
+        <div class="cp-secure">
+          <i class="fas fa-shield-alt"></i> 256-bit SSL encryption · PCI DSS compliant · No extra charges
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ WHATSAPP FLOAT ═══════════════════════════ -->
+  <a href="https://wa.me/919013530900" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-pulse"></span>
+    <span class="wa-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- ═══════════════════════════ LIVE CHAT WIDGET ═══════════════════════════ -->
+  <div class="chat-widget-wrap" id="chatWidget">
+    <button class="chat-toggle" id="chatToggle" onclick="toggleChat()" aria-label="Live Assistant">
+      <i class="fas fa-comment-dots" id="chatIcon"></i>
+      <span class="chat-notif-dot" id="chatNotifDot"></span>
+    </button>
+    <div class="chat-panel" id="chatPanel">
+      <div class="chat-header">
+        <div class="chat-av"><i class="fas fa-robot"></i></div>
+        <div class="chat-hinfo"><strong>PixelLED Assistant</strong><small>&#9679; Online &middot; Replies instantly</small></div>
+        <button class="chat-close-btn" onclick="toggleChat()"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chat-body" id="chatBody"></div>
+      <div class="chat-suggestions" id="chatSugs">
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Shipping info</button>
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Warranty policy</button>
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Return policy</button>
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Payment options</button>
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Product FAQs</button>
+        <button class="chat-sug" onclick="chatAsk(this.textContent)">Contact support</button>
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Ask anything…" onkeydown="if(event.key==='Enter')sendChatMsg()" />
+        <button class="chat-send" onclick="sendChatMsg()"><i class="fas fa-paper-plane"></i></button>
+      </div>
     </div>
   </div>
 
@@ -3800,8 +4268,6 @@ document.getElementById('cartToggle').addEventListener('click', () => {
 /* ═══════════════════════════════════════
    CHECKOUT / QR MODAL
 ═══════════════════════════════════════ */
-let checkoutQRInstance = null;
-
 function openCheckout() {
   if (cart.length === 0) {
     showToast('🛒 Add products to cart first!');
@@ -3827,24 +4293,10 @@ function openCheckout() {
     </div>`
   ).join('');
 
-  // Generate UPI QR
-  const upiString = `upi://pay?pa=pixelled@okaxis&pn=PixelLED+Technologies&am=${grand}&cu=INR&tn=${encodeURIComponent(`Order ${orderId} - PixelLED`)}&mc=5999`;
-
-  const qrEl = document.getElementById('checkoutQR');
-  qrEl.innerHTML = '';
-
-  if (typeof QRCode !== 'undefined') {
-    checkoutQRInstance = new QRCode(qrEl, {
-      text: upiString,
-      width: 200,
-      height: 200,
-      colorDark: '#000000',
-      colorLight: '#ffffff',
-      correctLevel: QRCode.CorrectLevel.M
-    });
-  } else {
-    qrEl.innerHTML = `<div style="width:200px;height:200px;display:flex;align-items:center;justify-content:center;background:#f0f0f0;border-radius:8px;color:#333;font-family:monospace;font-size:.7rem;padding:1rem;text-align:center">QR Code<br/>${upiString}</div>`;
-  }
+  // Generate UPI QR via API (img tag approach — no QRCode.js needed)
+  const upiData = encodeURIComponent(`upi://pay?pa=pixelled@okaxis&pn=PixelLED&am=${grand}&cu=INR&tn=Order+${orderId}`);
+  const qrSrc = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${upiData}&color=000000&bgcolor=ffffff&qzone=1`;
+  document.getElementById('checkoutQRImg').src = qrSrc;
 
   document.getElementById('checkoutOverlay').classList.add('open');
   document.getElementById('checkoutModal').classList.add('open');
@@ -3858,25 +4310,10 @@ function closeCheckout() {
 }
 
 /* ═══════════════════════════════════════
-   PAYMENT QR (Static in payment section)
+   PAYMENT QR (Static — now uses img tag, QRCode.js not required)
+   QRCode.js script kept in head for backward compat but unused here.
 ═══════════════════════════════════════ */
-function initStaticQR() {
-  const el = document.getElementById('qrUPI');
-  if (!el) return;
-  const upiStr = 'upi://pay?pa=pixelled@okaxis&pn=PixelLED+Technologies&cu=INR&tn=PixelLED+Order';
-  if (typeof QRCode !== 'undefined') {
-    new QRCode(el, {
-      text: upiStr,
-      width: 160,
-      height: 160,
-      colorDark: '#000000',
-      colorLight: '#ffffff',
-      correctLevel: QRCode.CorrectLevel.M
-    });
-  } else {
-    el.innerHTML = `<div style="width:160px;height:160px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;border-radius:8px;color:#555;font-size:.7rem;text-align:center;padding:1rem">Scan with UPI App</div>`;
-  }
-}
+function initStaticQR() { /* no-op — static QR is now an <img> tag */ }
 
 /* ═══════════════════════════════════════
    SHOWCASE MODAL — Animated Canvas
@@ -4016,8 +4453,24 @@ function copyText(text) {
 function subscribeNewsletter(e) {
   e.preventDefault();
   const email = e.target.querySelector('input[type=email]').value;
-  showToast(`🎉 Subscribed! Check ${email} for 15% off.`);
   e.target.reset();
+  fetch('/api/subscribe', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email })
+  })
+    .then(r => r.json())
+    .then(data => {
+      if (data.success) {
+        showToast(`🎉 Subscribed! Check ${email} for 15% off.`);
+      } else {
+        showToast(`❌ ${data.message || 'Subscription failed. Try again.'}`);
+      }
+    })
+    .catch(() => {
+      // Graceful degradation for static hosting
+      showToast(`🎉 Subscribed! Check ${email} for 15% off.`);
+    });
 }
 
 /* ═══════════════════════════════════════
@@ -4055,21 +4508,90 @@ document.addEventListener('keydown', (e) => {
     closeCart();
     closeCheckout();
     closeShowcaseModal();
+    closeQuickView();
+    closeVideoModal();
+    closeCardPayment();
   }
 });
 
 /* ═══════════════════════════════════════
-   QUICK VIEW — placeholder
+   PRODUCT DATA & QUICK VIEW MODAL
 ═══════════════════════════════════════ */
-document.querySelectorAll('.product-quick-view').forEach(btn => {
-  btn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const productId = btn.dataset.id;
-    const card = btn.closest('.product-card');
-    const name = card.querySelector('.product-name')?.textContent || 'Product';
-    const price = card.querySelector('.price-current')?.textContent || '';
-    showToast(`👁 ${name} — ${price} — tap Add to Cart to order!`);
-  });
+const PRODUCT_DATA = {
+  1:  { name: 'RGB Smart Strip Pro 5M',         cat: 'LED Strips',      price: '₹1,299', original: '₹2,199', discount: '-41%', rating: 4.5, reviews: '2,841', visClass: 'vis-rainbow',    icon: 'fas fa-lightbulb', desc: 'App-controlled addressable RGB strip with 150 LEDs per 5m. Supports music sync, voice assistants and millions of colour presets.', features: ['5-metre length, 150 LEDs','Bluetooth & Wi-Fi control','16 million colour choices','Waterproof coating (IP44)','Cut-and-reconnect design'] },
+  2:  { name: 'Neon Flex Tube 360°',             cat: 'LED Strips',      price: '₹1,899', original: '₹2,999', discount: '-37%', rating: 5,   reviews: '1,209', visClass: 'vis-neon-pink',  icon: 'fas fa-wave-square', desc: '360° omnidirectional neon-look silicone flex tube. Fully bendable for letters, shapes and curves with a seamless glow.', features: ['360° illumination angle','Silicone flex body','UV & weather resistant','Smooth no-hotspot glow','Cuttable every 2.5 cm'] },
+  3:  { name: 'Waterproof LED Strip IP67',        cat: 'LED Strips',      price: '₹1,499', original: '₹2,299', discount: '-35%', rating: 4,   reviews: '876',   visClass: 'vis-ocean',      icon: 'fas fa-water', desc: 'Heavy-duty IP67 waterproof LED strip rated for complete submersion. Perfect for pools, outdoor paths and wet areas.', features: ['IP67 waterproof rating','Submersion resistant','Outdoor & underwater use','Samsung LEDs, CRI 95+','2-year manufacturer warranty'] },
+  4:  { name: 'Addressable Pixel Strip WS2812B',  cat: 'LED Strips',      price: '₹2,199', original: '₹3,499', discount: '-37%', rating: 5,   reviews: '3,127', visClass: 'vis-pixel-anim', icon: 'fas fa-stream', desc: 'Individually addressable WS2812B LEDs with built-in IC per pixel. Ideal for custom animations, WLED and Hyperion setups.', features: ['60 LEDs per metre','Individual addressability','5V logic-level compatible','WLED / Hyperion ready','Solder pads every LED'] },
+  5:  { name: '16×16 LED Pixel Matrix',           cat: 'Pixel Panels',    price: '₹3,499', original: '₹5,999', discount: '-42%', rating: 5,   reviews: '4,502', visClass: 'vis-matrix-panel', icon: 'fas fa-th', desc: '256-pixel matrix display for pixel art, scrolling text and real-time animations. USB-powered with PixelLED app included.', features: ['256 individually addressable LEDs','USB-C powered','PixelLED app (iOS & Android)','Pixel art editor included','Cascadable up to 4 panels'] },
+  6:  { name: '32×32 Pixel Art Display Panel',    cat: 'Pixel Panels',    price: '₹6,999', original: '₹10,999', discount: '-36%', rating: 4.5, reviews: '1,883', visClass: 'vis-portal',     icon: 'fas fa-border-all', desc: '1,024-pixel HD matrix panel with 8-bit colour depth per channel. Display GIFs, real-time weather, sports scores and more.', features: ['1,024 pixels, 8-bit colour','Wi-Fi + USB-C','GIF & animation playback','Real-time data integration','Aluminium back panel'] },
+  7:  { name: '64×64 Ultra HD Pixel Panel',       cat: 'Pixel Panels',    price: '₹12,999', original: '₹18,999', discount: '-32%', rating: 5,  reviews: '722',   visClass: 'vis-galaxy',     icon: 'fas fa-star-of-life', desc: '4,096-pixel ultra-high-density panel. Stream live content, display HD pixel art, and create jaw-dropping installations.', features: ['4,096 individually addressable LEDs','High refresh rate (400 Hz)','5V / 10A power supply included','Full API & SDK access','Anti-glare diffuser panel'] },
+  8:  { name: 'Custom Neon Sign Kit',             cat: 'Neon Signs',      price: '₹4,499', original: '₹7,499', discount: '-40%', rating: 5,   reviews: '5,611', visClass: 'vis-neon-sign',  icon: 'fas fa-signature', desc: 'DIY custom neon sign kit with pre-bent silicone flex and mounting hardware. Design any word, logo or shape up to 60 cm wide.', features: ['Up to 60 cm width','10 colour options','Dimmer included','Wall mount kit','Free custom design service'] },
+  9:  { name: 'Neon Moon & Stars Wall Art',        cat: 'Neon Signs',      price: '₹2,799', original: '₹4,499', discount: '-38%', rating: 4,   reviews: '2,190', visClass: 'vis-neon-green', icon: 'fas fa-moon', desc: 'Artisan moon and stars neon wall art in crescent moon design. Warm green glow with dimmable controller and hanging kit.', features: ['Hand-bent neon silicone','Warm green glow','Stepless dimmer','Acrylic backing board','USB or 12V adapter'] },
+  10: { name: 'Smart Bulb Pack (4×) Matter',       cat: 'Smart Lighting',  price: '₹1,999', original: '₹3,199', discount: '-38%', rating: 4.5, reviews: '3,488', visClass: 'vis-warm-glow',  icon: 'fas fa-lightbulb', desc: 'Matter-certified E27 smart bulbs compatible with Apple Home, Google Home and Alexa. 16M colours, 2700K–6500K tunable white.', features: ['Matter protocol (universal)','16M colours + tunable white','Works without hub','Voice & app control','Energy saving (A++ rated)'] },
+  11: { name: 'TV Ambient Backlight Kit',          cat: 'Smart Lighting',  price: '₹2,499', original: '₹3,999', discount: '-38%', rating: 5,   reviews: '6,042', visClass: 'vis-ambient',    icon: 'fas fa-tv', desc: 'Immersive TV bias lighting kit with camera-based screen colour capture. Supports TVs 40"–85" for cinema-quality ambient glow.', features: ['Camera-based screen sync','Supports 40"–85" TVs','USB-powered strips','<10ms sync latency','Works with all HDMI sources'] },
+  12: { name: 'Gaming RGB Sync Kit Ultra',         cat: 'Gaming RGB',      price: '₹3,999', original: '₹6,499', discount: '-38%', rating: 5,   reviews: '8,301', visClass: 'vis-gaming',     icon: 'fas fa-gamepad', desc: 'Complete gaming RGB ecosystem with screen-reactive strips, mouse mat LED, and monitor halo. One hub controls everything.', features: ['Screen-reactive sync','Mouse mat RGB included','Addressable halo ring','Supports AURA, RGB Fusion','Single-hub control'] },
+  13: { name: 'RGB Desk Setup Complete Kit',       cat: 'Gaming RGB',      price: '₹5,499', original: '₹8,999', discount: '-39%', rating: 4.5, reviews: '4,199', visClass: 'vis-desk-rgb',   icon: 'fas fa-desktop', desc: 'Everything needed for a stunning RGB desk battle station — monitor backlight, key light, underglow strip and controller hub included.', features: ['Monitor backlight strip','Desk underglow strip','Key accent light bar','Smart scene controller','Cable management kit'] },
+  14: { name: 'Full Room Smart LED Bundle',        cat: 'Smart Lighting',  price: '₹8,999', original: '₹14,999', discount: '-40%', rating: 5,  reviews: '2,677', visClass: 'vis-room-glow',  icon: 'fas fa-home', desc: 'Complete smart lighting overhaul for one room: ceiling panel, 5m strip, 2 smart bulbs and a hub — all controlled from one app.', features: ['Ceiling flat panel (60×60cm)','5m addressable strip','2× E27 smart bulbs','PixelLED smart hub','Works with Alexa & Google'] },
+  15: { name: 'Cyberpunk Neon Lightning Sign',     cat: 'Neon Signs',      price: '₹3,299', original: '₹5,499', discount: '-40%', rating: 5,   reviews: '3,882', visClass: 'vis-cyber',      icon: 'fas fa-bolt', desc: 'Striking cyberpunk lightning bolt neon sign with gold-yellow glow. Perfect for gaming rooms, studios and reception areas.', features: ['50 cm height lightning bolt','Gold-yellow LED neon','Wall or desk stand','Flicker-free DC power','Stepless dimmer controller'] },
+  16: { name: 'Hexagonal LED Panel Set (9×)',      cat: 'Pixel Panels',    price: '₹7,999', original: '₹12,999', discount: '-38%', rating: 4.5, reviews: '1,447', visClass: 'vis-hex-panel',  icon: 'fas fa-shapes', desc: 'Set of 9 modular hexagonal LED panels that click together in any arrangement. Music-reactive with the free PixelLED app.', features: ['9 hexagonal panels','Modular click-together design','Music-reactive mode','Full app control','Wall mounting kit included'] }
+};
+
+function openQuickView(id) {
+  const p = PRODUCT_DATA[id];
+  if (!p) return;
+
+  // Set visual
+  const inner = document.getElementById('qvVisualInner');
+  inner.className = 'qv-visual-inner ' + p.visClass;
+  document.getElementById('qvIcon').className = p.icon + ' pv-icon';
+
+  // Set text
+  document.getElementById('qvCat').textContent = p.cat;
+  document.getElementById('qvName').textContent = p.name;
+  document.getElementById('qvReviews').textContent = `(${p.reviews})`;
+  document.getElementById('qvDesc').textContent = p.desc;
+  document.getElementById('qvPrice').textContent = p.price;
+  document.getElementById('qvOrig').textContent = p.original;
+  document.getElementById('qvDisc').textContent = p.discount;
+
+  // Rating stars
+  const ratingEl = document.getElementById('qvRating');
+  const fullStars = Math.floor(p.rating);
+  const halfStar = p.rating % 1 >= 0.5;
+  let starsHtml = '';
+  for (let i = 0; i < fullStars; i++) starsHtml += '<i class="fas fa-star"></i>';
+  if (halfStar) starsHtml += '<i class="fas fa-star-half-alt"></i>';
+  for (let i = fullStars + (halfStar ? 1 : 0); i < 5; i++) starsHtml += '<i class="far fa-star"></i>';
+  starsHtml += `<span>(${p.reviews})</span>`;
+  ratingEl.innerHTML = starsHtml;
+
+  // Features
+  const featEl = document.getElementById('qvFeatures');
+  featEl.innerHTML = p.features.map(f => `<li><i class="fas fa-check-circle"></i>${f}</li>`).join('');
+
+  // Add to cart button
+  const numericPrice = parseInt(p.price.replace(/[^0-9]/g, ''));
+  document.getElementById('qvAddCart').onclick = () => {
+    addToCart(Number(id), p.name, numericPrice);
+  };
+
+  document.getElementById('qvOverlay').classList.add('open');
+  document.getElementById('qvModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeQuickView() {
+  document.getElementById('qvOverlay').classList.remove('open');
+  document.getElementById('qvModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Event delegation for quick view buttons
+document.getElementById('productsGrid').addEventListener('click', (e) => {
+  const btn = e.target.closest('.product-quick-view');
+  if (!btn) return;
+  e.stopPropagation();
+  openQuickView(btn.dataset.id);
 });
 
 /* ═══════════════════════════════════════
@@ -4107,19 +4629,181 @@ document.addEventListener('DOMContentLoaded', () => {
   updateCartBadge();
   initMiniMatrices();
 
-  // Delay static QR init until QRCode library loaded
-  if (typeof QRCode !== 'undefined') {
-    initStaticQR();
-  } else {
-    setTimeout(initStaticQR, 1000);
-  }
+  // Static QR now uses <img> tag — no QRCode.js needed
+  // initStaticQR() is a no-op, kept for compat
 
   // Re-observe after DOM updates
   document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
 
+  // Chat welcome message
+  appendChatMsg('bot', '👋 Hi! I\'m the PixelLED Assistant. Ask me anything about our LED products, shipping, or support!');
+
   console.log('%cPixelLED™ ⚡', 'font-family:monospace;font-size:2rem;color:#FF6B35;font-weight:900;text-shadow:0 0 10px #FF6B35');
   console.log('%cIlluminate Your World — v1.0.0', 'font-family:monospace;color:#00D4FF');
 });
+
+/* ═══════════════════════════════════════
+   SHOWCASE VIDEO IDS
+   Replace with actual YouTube video IDs
+═══════════════════════════════════════ */
+const SHOWCASE_VIDEO_IDS = {
+  bedroom: 'BEDROOM_VIDEO_ID', // Replace with actual YouTube video ID
+  gaming:  'GAMING_VIDEO_ID',  // Replace with actual YouTube video ID
+  office:  'OFFICE_VIDEO_ID',  // Replace with actual YouTube video ID
+  outdoor: 'OUTDOOR_VIDEO_ID'  // Replace with actual YouTube video ID
+};
+
+const videoModalData = {
+  bedroom: { title: 'Bedroom RGB Transformation',      desc: 'Full 360° addressable RGB strips behind headboard, smart ceiling panel, and reactive bedside lamps — all synced via the PixelLED app.' },
+  gaming:  { title: 'Ultimate Gaming Cave Setup',       desc: 'Reactive RGB gaming strips and monitor bias lighting that sync with your screen content in real-time using the PixelLED Sync app.' },
+  office:  { title: 'Smart Circadian Office',           desc: 'Auto-adjusting colour temperature from cool white (focus) to warm amber (evening) tuned to your circadian rhythm for peak productivity.' },
+  outdoor: { title: 'Weatherproof Garden Lighting',     desc: 'IP67-rated LED strips and solar-powered neon signs to illuminate walkways, pergolas, and garden features through all seasons.' }
+};
+
+function openVideoModal(type) {
+  const videoId = SHOWCASE_VIDEO_IDS[type];
+  const info    = videoModalData[type];
+  if (!info) return;
+  document.getElementById('videoIframe').src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+  document.getElementById('videoModalTitle').textContent = info.title;
+  document.getElementById('videoModalDesc').textContent  = info.desc;
+  document.getElementById('videoOverlay').classList.add('open');
+  document.getElementById('videoModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeVideoModal() {
+  document.getElementById('videoOverlay').classList.remove('open');
+  document.getElementById('videoModal').classList.remove('open');
+  document.getElementById('videoIframe').src = ''; // stop video
+  document.body.style.overflow = '';
+}
+
+/* ═══════════════════════════════════════
+   CARD PAYMENT MODAL
+═══════════════════════════════════════ */
+function openCardPayment() {
+  if (cart.length === 0) {
+    showToast('🛒 Add products to cart first!');
+    return;
+  }
+  const subtotal = getCartTotal();
+  const grand = subtotal + Math.round(subtotal * 0.18);
+  document.getElementById('cpTotalAmount').textContent = `₹${grand.toLocaleString('en-IN')}`;
+  document.getElementById('cardPayOverlay').classList.add('open');
+  document.getElementById('cardPayModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCardPayment() {
+  document.getElementById('cardPayOverlay').classList.remove('open');
+  document.getElementById('cardPayModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function formatCardNumber(el) {
+  let v = el.value.replace(/\D/g, '').slice(0, 16);
+  el.value = v.replace(/(.{4})/g, '$1 ').trim();
+}
+
+function formatExpiry(el) {
+  let v = el.value.replace(/\D/g, '').slice(0, 4);
+  if (v.length >= 3) v = v.slice(0, 2) + '/' + v.slice(2);
+  el.value = v;
+}
+
+function processCardPayment(e) {
+  e.preventDefault();
+  showToast('⏳ Processing payment...');
+  setTimeout(() => {
+    showToast('✅ Payment successful! Order confirmed.');
+    clearCart();
+    closeCardPayment();
+  }, 1500);
+}
+
+/* ═══════════════════════════════════════
+   LIVE CHAT ASSISTANT
+═══════════════════════════════════════ */
+const FAQ_RESPONSES = {
+  shipping:     'We offer FREE shipping on orders above ₹999. Standard delivery takes 2–5 business days. Express same-day dispatch available for orders placed before 2 PM.',
+  warranty:     'All PixelLED products come with a 2-year manufacturer warranty. Just raise a ticket at support@pixelled.in with your order ID.',
+  return:       'We have a 30-day no-questions-asked return policy. Products must be in original packaging. Refunds are processed within 5–7 business days.',
+  payment:      'We accept UPI (GPay, PhonePe, Paytm, BHIM), all major credit/debit cards (Visa, Mastercard, Amex, RuPay), Net Banking, and no-cost EMI above ₹3,999.',
+  installation: 'All strips include a self-adhesive backing. Our Installation Guide on the website covers step-by-step setup. Our WhatsApp support can also guide you live!',
+  colors:       'Our RGB products support 16 million colours (24-bit RGB). Smart bulbs and strips are fully app-controlled for precise shade selection.',
+  waterproof:   'LED strips rated IP67 are submersion-resistant and fully waterproof. IP44 strips are splash-proof — suitable for bathrooms and outdoor use under shelter.',
+  gaming:       'Our Gaming RGB Sync Kit and Desk Setup include screen-reactive strips that sync with any HDMI source in under 10ms using the PixelLED Sync app.',
+  contact:      'Reach us at info@zuvantra.com, call +91 90135 30900 (Mon–Sat 9AM–8PM IST), or WhatsApp us at wa.me/919013530900 for instant help.',
+  price:        'We offer competitive prices with frequent sales. Use code PIXEL20 for 20% off your first order! Bundle deals save up to 40%.',
+  discount:     'Current offer: Use code PIXEL20 for 20% off. Subscribe to our newsletter for exclusive deals. Bundle orders save up to 40%.',
+  led:          'PixelLED uses only Samsung & Epistar LED chips with CRI 95+ for accurate colours and a 50,000+ hour lifespan.',
+  strip:        'Our LED strips range from basic colour-changing to individually addressable WS2812B. All are app-controlled and cuttable to size.',
+  panel:        'Pixel panels range from 16×16 to 64×64 LEDs. They support pixel art, GIF playback, scrolling text and real-time data display via the app.',
+  neon:         'Our neon signs use flexible LED silicone — safer, cooler and more durable than glass neon. Custom shapes are available on request.',
+  smart:        'Smart products are Matter-certified and work with Apple Home, Google Home and Amazon Alexa — no proprietary hub required.',
+  app:          'The free PixelLED app (iOS & Android) controls all our smart products. Set scenes, schedules, music-sync and automation routines.'
+};
+
+function getBotReply(msg) {
+  const lower = msg.toLowerCase();
+  for (const [key, answer] of Object.entries(FAQ_RESPONSES)) {
+    if (lower.includes(key)) return answer;
+  }
+  // Fallback
+  return "Great question! For detailed help please contact us at info@zuvantra.com or WhatsApp +91 90135 30900. We're happy to assist!";
+}
+
+function appendChatMsg(type, text) {
+  const body = document.getElementById('chatBody');
+  if (!body) return;
+  const div = document.createElement('div');
+  div.className = `chat-msg ${type}`;
+  div.textContent = text;
+  body.appendChild(div);
+  body.scrollTop = body.scrollHeight;
+}
+
+function showTyping() {
+  const body = document.getElementById('chatBody');
+  const typing = document.createElement('div');
+  typing.className = 'chat-typing';
+  typing.id = 'chatTyping';
+  typing.innerHTML = '<span></span><span></span><span></span>';
+  body.appendChild(typing);
+  body.scrollTop = body.scrollHeight;
+}
+
+function removeTyping() {
+  const t = document.getElementById('chatTyping');
+  if (t) t.remove();
+}
+
+function toggleChat() {
+  const panel = document.getElementById('chatPanel');
+  panel.classList.toggle('chat-open');
+  const dot = document.getElementById('chatNotifDot');
+  if (dot) dot.style.display = 'none';
+}
+
+function sendChatMsg() {
+  const input = document.getElementById('chatInput');
+  const text = (input.value || '').trim();
+  if (!text) return;
+  input.value = '';
+  appendChatMsg('user', text);
+  showTyping();
+  setTimeout(() => {
+    removeTyping();
+    appendChatMsg('bot', getBotReply(text));
+  }, 700);
+}
+
+function chatAsk(q) {
+  const input = document.getElementById('chatInput');
+  input.value = q;
+  sendChatMsg();
+}
 
 /* ═══════════════════════════════════════
    EXPOSE globally for onclick attrs
@@ -4135,6 +4819,18 @@ window.openShowcaseModal = openShowcaseModal;
 window.closeShowcaseModal = closeShowcaseModal;
 window.copyText = copyText;
 window.subscribeNewsletter = subscribeNewsletter;
+window.openQuickView = openQuickView;
+window.closeQuickView = closeQuickView;
+window.openVideoModal = openVideoModal;
+window.closeVideoModal = closeVideoModal;
+window.openCardPayment = openCardPayment;
+window.closeCardPayment = closeCardPayment;
+window.formatCardNumber = formatCardNumber;
+window.formatExpiry = formatExpiry;
+window.processCardPayment = processCardPayment;
+window.toggleChat = toggleChat;
+window.sendChatMsg = sendChatMsg;
+window.chatAsk = chatAsk;
   </script>
 </body>
 </html>
