@@ -1,2940 +1,4140 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0A2463" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="description" content="Zuvantra — Premium LED Pixel Displays, Smart Lighting & RGB Solutions. Shop the most vibrant LED products." />
+  <meta name="theme-color" content="#0A0A12" />
+  <title>Zuvantra | Illuminate Your World</title>
 
-  <!-- ═══ Primary SEO ═══ -->
-  <title>Nitin Kumar Sharma | Agentic AI Architect & Global AI/ML Speaker | Cognizant</title>
-  <meta name="description" content="Nitin Kumar Sharma — Manager & AI/ML Project Head at Cognizant. Agentic AI Architect, global keynote speaker with 250+ seminars, 10,000+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security. Book for speaking engagements." />
-  <meta name="keywords" content="Nitin Kumar Sharma, Agentic AI, AI ML Expert, Generative AI Speaker, LangGraph, CrewAI, RAG, MLOps, LLM Security, AI Architect, Cognizant AI, Enterprise AI, AutoGen, Machine Learning, Keynote Speaker, AI Transformation, LangChain, Agentic RAG, AI Strategy, Deep Learning, NLP, AI Consultant India" />
-  <meta name="author" content="Nitin Kumar Sharma" />
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <link rel="canonical" href="https://nitinkumarsharma.ai/" />
-
-  <!-- ═══ Open Graph (Facebook, LinkedIn, WhatsApp) ═══ -->
-  <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Nitin Kumar Sharma | Agentic AI Architect & Global AI/ML Speaker" />
-  <meta property="og:description" content="Manager & AI/ML Project Head at Cognizant. Pioneer in Agentic AI — 250+ global seminars, 10K+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security. Available for keynotes & enterprise workshops." />
-  <meta property="og:image" content="Nitin.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Nitin Kumar Sharma - Agentic AI Architect and Global Speaker" />
-  <meta property="og:url" content="https://nitinkumarsharma.ai/" />
-  <meta property="og:site_name" content="Nitin Kumar Sharma | AI Leader" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="profile:first_name" content="Nitin Kumar" />
-  <meta property="profile:last_name" content="Sharma" />
-
-  <!-- ═══ Twitter / X Card ═══ -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nitin Kumar Sharma | Agentic AI Architect & Global Speaker" />
-  <meta name="twitter:description" content="Manager & AI/ML Project Head at Cognizant. 250+ global seminars, 10K+ professionals trained. Expert in LangGraph, CrewAI, RAG, MLOps & LLM Security." />
-  <meta name="twitter:image" content="Nitin.png" />
-  <meta name="twitter:image:alt" content="Nitin Kumar Sharma - AI/ML Expert" />
-  <meta name="twitter:creator" content="@NitinKSharmaAI" />
-  <meta name="twitter:site" content="@NitinKSharmaAI" />
-
-  <!-- ═══ JSON-LD Structured Data ═══ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://nitinkumarsharma.ai/#person",
-        "name": "Nitin Kumar Sharma",
-        "givenName": "Nitin Kumar",
-        "familyName": "Sharma",
-        "jobTitle": "Manager - Project Head (AI/ML) | Agentic AI Architect",
-        "description": "Globally recognized AI/ML Expert and Agentic AI Architect at Cognizant. Pioneer in Architected Cognition with 13+ years of experience. Delivered 250+ keynotes, trained 10,000+ professionals worldwide.",
-        "image": "Nitin.png",
-        "url": "https://nitinkumarsharma.ai/",
-        "sameAs": [
-          "https://www.linkedin.com/in/nitin-ai-ml-manager/"
-        ],
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Cognizant",
-          "url": "https://www.cognizant.com"
-        },
-        "knowsAbout": [
-          "Agentic AI", "Generative AI", "LangGraph", "CrewAI", "LangChain",
-          "AutoGen", "RAG", "MLOps", "LLM Security", "Prompt Injection",
-          "Machine Learning", "Deep Learning", "NLP", "AI Strategy",
-          "TensorFlow", "PyTorch", "AWS", "Azure", "Kubeflow", "MLflow"
-        ],
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "AI/ML Manager & Agentic AI Architect",
-          "occupationLocation": {
-            "@type": "Country",
-            "name": "India"
-          }
-        },
-        "alumniOf": [],
-        "award": "250+ Global Seminars | 10,000+ Professionals Trained"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://nitinkumarsharma.ai/#website",
-        "url": "https://nitinkumarsharma.ai/",
-        "name": "Nitin Kumar Sharma | AI Leader",
-        "description": "Official portfolio of Nitin Kumar Sharma — Agentic AI Architect, Global Speaker, and AI/ML Manager at Cognizant.",
-        "author": { "@id": "https://nitinkumarsharma.ai/#person" },
-        "inLanguage": "en-US"
-      },
-      {
-        "@type": "ProfessionalService",
-        "@id": "https://nitinkumarsharma.ai/#service",
-        "name": "Nitin Kumar Sharma - AI Speaking & Advisory",
-        "description": "Enterprise AI keynotes, workshops, MLOps consulting, and Agentic AI strategy sessions.",
-        "provider": { "@id": "https://nitinkumarsharma.ai/#person" },
-        "serviceType": ["Keynote Speaking", "AI/ML Training", "Enterprise AI Consulting", "Agentic AI Workshops"],
-        "areaServed": "Worldwide",
-        "url": "https://nitinkumarsharma.ai/"
-      }
-    ]
-  }
-  </script>
-
-  <!-- ═══ Performance & Fonts ═══ -->
+  <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="preload" href="Nitin.png" as="image" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- QRCode.js -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
+  <!-- Styles (inlined) -->
   <style>
-    :root {
-      --primary: #0A2463;
-      --secondary: #1E88E5;
-      --accent: #00B4D8;
-      --white: #FFFFFF;
-      --bg: #F8FAFF;
-      --text: #1A1A2E;
-      --text-light: #6B7280;
-      --card-shadow: 0 4px 24px rgba(10,36,99,0.10);
-      --transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
-    }
+/* ══════════════════════════════════════════════════
+   Zuvantra™ — Master Stylesheet
+   Responsive: Mobile (320px) · Tablet (768px) · Desktop (1024px+)
+══════════════════════════════════════════════════ */
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* ─── CSS Custom Properties ─── */
+:root {
+  --primary:    #FF6B35;
+  --primary-dark: #e05520;
+  --secondary:  #00D4FF;
+  --accent:     #7B2FBE;
+  --accent2:    #00FF88;
+  --bg:         #0A0A12;
+  --bg2:        #0F0F1A;
+  --bg3:        #141424;
+  --card-bg:    #12121E;
+  --card-border:#1E1E35;
+  --text:       #F0F0FF;
+  --text-muted: #8888AA;
+  --text-dim:   #555577;
+  --glow-primary: rgba(255,107,53,.45);
+  --glow-blue:    rgba(0,212,255,.4);
+  --glow-purple:  rgba(123,47,190,.45);
+  --glow-green:   rgba(0,255,136,.35);
+  --radius-sm:  8px;
+  --radius-md:  14px;
+  --radius-lg:  22px;
+  --radius-xl:  32px;
+  --transition: .3s cubic-bezier(.4,0,.2,1);
+  --font-heading: 'Orbitron', 'Segoe UI', sans-serif;
+  --font-body:    'Inter', 'Segoe UI', sans-serif;
+  --shadow-card: 0 8px 40px rgba(0,0,0,.6);
+  --shadow-glow-primary: 0 0 30px rgba(255,107,53,.4), 0 0 80px rgba(255,107,53,.15);
+  --shadow-glow-blue:    0 0 30px rgba(0,212,255,.4), 0 0 80px rgba(0,212,255,.15);
+  --shadow-glow-purple:  0 0 30px rgba(123,47,190,.4), 0 0 80px rgba(123,47,190,.15);
+}
 
-    html { scroll-behavior: smooth; font-size: 16px; }
+/* ─── Reset & Base ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      overflow-x: hidden;
-      line-height: 1.6;
-    }
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
 
-    /* ===== SCROLL ANIMATIONS ===== */
-    .reveal {
-      opacity: 0;
-      transform: translateY(40px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-    .reveal.visible { opacity: 1; transform: translateY(0); }
-    .reveal-left {
-      opacity: 0;
-      transform: translateX(-50px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-    .reveal-left.visible { opacity: 1; transform: translateX(0); }
-    .reveal-right {
-      opacity: 0;
-      transform: translateX(50px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-    .reveal-right.visible { opacity: 1; transform: translateX(0); }
-    .reveal-scale {
-      opacity: 0;
-      transform: scale(0.85);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-    .reveal-scale.visible { opacity: 1; transform: scale(1); }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
 
-    .delay-1 { transition-delay: 0.1s; }
-    .delay-2 { transition-delay: 0.2s; }
-    .delay-3 { transition-delay: 0.3s; }
-    .delay-4 { transition-delay: 0.4s; }
-    .delay-5 { transition-delay: 0.5s; }
-    .delay-6 { transition-delay: 0.6s; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+ul { list-style: none; }
+button { cursor: pointer; font-family: var(--font-body); border: none; background: none; }
+input { font-family: var(--font-body); }
 
-    /* ===== UTILITY ===== */
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-    .section { padding: 96px 0; }
-    .section-label {
-      display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--secondary);
-      background: rgba(30,136,229,0.1);
-      padding: 6px 16px;
-      border-radius: 100px;
-      margin-bottom: 16px;
-    }
-    .section-title {
-      font-size: clamp(2rem, 4vw, 2.75rem);
-      font-weight: 800;
-      color: var(--primary);
-      line-height: 1.2;
-      margin-bottom: 16px;
-    }
-    .section-subtitle {
-      font-size: 1.1rem;
-      color: var(--text-light);
-      max-width: 600px;
-      line-height: 1.7;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 32px;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      cursor: pointer;
-      border: none;
-      text-decoration: none;
-      transition: var(--transition);
-      white-space: nowrap;
-    }
-    .btn-primary {
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      color: var(--white);
-      box-shadow: 0 4px 20px rgba(30,136,229,0.35);
-    }
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(30,136,229,0.45);
-    }
-    .btn-navy {
-      background: var(--primary);
-      color: var(--white);
-      box-shadow: 0 4px 20px rgba(10,36,99,0.3);
-    }
-    .btn-navy:hover {
-      background: #0d2f7a;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(10,36,99,0.4);
-    }
-    .btn-outline {
-      background: transparent;
-      color: var(--white);
-      border: 2px solid rgba(255,255,255,0.7);
-    }
-    .btn-outline:hover {
-      background: rgba(255,255,255,0.15);
-      border-color: var(--white);
-    }
-    .btn-outline-dark {
-      background: transparent;
-      color: var(--primary);
-      border: 2px solid var(--primary);
-    }
-    .btn-outline-dark:hover {
-      background: var(--primary);
-      color: var(--white);
-    }
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 99px; }
 
-    /* ===== NAVBAR ===== */
-    #navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1000;
-      padding: 20px 0;
-      transition: var(--transition);
-    }
-    #navbar.scrolled {
-      background: rgba(255,255,255,0.97);
-      backdrop-filter: blur(20px);
-      box-shadow: 0 2px 24px rgba(10,36,99,0.10);
-      padding: 12px 0;
-    }
-    .nav-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-decoration: none;
-    }
-    .logo-monogram {
-      width: 44px;
-      height: 44px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1rem;
-      font-weight: 800;
-      color: var(--white);
-      letter-spacing: 1px;
-      flex-shrink: 0;
-    }
-    .logo-text {
-      display: flex;
-      flex-direction: column;
-    }
-    .logo-name {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--white);
-      line-height: 1.2;
-      transition: color 0.3s;
-    }
-    #navbar.scrolled .logo-name { color: var(--primary); }
-    .logo-sub {
-      font-size: 0.68rem;
-      font-weight: 500;
-      color: rgba(255,255,255,0.7);
-      letter-spacing: 0.05em;
-      transition: color 0.3s;
-    }
-    #navbar.scrolled .logo-sub { color: var(--text-light); }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      list-style: none;
-    }
-    .nav-links a {
-      text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: rgba(255,255,255,0.85);
-      padding: 8px 12px;
-      border-radius: 6px;
-      transition: var(--transition);
-    }
-    #navbar.scrolled .nav-links a { color: var(--text); }
-    .nav-links a:hover {
-      background: rgba(255,255,255,0.15);
-      color: var(--white);
-    }
-    #navbar.scrolled .nav-links a:hover {
-      background: var(--bg);
-      color: var(--primary);
-    }
-    .nav-cta { display: flex; align-items: center; gap: 12px; }
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 8px;
-      border-radius: 6px;
-      background: none;
-      border: none;
-    }
-    .hamburger span {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: var(--white);
-      border-radius: 2px;
-      transition: var(--transition);
-    }
-    #navbar.scrolled .hamburger span { background: var(--primary); }
-    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .hamburger.open span:nth-child(2) { opacity: 0; }
-    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-    .mobile-menu {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(10,36,99,0.98);
-      z-index: 999;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 24px;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .mobile-menu.open { display: flex; opacity: 1; }
-    .mobile-menu a {
-      text-decoration: none;
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--white);
-      transition: color 0.2s;
-    }
-    .mobile-menu a:hover { color: var(--accent); }
-    .mobile-menu-close {
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      background: none;
-      border: none;
-      color: var(--white);
-      font-size: 1.5rem;
-      cursor: pointer;
-      padding: 8px;
-    }
+/* ─── Selection ─── */
+::selection { background: var(--primary); color: #fff; }
 
-    /* ===== HERO ===== */
-    #home {
-      min-height: 100vh;
-      background: linear-gradient(135deg, #020c21 0%, #0a1f5c 30%, #0d3080 65%, #1a4a9e 100%);
-      position: relative;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
-    }
-    .hero-grid-bg {
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-      background-size: 60px 60px;
-      animation: gridMove 20s linear infinite;
-    }
-    @keyframes gridMove {
-      0% { background-position: 0 0; }
-      100% { background-position: 60px 60px; }
-    }
-    .hero-orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(90px);
-      opacity: 0.25;
-      pointer-events: none;
-    }
-    .hero-orb-1 {
-      width: 650px; height: 650px;
-      background: var(--secondary);
-      top: -200px; right: -120px;
-      animation: orbFloat 8s ease-in-out infinite;
-    }
-    .hero-orb-2 {
-      width: 400px; height: 400px;
-      background: var(--accent);
-      bottom: 0px; left: 60px;
-      animation: orbFloat 12s ease-in-out infinite reverse;
-    }
-    .hero-orb-3 {
-      width: 350px; height: 350px;
-      background: #7c3aed;
-      top: 35%; left: -120px;
-      animation: orbFloat 10s ease-in-out infinite;
-      opacity: 0.18;
-    }
-    @keyframes orbFloat {
-      0%,100% { transform: translateY(0) scale(1); }
-      50% { transform: translateY(-30px) scale(1.05); }
-    }
-    /* Floating particles */
-    .hero-particles { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-    .particle {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.5);
-      animation: particleRise linear infinite;
-    }
-    @keyframes particleRise {
-      0%   { transform: translateY(110vh) scale(0); opacity: 0; }
-      10%  { opacity: 1; }
-      90%  { opacity: 0.4; }
-      100% { transform: translateY(-80px) scale(1); opacity: 0; }
-    }
-    .hero-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 64px;
-      align-items: center;
-      padding-top: 100px;
-      padding-bottom: 60px;
-      position: relative;
-      z-index: 2;
-    }
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(255,255,255,0.10);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.25);
-      border-radius: 100px;
-      padding: 8px 20px;
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.9);
-      letter-spacing: 0.05em;
-      margin-bottom: 24px;
-      box-shadow: 0 0 24px rgba(30,136,229,0.2), inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .hero-badge::before {
-      content: '';
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: #00ff88;
-      box-shadow: 0 0 10px #00ff88, 0 0 22px #00ff88;
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0%,100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.75); }
-    }
-    .hero-h1 {
-      font-size: clamp(2.2rem, 4.5vw, 3.6rem);
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1.12;
-      margin-bottom: 10px;
-    }
-    .hero-h1 .name-highlight {
-      background: linear-gradient(135deg, #ffffff 30%, #a8d4ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    /* Typewriter role line */
-    .hero-typewriter-wrap {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 22px;
-      min-height: 38px;
-    }
-    .typewriter-prefix {
-      font-size: 1rem;
-      font-weight: 400;
-      color: rgba(255,255,255,0.45);
-      white-space: nowrap;
-    }
-    .typewriter-text {
-      font-size: 1.15rem;
-      font-weight: 700;
-      background: linear-gradient(135deg, #60AFFF, var(--accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      border-right: 2px solid var(--accent);
-      padding-right: 3px;
-      animation: blinkCursor 0.75s step-end infinite;
-      white-space: nowrap;
-    }
-    @keyframes blinkCursor {
-      0%,100% { border-color: var(--accent); }
-      50% { border-color: transparent; }
-    }
-    .hero-subtitle {
-      font-size: 1.02rem;
-      color: rgba(255,255,255,0.68);
-      line-height: 1.78;
-      margin-bottom: 36px;
-      max-width: 520px;
-    }
-    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
-    /* Stats card */
-    .hero-social-proof {
-      display: flex;
-      gap: 24px;
-      flex-wrap: wrap;
-      padding: 18px 24px;
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.13);
-      border-radius: 16px;
-      backdrop-filter: blur(12px);
-      width: fit-content;
-    }
-    .proof-item { display: flex; flex-direction: column; align-items: center; }
-    .proof-number {
-      font-size: 1.55rem;
-      font-weight: 900;
-      background: linear-gradient(135deg, #ffffff, var(--accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1;
-    }
-    .proof-label {
-      font-size: 0.68rem;
-      color: rgba(255,255,255,0.5);
-      font-weight: 500;
-      margin-top: 4px;
-      text-align: center;
-      line-height: 1.3;
-    }
-    .proof-divider {
-      width: 1px;
-      background: rgba(255,255,255,0.14);
-      align-self: stretch;
-    }
+/* ─── Container ─── */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
-    /* Hero Right */
-    .hero-right {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
-      position: relative;
-    }
-    .hero-avatar-wrap {
-      position: relative;
-      width: 360px;
-      height: 360px;
-    }
-    /* Outer ring — fast rotating conic gradient */
-    .hero-avatar-ring {
-      position: absolute;
-      inset: -10px;
-      border-radius: 50%;
-      background: conic-gradient(from 0deg, var(--secondary), var(--accent), #a78bfa, #ffffff, var(--secondary));
-      animation: ringRotate 4s linear infinite;
-    }
-    .hero-avatar-ring::after {
-      content: '';
-      position: absolute;
-      inset: 5px;
-      border-radius: 50%;
-      background: #0a1f5c;
-    }
-    /* Inner ring — slower, reversed */
-    .hero-avatar-ring-2 {
-      position: absolute;
-      inset: -3px;
-      border-radius: 50%;
-      background: conic-gradient(from 180deg, var(--accent), transparent 60%, var(--secondary));
-      animation: ringRotate 7s linear infinite reverse;
-      opacity: 0.6;
-    }
-    .hero-avatar-ring-2::after {
-      content: '';
-      position: absolute;
-      inset: 3px;
-      border-radius: 50%;
-      background: #0a1f5c;
-    }
-    @keyframes ringRotate {
-      0%   { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    .hero-avatar {
-      position: absolute;
-      inset: 0;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #1a3a7a, #0d3080);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 1;
-      overflow: hidden;
-      box-shadow: 0 0 60px rgba(30,136,229,0.45), 0 0 120px rgba(30,136,229,0.15);
-    }
+/* ─── Section Shared ─── */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-tag {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--primary);
+  background: rgba(255,107,53,.1);
+  border: 1px solid rgba(255,107,53,.25);
+  padding: .35rem 1rem;
+  border-radius: 99px;
+  margin-bottom: .9rem;
+}
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: .8rem;
+}
+.section-title span { color: var(--primary); }
+.section-sub {
+  color: var(--text-muted);
+  max-width: 560px;
+  margin: 0 auto;
+  font-size: .98rem;
+}
 
-    /* Floating tech badges */
-    .tech-badge {
-      position: absolute;
-      background: rgba(255,255,255,0.97);
-      backdrop-filter: blur(8px);
-      border-radius: 100px;
-      padding: 8px 16px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--primary);
-      box-shadow: 0 4px 24px rgba(0,0,0,0.18), 0 0 0 1px rgba(255,255,255,0.4);
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      white-space: nowrap;
-      z-index: 3;
-    }
-    .tech-badge-dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-    .tech-badge-dot.blue   { background: linear-gradient(135deg, var(--secondary), var(--accent)); }
-    .tech-badge-dot.purple { background: linear-gradient(135deg, #7c3aed, #a78bfa); }
-    .tech-badge-dot.green  { background: linear-gradient(135deg, #059669, #34d399); }
-    .tech-badge-dot.orange { background: linear-gradient(135deg, #ea580c, #fb923c); }
-    .tech-badge-dot.pink   { background: linear-gradient(135deg, #db2777, #f472b6); }
-    .tech-badge-dot.teal   { background: linear-gradient(135deg, #0891b2, #22d3ee); }
-    .tech-badge-dot.gold   { background: linear-gradient(135deg, #d97706, #fbbf24); }
-    .tech-badge-dot.red    { background: linear-gradient(135deg, #dc2626, #f87171); }
+/* ─── Buttons ─── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .85rem 2rem;
+  border-radius: var(--radius-lg);
+  font-family: var(--font-heading);
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  transition: var(--transition);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff;
+  box-shadow: var(--shadow-glow-primary);
+}
+.btn-primary:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 40px rgba(255,107,53,.7), 0 0 100px rgba(255,107,53,.25);
+}
+.btn-secondary {
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  border: 1.5px solid rgba(255,255,255,.15);
+  backdrop-filter: blur(12px);
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,.12);
+  border-color: var(--primary);
+  transform: translateY(-3px);
+}
+.btn-outline {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1.5px solid var(--card-border);
+}
+.btn-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.w-full { width: 100%; justify-content: center; }
 
-    .badge-genai    { top: -18px;  right: 10px;             animation: badgeFloat1 4.0s ease-in-out infinite; }
-    .badge-strategy { top: -18px;  left: 10px;              animation: badgeFloat2 5.0s ease-in-out infinite; }
-    .badge-llm      { top: 62px;   right: -82px;            animation: badgeFloat3 4.5s ease-in-out infinite; }
-    .badge-rag      { top: 62px;   left: -68px;             animation: badgeFloat4 5.5s ease-in-out infinite; }
-    .badge-agentic  { top: 158px;  right: -92px;            animation: badgeFloat1 4.8s ease-in-out infinite; }
-    .badge-finetune { top: 158px;  left: -98px;             animation: badgeFloat2 4.2s ease-in-out infinite; }
-    .badge-mlops    { bottom: 42px; right: -70px;           animation: badgeFloat3 5.2s ease-in-out infinite; }
-    .badge-nlp      { bottom: -18px; left: 50%; margin-left: -27px; animation: badgeFloat4 4.7s ease-in-out infinite; }
+/* ═══════════════════════════════════════════════════
+   LOADING SCREEN
+═══════════════════════════════════════════════════ */
+.loading-screen {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  transition: opacity .5s ease, visibility .5s ease;
+}
+.loading-screen.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 
-    @keyframes badgeFloat1 { 0%,100%{transform:translateY(0px)}  50%{transform:translateY(-10px)} }
-    @keyframes badgeFloat2 { 0%,100%{transform:translateY(0px)}  50%{transform:translateY( 10px)} }
-    @keyframes badgeFloat3 { 0%,100%{transform:translateY(0px)}  50%{transform:translateY( -8px)} }
-    @keyframes badgeFloat4 { 0%,100%{transform:translateY(0px)}  50%{transform:translateY(  8px)} }
+.loader-pixel-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 6px;
+  width: 200px;
+}
+.loader-pixel-cell {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background: var(--card-bg);
+  animation: pixelBlink 1.2s infinite;
+}
 
-    /* Scroll indicator */
-    .hero-scroll {
-      position: absolute;
-      bottom: 56px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 6px;
-      color: rgba(255,255,255,0.35);
-      font-size: 0.65rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      z-index: 2;
-      animation: scrollBounce 2s ease-in-out infinite;
-    }
-    .hero-scroll-arrow {
-      width: 20px; height: 20px;
-      border-right: 2px solid rgba(255,255,255,0.3);
-      border-bottom: 2px solid rgba(255,255,255,0.3);
-      transform: rotate(45deg);
-    }
-    @keyframes scrollBounce {
-      0%,100% { transform: translateX(-50%) translateY(0); }
-      50%     { transform: translateX(-50%) translateY(8px); }
-    }
+@keyframes pixelBlink {
+  0%, 100% { opacity: .15; }
+  50% { opacity: 1; transform: scale(1.15); }
+}
 
-    /* Ticker */
-    .hero-ticker {
-      position: absolute;
-      bottom: 0;
-      left: 0; right: 0;
-      background: rgba(0,0,0,0.25);
-      border-top: 1px solid rgba(255,255,255,0.08);
-      padding: 10px 0;
-      overflow: hidden;
-      z-index: 2;
-    }
-    .hero-ticker-track {
-      display: flex;
-      width: max-content;
-      animation: tickerScroll 35s linear infinite;
-    }
-    .hero-ticker-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 0 36px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.45);
-      white-space: nowrap;
-      letter-spacing: 0.03em;
-    }
-    .hero-ticker-dot {
-      width: 5px; height: 5px;
-      border-radius: 50%;
-      background: var(--accent);
-      flex-shrink: 0;
-    }
-    @keyframes tickerScroll {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
+.loader-brand { text-align: center; }
+.loader-logo {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: .05em;
+}
+.loader-logo span { color: var(--primary); }
+.loader-bar {
+  width: 200px;
+  height: 3px;
+  background: var(--card-border);
+  border-radius: 99px;
+  margin: 1rem auto .6rem;
+  overflow: hidden;
+}
+.loader-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border-radius: 99px;
+  animation: loadProgress 2s ease forwards;
+}
+@keyframes loadProgress {
+  from { width: 0; }
+  to { width: 100%; }
+}
+.loader-text {
+  font-size: .78rem;
+  color: var(--text-muted);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+}
 
-    /* ===== ABOUT ===== */
-    #about { background: var(--white); }
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.4fr;
-      gap: 80px;
-      align-items: center;
-    }
-    .about-img-wrap {
-      position: relative;
-    }
-    .about-img {
-      width: 100%;
-      aspect-ratio: 4/5;
-      border-radius: 20px;
-      background: linear-gradient(135deg, var(--bg), #dce8f8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      position: relative;
-    }
-    /* <!-- UPDATE: Replace this placeholder with Nitin's professional photo --> */
-    .about-img-placeholder {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--white);
-    }
-    .about-img-accent {
-      position: absolute;
-      bottom: -20px;
-      right: -20px;
-      width: 120px;
-      height: 120px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      opacity: 0.15;
-      z-index: -1;
-    }
-    .about-img-accent2 {
-      position: absolute;
-      top: -20px;
-      left: -20px;
-      width: 80px;
-      height: 80px;
-      border-radius: 12px;
-      background: var(--primary);
-      opacity: 0.08;
-      z-index: -1;
-    }
-    .about-bio {
-      font-size: 1rem;
-      color: var(--text-light);
-      line-height: 1.8;
-      margin-bottom: 16px;
-    }
-    .about-stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      margin: 32px 0;
-    }
-    .about-stat {
-      text-align: center;
-      padding: 20px 12px;
-      background: var(--bg);
-      border-radius: 12px;
-      border: 1px solid rgba(30,136,229,0.1);
-    }
-    .about-stat-num {
-      font-size: 1.6rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1;
-      margin-bottom: 4px;
-    }
-    .about-stat-label {
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: var(--text-light);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .skills-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 24px;
-    }
-    .skill-tag {
-      padding: 6px 14px;
-      border-radius: 100px;
-      font-size: 0.78rem;
-      font-weight: 600;
-      background: rgba(30,136,229,0.08);
-      color: var(--secondary);
-      border: 1px solid rgba(30,136,229,0.2);
-      transition: var(--transition);
-    }
-    .skill-tag:hover {
-      background: var(--secondary);
-      color: var(--white);
-    }
-    .about-linkedin {
-      margin-top: 28px;
-    }
+/* ═══════════════════════════════════════════════════
+   NAVBAR
+═══════════════════════════════════════════════════ */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: rgba(10,10,18,.7);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  transition: var(--transition);
+}
+.navbar.scrolled {
+  background: rgba(10,10,18,.95);
+  box-shadow: 0 4px 30px rgba(0,0,0,.5);
+}
 
-    /* ===== EXPERTISE ===== */
-    #expertise { background: var(--bg); }
-    .expertise-header { text-align: center; margin-bottom: 60px; }
-    .expertise-header .section-subtitle { margin: 0 auto; }
-    .expertise-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 28px;
-    }
-    .expertise-card {
-      background: var(--white);
-      border-radius: 20px;
-      padding: 36px 28px;
-      box-shadow: var(--card-shadow);
-      border-top: 3px solid var(--secondary);
-      transition: var(--transition);
-      position: relative;
-      overflow: hidden;
-    }
-    .expertise-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--secondary), var(--accent));
-    }
-    .expertise-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 16px 48px rgba(10,36,99,0.15);
-    }
-    .expertise-icon {
-      width: 60px;
-      height: 60px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, rgba(30,136,229,0.12), rgba(0,180,216,0.12));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 20px;
-      font-size: 1.6rem;
-    }
-    .expertise-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--primary);
-      margin-bottom: 12px;
-    }
-    .expertise-desc {
-      font-size: 0.9rem;
-      color: var(--text-light);
-      line-height: 1.7;
-    }
-    .expertise-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 16px;
-    }
-    .expertise-tag {
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 3px 10px;
-      border-radius: 100px;
-      background: var(--bg);
-      color: var(--primary);
-    }
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 1.5rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
-    /* ===== ACHIEVEMENTS ===== */
-    #achievements {
-      background: linear-gradient(135deg, var(--primary), #0d2f7a);
-      position: relative;
-      overflow: hidden;
-    }
-    #achievements::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-      background-size: 50px 50px;
-    }
-    .achievements-inner { position: relative; z-index: 1; }
-    .achievements-header { text-align: center; margin-bottom: 64px; }
-    .achievements-header .section-label { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); }
-    .achievements-header .section-title { color: var(--white); }
-    .counters-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 24px;
-      margin-bottom: 72px;
-    }
-    .counter-card {
-      text-align: center;
-      padding: 40px 24px;
-      background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-      border: 1px solid rgba(255,255,255,0.1);
-      transition: var(--transition);
-    }
-    .counter-card:hover {
-      background: rgba(255,255,255,0.1);
-      transform: translateY(-4px);
-    }
-    .counter-number {
-      font-size: 3rem;
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1;
-      margin-bottom: 8px;
-    }
-    .counter-suffix {
-      font-size: 2rem;
-      font-weight: 900;
-      color: var(--accent);
-    }
-    .counter-label {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.6);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-    .achievement-cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-    .achievement-card {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 20px;
-      padding: 32px 28px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-      transition: var(--transition);
-    }
-    .achievement-card:hover {
-      background: rgba(255,255,255,0.12);
-      transform: translateY(-4px);
-    }
-    .achievement-icon {
-      width: 56px;
-      height: 56px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.4rem;
-    }
-    .achievement-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--white);
-    }
-    .achievement-desc {
-      font-size: 0.88rem;
-      color: rgba(255,255,255,0.6);
-      line-height: 1.6;
-    }
-    .logos-strip {
-      margin-top: 64px;
-      text-align: center;
-    }
-    .logos-strip-label {
-      font-size: 0.78rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: rgba(255,255,255,0.4);
-      margin-bottom: 28px;
-    }
-    .logos-row {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    /* <!-- UPDATE: Replace these logo placeholders with actual partner/platform logos --> */
-    .logo-placeholder {
-      width: 120px;
-      height: 44px;
-      border-radius: 8px;
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.72rem;
-      font-weight: 700;
-      color: rgba(255,255,255,0.3);
-      letter-spacing: 0.05em;
-    }
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: .05em;
+}
+.nav-logo span { color: var(--primary); }
+.logo-pixel {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 6px;
+  display: block;
+  animation: logoPulse 2s ease-in-out infinite;
+}
+@keyframes logoPulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(255,107,53,.6); }
+  50% { box-shadow: 0 0 20px rgba(255,107,53,.9), 0 0 40px rgba(0,212,255,.3); }
+}
 
-    /* ===== AI CHAT SECTION ===== */
-    #ai-chat { background: var(--white); }
-    .chat-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 64px;
-      align-items: center;
-    }
-    .chat-info .section-title { color: var(--primary); }
-    .chat-feature {
-      display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      margin-top: 24px;
-    }
-    .chat-feature-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, rgba(30,136,229,0.12), rgba(0,180,216,0.12));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-    .chat-feature-text h4 {
-      font-size: 0.9rem;
-      font-weight: 700;
-      color: var(--primary);
-      margin-bottom: 4px;
-    }
-    .chat-feature-text p {
-      font-size: 0.83rem;
-      color: var(--text-light);
-      line-height: 1.5;
-    }
-    .chat-window-wrap {
-      background: linear-gradient(135deg, var(--primary), #1a4a9e);
-      border-radius: 24px;
-      padding: 4px;
-      box-shadow: 0 24px 64px rgba(10,36,99,0.25);
-    }
-    .chat-window {
-      background: #0f1a2e;
-      border-radius: 21px;
-      overflow: hidden;
-    }
-    .chat-header {
-      background: rgba(255,255,255,0.05);
-      padding: 16px 20px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-    }
-    .chat-header-avatar {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--white);
-    }
-    .chat-header-info h4 {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--white);
-    }
-    .chat-header-info p {
-      font-size: 0.7rem;
-      color: rgba(255,255,255,0.5);
-    }
-    .chat-online-dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: #00ff88;
-      margin-left: auto;
-      box-shadow: 0 0 8px #00ff88;
-      animation: pulse 2s infinite;
-    }
-    .chat-messages {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      max-height: 360px;
-      overflow-y: auto;
-    }
-    .chat-messages::-webkit-scrollbar { width: 4px; }
-    .chat-messages::-webkit-scrollbar-track { background: transparent; }
-    .chat-messages::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
-    .msg-wrap {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    .msg-wrap.user { align-items: flex-end; }
-    .msg-wrap.ai { align-items: flex-start; }
-    .msg-label {
-      font-size: 0.65rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.4);
-      padding: 0 8px;
-    }
-    .msg-bubble {
-      max-width: 85%;
-      padding: 12px 16px;
-      border-radius: 16px;
-      font-size: 0.82rem;
-      line-height: 1.6;
-    }
-    .msg-wrap.user .msg-bubble {
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      color: var(--white);
-      border-bottom-right-radius: 4px;
-    }
-    .msg-wrap.ai .msg-bubble {
-      background: rgba(255,255,255,0.07);
-      color: rgba(255,255,255,0.85);
-      border-bottom-left-radius: 4px;
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-    .chat-input-row {
-      padding: 16px 20px;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .chat-input {
-      flex: 1;
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 10px;
-      padding: 10px 16px;
-      font-size: 0.82rem;
-      color: rgba(255,255,255,0.7);
-      font-family: 'Inter', sans-serif;
-    }
-    .chat-input::placeholder { color: rgba(255,255,255,0.3); }
-    .chat-send-btn {
-      width: 40px; height: 40px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1rem;
-      color: var(--white);
-      transition: var(--transition);
-    }
-    .chat-send-btn:hover { transform: scale(1.05); }
-    .chat-send-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
-    .chat-input:focus { outline: none; border-color: rgba(30,136,229,0.5); }
-    /* Typing indicator */
-    .typing-indicator {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      padding: 12px 16px;
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 16px;
-      border-bottom-left-radius: 4px;
-      width: fit-content;
-    }
-    .typing-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.4);
-      animation: typingBounce 1.2s ease-in-out infinite;
-    }
-    .typing-dot:nth-child(2) { animation-delay: 0.2s; }
-    .typing-dot:nth-child(3) { animation-delay: 0.4s; }
-    @keyframes typingBounce {
-      0%,60%,100% { transform: translateY(0); background: rgba(255,255,255,0.3); }
-      30% { transform: translateY(-6px); background: var(--accent); }
-    }
-    /* Error bubble */
-    .msg-bubble.error {
-      background: rgba(220,38,38,0.15);
-      border: 1px solid rgba(220,38,38,0.3);
-      color: #fca5a5;
-    }
-    .chat-demo-note {
-      text-align: center;
-      margin-top: 16px;
-      font-size: 0.75rem;
-      color: var(--text-light);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-    }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-link {
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color var(--transition);
+  position: relative;
+  padding: .3rem 0;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 2px;
+  background: var(--primary);
+  transition: width var(--transition);
+  border-radius: 99px;
+}
+.nav-link:hover { color: var(--text); }
+.nav-link:hover::after { width: 100%; }
 
-    /* ===== SPEAKING/BOOKING ===== */
-    #speaking { background: var(--bg); }
-    .speaking-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.3fr;
-      gap: 64px;
-      align-items: start;
-    }
-    .speaking-topics {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-top: 28px;
-    }
-    .topic-item {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding: 16px 20px;
-      background: var(--white);
-      border-radius: 12px;
-      border: 1px solid rgba(30,136,229,0.1);
-      box-shadow: var(--card-shadow);
-      transition: var(--transition);
-    }
-    .topic-item:hover {
-      border-color: rgba(30,136,229,0.3);
-      transform: translateX(4px);
-    }
-    .topic-icon {
-      font-size: 1.3rem;
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, rgba(30,136,229,0.1), rgba(0,180,216,0.1));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-    .topic-text {
-      font-size: 0.88rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-    /* Booking form */
-    .booking-form-card {
-      background: var(--white);
-      border-radius: 24px;
-      padding: 44px 40px;
-      box-shadow: 0 8px 40px rgba(10,36,99,0.12);
-      border: 1px solid rgba(30,136,229,0.1);
-    }
-    .form-title {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--primary);
-      margin-bottom: 8px;
-    }
-    .form-subtitle {
-      font-size: 0.88rem;
-      color: var(--text-light);
-      margin-bottom: 28px;
-    }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      margin-bottom: 16px;
-    }
-    .form-group.full { grid-column: 1/-1; }
-    .form-label {
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--primary);
-      letter-spacing: 0.03em;
-    }
-    .form-input, .form-select, .form-textarea {
-      padding: 12px 16px;
-      border-radius: 10px;
-      border: 1.5px solid #e2e8f0;
-      font-size: 0.88rem;
-      font-family: 'Inter', sans-serif;
-      color: var(--text);
-      background: var(--bg);
-      transition: var(--transition);
-      outline: none;
-    }
-    .form-input:focus, .form-select:focus, .form-textarea:focus {
-      border-color: var(--secondary);
-      box-shadow: 0 0 0 3px rgba(30,136,229,0.12);
-    }
-    .form-input.error, .form-select.error, .form-textarea.error {
-      border-color: #ef4444;
-    }
-    .form-textarea { resize: vertical; min-height: 100px; }
-    .form-error {
-      font-size: 0.72rem;
-      color: #ef4444;
-      display: none;
-    }
-    .form-error.visible { display: block; }
-    .form-success {
-      display: none;
-      text-align: center;
-      padding: 32px;
-      background: linear-gradient(135deg, rgba(30,136,229,0.05), rgba(0,180,216,0.05));
-      border-radius: 16px;
-      border: 1px solid rgba(30,136,229,0.2);
-    }
-    .form-success.visible { display: block; }
-    .form-success h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: var(--primary);
-      margin-bottom: 8px;
-    }
-    .form-success p {
-      font-size: 0.88rem;
-      color: var(--text-light);
-    }
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
 
-    /* ===== TESTIMONIALS ===== */
-    #testimonials { background: var(--white); }
-    .testimonials-header { text-align: center; margin-bottom: 60px; }
-    .testimonials-header .section-subtitle { margin: 0 auto; }
-    .carousel-wrap { position: relative; overflow: hidden; }
-    .carousel-track {
-      display: flex;
-      transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
-    }
-    .testimonial-slide {
-      min-width: 100%;
-      padding: 0 12px;
-    }
-    .testimonial-card {
-      background: var(--bg);
-      border-radius: 24px;
-      padding: 44px;
-      border: 1px solid rgba(30,136,229,0.1);
-      box-shadow: var(--card-shadow);
-      max-width: 800px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .quote-mark {
-      font-size: 5rem;
-      font-weight: 900;
-      color: var(--secondary);
-      line-height: 0.8;
-      opacity: 0.15;
-      position: absolute;
-      top: 32px;
-      left: 40px;
-    }
-    .testimonial-stars {
-      display: flex;
-      gap: 4px;
-      margin-bottom: 20px;
-    }
-    .star { color: #f59e0b; font-size: 1.1rem; }
-    .testimonial-text {
-      font-size: 1.05rem;
-      color: var(--text);
-      line-height: 1.8;
-      font-style: italic;
-      margin-bottom: 28px;
-      position: relative;
-      z-index: 1;
-    }
-    .testimonial-author {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-    .author-avatar {
-      width: 52px;
-      height: 52px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--white);
-      flex-shrink: 0;
-    }
-    .author-name {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--primary);
-      margin-bottom: 2px;
-    }
-    .author-title {
-      font-size: 0.8rem;
-      color: var(--text-light);
-    }
-    .carousel-dots {
-      display: flex;
-      justify-content: center;
-      gap: 8px;
-      margin-top: 36px;
-    }
-    .dot {
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: #d1d5db;
-      cursor: pointer;
-      transition: var(--transition);
-    }
-    .dot.active {
-      background: var(--secondary);
-      width: 24px;
-      border-radius: 4px;
-    }
-    .carousel-arrows {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 20px;
-    }
-    .carousel-arrow {
-      width: 44px; height: 44px;
-      border-radius: 50%;
-      background: var(--bg);
-      border: 1.5px solid rgba(30,136,229,0.2);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.1rem;
-      color: var(--primary);
-      transition: var(--transition);
-    }
-    .carousel-arrow:hover {
-      background: var(--secondary);
-      color: var(--white);
-      border-color: var(--secondary);
-    }
+.nav-search-btn, .cart-btn {
+  width: 42px; height: 42px;
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: var(--transition);
+  position: relative;
+}
+.nav-search-btn:hover, .cart-btn:hover {
+  background: rgba(255,107,53,.15);
+  border-color: var(--primary);
+  color: var(--primary);
+}
 
-    /* ===== FOOTER ===== */
-    #footer {
-      background: linear-gradient(135deg, #060f24, var(--primary));
-    }
-    .footer-main {
-      display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr;
-      gap: 64px;
-      padding: 80px 0 60px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-    }
-    .footer-logo-wrap { margin-bottom: 20px; }
-    .footer-tagline {
-      font-size: 0.88rem;
-      color: rgba(255,255,255,0.5);
-      line-height: 1.7;
-      margin-bottom: 28px;
-      max-width: 280px;
-    }
-    .social-links { display: flex; gap: 12px; }
-    .social-link {
-      width: 40px; height: 40px;
-      border-radius: 10px;
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1rem;
-      color: rgba(255,255,255,0.6);
-      text-decoration: none;
-      transition: var(--transition);
-    }
-    .social-link:hover {
-      background: var(--secondary);
-      border-color: var(--secondary);
-      color: var(--white);
-      transform: translateY(-2px);
-    }
-    .social-link.linkedin:hover { background: #0077b5; border-color: #0077b5; }
-    .footer-col-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--white);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 24px;
-    }
-    .footer-links { display: flex; flex-direction: column; gap: 12px; }
-    .footer-links a {
-      font-size: 0.875rem;
-      color: rgba(255,255,255,0.5);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .footer-links a:hover { color: var(--accent); }
-    .footer-contact-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-    .footer-contact-icon {
-      font-size: 1rem;
-      color: var(--accent);
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-    .footer-contact-text {
-      font-size: 0.85rem;
-      color: rgba(255,255,255,0.5);
-      line-height: 1.5;
-    }
-    .footer-bottom {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 24px 0;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-    .footer-copy {
-      font-size: 0.8rem;
-      color: rgba(255,255,255,0.3);
-    }
-    .footer-copy span { color: rgba(255,255,255,0.5); }
-    .footer-linkedin-cta {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 20px;
-      border-radius: 8px;
-      background: #0077b5;
-      color: var(--white);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 700;
-      transition: var(--transition);
-    }
-    .footer-linkedin-cta:hover {
-      background: #005f91;
-      transform: translateY(-2px);
-    }
+.cart-badge {
+  position: absolute;
+  top: -6px; right: -6px;
+  background: var(--primary);
+  color: #fff;
+  font-size: .65rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bg);
+  transition: transform .2s;
+}
+.cart-badge.pop { animation: badgePop .3s ease; }
+@keyframes badgePop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.6); }
+  100% { transform: scale(1); }
+}
 
-    /* ===== BACK TO TOP ===== */
-    #back-to-top {
-      position: fixed;
-      bottom: 28px;
-      right: 28px;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--secondary), var(--accent));
-      color: var(--white);
-      border: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 20px rgba(30,136,229,0.4);
-      opacity: 0;
-      transform: translateY(20px);
-      transition: var(--transition);
-      z-index: 99;
-    }
-    #back-to-top.visible { opacity: 1; transform: translateY(0); }
-    #back-to-top:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(30,136,229,0.5); }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  width: 38px; height: 38px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--card-border);
+}
+.hamburger span {
+  display: block;
+  width: 20px; height: 2px;
+  background: var(--text);
+  border-radius: 99px;
+  transition: var(--transition);
+}
+.hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-    /* ===== RESPONSIVE ===== */
-    /* ═══════════════════════════════════════════════════════
-       RESPONSIVE — All Platforms
-       Breakpoints:
-         1440px → MacBook / large laptop
-         1024px → iPad landscape / small laptop
-         900px  → iPad portrait / tablet
-         768px  → iPad mini / tablet portrait
-         640px  → large phone landscape
-         480px  → standard Android/iPhone
-         375px  → iPhone SE / small Android
-    ═══════════════════════════════════════════════════════ */
+/* Search bar */
+.nav-search-bar {
+  display: none;
+  border-top: 1px solid var(--card-border);
+  background: var(--bg2);
+  padding: .8rem 1.5rem;
+}
+.nav-search-bar.open { display: block; }
+.search-inner {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: .6rem 1rem;
+}
+.search-inner i { color: var(--text-dim); }
+.search-inner input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-size: .9rem;
+}
+.search-inner input::placeholder { color: var(--text-dim); }
+#searchClose { color: var(--text-dim); font-size: .9rem; transition: color var(--transition); }
+#searchClose:hover { color: var(--primary); }
 
-    /* ── Global iOS/Android touch fixes ── */
-    * { -webkit-tap-highlight-color: transparent; }
-    input, select, textarea, button { font-size: 16px; } /* prevents iOS auto-zoom */
-    img { max-width: 100%; height: auto; display: block; }
+/* ═══════════════════════════════════════════════════
+   HERO
+═══════════════════════════════════════════════════ */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 100px 1.5rem 80px;
+}
+.hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 60% at 50% 50%, rgba(123,47,190,.18) 0%, transparent 70%),
+    linear-gradient(180deg, rgba(10,10,18,0) 0%, rgba(10,10,18,.85) 100%);
+  z-index: 1;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 820px;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: rgba(0,212,255,.1);
+  border: 1px solid rgba(0,212,255,.3);
+  padding: .4rem 1.1rem;
+  border-radius: 99px;
+  margin-bottom: 1.5rem;
+  animation: fadeInDown .8s ease forwards;
+}
+.badge-dot {
+  width: 7px; height: 7px;
+  background: var(--secondary);
+  border-radius: 50%;
+  animation: dotPulse 1.2s ease-in-out infinite;
+}
+@keyframes dotPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,212,255,.7); }
+  50% { box-shadow: 0 0 0 5px rgba(0,212,255,0); }
+}
 
-    /* ── MacBook / Large screen (1440px+) ── */
-    @media (min-width: 1440px) {
-      .container { max-width: 1320px; padding: 0 48px; }
-      .section { padding: 120px 0; }
-      .hero-h1 { font-size: 4rem; }
-      .section-title { font-size: 3rem; }
-      .expertise-grid { grid-template-columns: repeat(3, 1fr); gap: 32px; }
-      .counters-grid { gap: 32px; }
-    }
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-weight: 900;
+  line-height: 1.05;
+  margin-bottom: 1.4rem;
+  animation: fadeInUp .9s .1s ease both;
+}
+.hero-title-accent { color: var(--secondary); }
+.hero-title-glow {
+  color: var(--primary);
+  text-shadow: 0 0 30px rgba(255,107,53,.7), 0 0 80px rgba(255,107,53,.35);
+  display: inline-block;
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+@keyframes glowPulse {
+  0%, 100% { text-shadow: 0 0 30px rgba(255,107,53,.7), 0 0 80px rgba(255,107,53,.3); }
+  50% { text-shadow: 0 0 50px rgba(255,107,53,1), 0 0 120px rgba(255,107,53,.5), 0 0 200px rgba(0,212,255,.2); }
+}
 
-    /* ── Laptop / Small desktop (1024px–1439px) ── */
-    @media (max-width: 1439px) and (min-width: 1025px) {
-      .container { max-width: 1100px; padding: 0 32px; }
-    }
+.hero-subtitle {
+  color: var(--text-muted);
+  font-size: clamp(.9rem, 2vw, 1.15rem);
+  margin-bottom: 2.2rem;
+  animation: fadeInUp 1s .25s ease both;
+  line-height: 1.7;
+}
 
-    /* ── iPad landscape / Small laptop (≤1024px) ── */
-    @media (max-width: 1024px) {
-      .container { padding: 0 28px; }
-      .expertise-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-      .about-stats { grid-template-columns: repeat(2, 1fr); }
-      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-      .achievement-cards { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-      .footer-main { grid-template-columns: 1fr 1fr; gap: 40px; }
-      .section { padding: 88px 0; }
-    }
+.hero-ctas {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  animation: fadeInUp 1.1s .35s ease both;
+}
 
-    /* ── iPad portrait / Tablet (≤900px) ── */
-    @media (max-width: 900px) {
-      .container { padding: 0 24px; }
-      .section { padding: 80px 0; }
-      .hero-content { grid-template-columns: 1fr; gap: 40px; text-align: center; }
-      .hero-subtitle { margin: 0 auto 32px; max-width: 520px; }
-      .hero-btns { justify-content: center; flex-wrap: wrap; }
-      .hero-social-proof { justify-content: center; flex-wrap: wrap; }
-      .hero-right { order: -1; }
-      .hero-avatar-wrap { width: 240px; height: 240px; margin: 0 auto; }
-      .badge-llm, .badge-rag { top: 44px; }
-      .badge-agentic, .badge-finetune { top: 112px; }
-      .badge-mlops { bottom: 28px; }
-      .about-grid { grid-template-columns: 1fr; gap: 40px; }
-      .about-img { max-width: 360px; margin: 0 auto; aspect-ratio: 1; }
-      .chat-grid { grid-template-columns: 1fr; }
-      .speaking-grid { grid-template-columns: 1fr; gap: 40px; }
-      .section-title { font-size: clamp(1.7rem, 3.5vw, 2.4rem); }
-      .section-subtitle { font-size: 1rem; max-width: 100%; }
-      .nav-links { display: none; }
-      .nav-cta .btn:not(.btn-navy) { display: none; }
-      .hamburger { display: flex; }
-      .footer-main { grid-template-columns: 1fr 1fr; gap: 32px; }
-    }
+.hero-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 1.2s .5s ease both;
+}
+.hstat { text-align: center; }
+.hstat span {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--primary);
+}
+.hstat small { color: var(--text-muted); font-size: .78rem; }
+.hstat-div {
+  width: 1px;
+  height: 36px;
+  background: var(--card-border);
+}
 
-    /* ── iPad mini / Tablet portrait (≤768px) ── */
-    @media (max-width: 768px) {
-      .container { padding: 0 20px; }
-      .section { padding: 72px 0; }
-      .hero-avatar-wrap { width: 220px; height: 220px; }
-      .about-stats { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-      .achievement-cards { grid-template-columns: 1fr; gap: 16px; }
-      .footer-main { grid-template-columns: 1fr; gap: 32px; padding: 56px 0 40px; }
-      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
-      .section-label { font-size: 0.7rem; }
-      .btn { padding: 12px 24px; font-size: 0.9rem; }
-      .booking-form-card { padding: 32px 24px; }
-      .testimonial-card { padding: 28px 20px; }
-    }
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: .72rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+  animation: fadeInUp 1.3s .7s ease both;
+}
+.scroll-arrow {
+  width: 24px; height: 24px;
+  border-right: 2px solid var(--text-dim);
+  border-bottom: 2px solid var(--text-dim);
+  transform: rotate(45deg);
+  margin: .5rem auto 0;
+  animation: scrollBounce 1.5s ease-in-out infinite;
+}
+@keyframes scrollBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50% { transform: rotate(45deg) translateY(6px); }
+}
 
-    /* ── Large phones landscape / Standard Android & iPhone (≤640px) ── */
-    @media (max-width: 640px) {
-      .container { padding: 0 16px; }
-      .section { padding: 64px 0; }
-      .section-title { font-size: clamp(1.5rem, 6vw, 2rem); }
-      .section-subtitle { font-size: 0.95rem; }
-      .hero-h1 { font-size: clamp(1.9rem, 7vw, 2.6rem); }
-      .hero-avatar-wrap { width: 190px; height: 190px; }
-      .expertise-grid { grid-template-columns: 1fr; gap: 16px; }
-      .about-stats { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-      .counters-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-      .achievement-cards { grid-template-columns: 1fr; }
-      .form-row { grid-template-columns: 1fr; gap: 0; }
-      .booking-form-card { padding: 24px 16px; border-radius: 12px; }
-      .footer-main { grid-template-columns: 1fr; gap: 28px; padding: 48px 0 36px; }
-      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
-      .testimonial-card { padding: 24px 16px; }
-      .btn { padding: 12px 20px; font-size: 0.875rem; white-space: normal; text-align: center; }
-      .hero-btns { flex-direction: column; align-items: center; gap: 12px; width: 100%; }
-      .hero-btns .btn { width: 100%; max-width: 300px; justify-content: center; }
-      .nav-logo .logo-sub { display: none; }
-      .payment-card { padding: 24px 16px !important; }
-      .payment-qr-box { width: 140px !important; height: 140px !important; }
-    }
+/* ─── Animations shared ─── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+[data-aos] {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity .7s ease, transform .7s ease;
+}
+[data-aos].in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-    /* ── iPhone SE / Small Android (≤480px) ── */
-    @media (max-width: 480px) {
-      .container { padding: 0 14px; }
-      .section { padding: 56px 0; }
-      .hero-avatar-wrap { width: 170px; height: 170px; }
-      .hero-badge { font-size: 0.72rem; padding: 6px 14px; }
-      .section-title { font-size: clamp(1.35rem, 7vw, 1.8rem); }
-      .about-stats { grid-template-columns: 1fr 1fr; gap: 10px; }
-      .counters-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-      .logo-monogram { width: 34px; height: 34px; font-size: 0.85rem; }
-      .logo-name { font-size: 0.85rem; }
-      .testimonial-card { padding: 20px 14px; }
-      .booking-form-card { padding: 20px 14px; }
-      .footer-linkedin-cta { font-size: 0.85rem; padding: 14px 20px; }
-    }
+/* ═══════════════════════════════════════════════════
+   TICKER
+═══════════════════════════════════════════════════ */
+.ticker-wrap {
+  background: linear-gradient(90deg, var(--primary), #FF3CAC, var(--secondary), var(--accent), var(--primary));
+  background-size: 400% 100%;
+  animation: tickerBg 8s linear infinite;
+  overflow: hidden;
+  padding: .65rem 0;
+}
+@keyframes tickerBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 400% 0%; }
+}
+.ticker {
+  display: flex;
+  white-space: nowrap;
+  animation: tickerScroll 35s linear infinite;
+}
+.ticker span {
+  padding: 0 3rem;
+  font-family: var(--font-heading);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: #fff;
+  text-transform: uppercase;
+}
+@keyframes tickerScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 
-    /* ── iPhone SE 1st gen / very small (≤375px) ── */
-    @media (max-width: 375px) {
-      .container { padding: 0 12px; }
-      .hero-avatar-wrap { width: 150px; height: 150px; }
-      .section-title { font-size: 1.3rem; }
-      .hero-h1 { font-size: 1.7rem; }
-      .btn { padding: 11px 18px; font-size: 0.85rem; }
-    }
+/* ═══════════════════════════════════════════════════
+   FEATURES
+═══════════════════════════════════════════════════ */
+.features-section {
+  padding: 7rem 0;
+  background: var(--bg2);
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+.feature-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 2.2rem 2rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.feature-card:hover { transform: translateY(-8px); border-color: rgba(255,107,53,.3); box-shadow: var(--shadow-card); }
+.feature-card:hover::before { opacity: 1; }
 
-    /* ── Print / PDF ── */
-    @media print {
-      .navbar, .mobile-menu, #back-to-top, #heroParticles,
-      .hero-orb, .hero-grid-bg { display: none !important; }
-      .section { padding: 40px 0; }
-      body { background: #fff; color: #000; }
-    }
+.feature-icon-wrap {
+  width: 60px; height: 60px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.fglow-blue { background: rgba(0,212,255,.12); color: var(--secondary); box-shadow: 0 0 20px rgba(0,212,255,.2); }
+.fglow-green { background: rgba(0,255,136,.1); color: var(--accent2); box-shadow: 0 0 20px rgba(0,255,136,.2); }
+.fglow-orange { background: rgba(255,107,53,.12); color: var(--primary); box-shadow: 0 0 20px rgba(255,107,53,.2); }
+.fglow-purple { background: rgba(123,47,190,.12); color: #BF7FFF; box-shadow: 0 0 20px rgba(123,47,190,.2); }
 
-    /* ── Safe area for iPhone notch / Dynamic Island ── */
-    @supports (padding: max(0px)) {
-      .navbar .container {
-        padding-left: max(24px, env(safe-area-inset-left));
-        padding-right: max(24px, env(safe-area-inset-right));
-      }
-      body { padding-bottom: env(safe-area-inset-bottom); }
-    }
+.feature-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: .7rem;
+  color: var(--text);
+}
+.feature-card p { color: var(--text-muted); font-size: .88rem; line-height: 1.7; }
 
-    /* ── Section alignment fixes ── */
-    .section-header { text-align: center; margin-bottom: 56px; }
-    .section-header .section-subtitle { margin: 0 auto; }
-    .expertise-grid, .achievement-cards, .counters-grid { align-items: stretch; }
-    .expertise-card, .achievement-card { height: 100%; display: flex; flex-direction: column; }
-    .speaking-grid { align-items: start; }
-    .about-grid { align-items: center; }
-    .testimonial-card { height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
-    .footer-main { align-items: start; }
+/* ═══════════════════════════════════════════════════
+   PRODUCTS
+═══════════════════════════════════════════════════ */
+.products-section {
+  padding: 7rem 0;
+  background: var(--bg);
+}
 
+/* Filter Tabs */
+.filter-tabs {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.filter-tab {
+  padding: .55rem 1.3rem;
+  border-radius: 99px;
+  font-family: var(--font-heading);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: rgba(255,255,255,.05);
+  border: 1px solid var(--card-border);
+  transition: var(--transition);
+}
+.filter-tab:hover, .filter-tab.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 0 20px rgba(255,107,53,.4);
+}
+
+/* Products Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition);
+  position: relative;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255,107,53,.35);
+  box-shadow: 0 20px 60px rgba(0,0,0,.7), 0 0 30px rgba(255,107,53,.15);
+}
+.product-card.hidden { display: none; }
+
+/* Product Visual (animated LED backgrounds) */
+.product-visual {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.product-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(10,10,18,.9) 100%);
+  z-index: 1;
+}
+
+/* ─── LED Visual Themes ─── */
+.vis-rainbow {
+  background: linear-gradient(135deg, #FF0080, #FF8C00, #FFD700, #00FF7F, #00BFFF, #8A2BE2, #FF0080);
+  background-size: 400% 400%;
+  animation: gradShift 4s ease infinite;
+}
+.vis-neon-pink {
+  background: radial-gradient(ellipse at 30% 30%, #FF00FF, #8A2BE2 50%, #0A0A12);
+  animation: neonPulse 3s ease-in-out infinite alternate;
+}
+.vis-ocean {
+  background: linear-gradient(135deg, #006994, #00D4FF, #00FF9F, #006994);
+  background-size: 300% 300%;
+  animation: gradShift 5s ease infinite;
+}
+.vis-pixel-anim {
+  background: linear-gradient(45deg, #FF0000, #00FF00, #0000FF, #FF00FF, #FFFF00, #00FFFF);
+  background-size: 600% 600%;
+  animation: gradShift 2s linear infinite;
+}
+.vis-matrix-panel {
+  background: #000;
+  position: relative;
+}
+.vis-matrix-panel canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0;
+}
+.vis-portal {
+  background: radial-gradient(ellipse at center, #00D4FF 0%, #7B2FBE 40%, #0A0A12 80%);
+  animation: portalSpin 6s linear infinite;
+}
+.vis-galaxy {
+  background: radial-gradient(ellipse at 20% 20%, #FF00FF 0%, #7B2FBE 30%, #00D4FF 60%, #0A0A12 100%);
+  background-size: 200% 200%;
+  animation: galaxySpin 8s ease infinite;
+}
+.vis-neon-sign {
+  background: #0A0A12;
+  position: relative;
+  overflow: hidden;
+}
+.vis-neon-sign::before {
+  content: 'OPEN';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FF00FF;
+  text-shadow: 0 0 20px #FF00FF, 0 0 40px #FF00FF, 0 0 80px rgba(255,0,255,.5);
+  animation: neonFlicker 3s ease-in-out infinite;
+  z-index: 0;
+}
+.vis-neon-green {
+  background: #0A0A12;
+}
+.vis-neon-green::before {
+  content: '★';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: #00FF9F;
+  text-shadow: 0 0 20px #00FF9F, 0 0 50px #00FF9F, 0 0 100px rgba(0,255,159,.4);
+  animation: neonFlicker 2.5s ease-in-out infinite;
+  z-index: 0;
+}
+.vis-warm-glow {
+  background: radial-gradient(ellipse at center, #FFD700, #FF8C00 50%, #8B0000 100%);
+  animation: warmBreath 4s ease-in-out infinite;
+}
+.vis-ambient {
+  background: linear-gradient(135deg, #001AFF, #00BFFF, #00FF9F, #FFD700, #FF3CAC, #7B2FBE, #001AFF);
+  background-size: 400% 400%;
+  animation: gradShift 6s ease infinite;
+}
+.vis-gaming {
+  background: linear-gradient(135deg, #00FF00, #00FF9F, #00BFFF, #7B2FBE, #FF00FF, #FF3CAC, #FF0000);
+  background-size: 400% 400%;
+  animation: gradShift 2.5s ease infinite;
+}
+.vis-desk-rgb {
+  background: linear-gradient(135deg, #001AFF, #7B2FBE, #FF3CAC, #FF8C00);
+  background-size: 300% 300%;
+  animation: gradShift 3s ease infinite;
+}
+.vis-room-glow {
+  background: radial-gradient(ellipse at 30% 40%, #FF3CAC, #7B2FBE 40%, #001AFF 70%, #0A0A12);
+  animation: roomBreath 5s ease-in-out infinite alternate;
+}
+.vis-cyber {
+  background: #0A0A12;
+  position: relative;
+}
+.vis-cyber::before {
+  content: '⚡';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  filter: drop-shadow(0 0 20px #FFD700) drop-shadow(0 0 50px rgba(255,215,0,.5));
+  animation: zapFlicker 2s ease-in-out infinite;
+  z-index: 0;
+}
+.vis-hex-panel {
+  background: linear-gradient(45deg, #001AFF, #00D4FF, #00FF9F, #7B2FBE);
+  background-size: 300% 300%;
+  animation: gradShift 4s ease infinite;
+  position: relative;
+}
+.vis-hex-panel::before {
+  content: '⬡⬡⬡\A⬡⬡⬡\A⬡⬡⬡';
+  white-space: pre;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.8rem;
+  color: rgba(255,255,255,.2);
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 1.3;
+  z-index: 0;
+}
+
+/* ─── Visual Animations ─── */
+@keyframes gradShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes neonPulse {
+  from { filter: brightness(1); }
+  to { filter: brightness(1.4) saturate(1.3); }
+}
+@keyframes portalSpin {
+  from { filter: hue-rotate(0deg) brightness(1); }
+  to { filter: hue-rotate(360deg) brightness(1.2); }
+}
+@keyframes galaxySpin {
+  0% { background-position: 0% 0%; filter: hue-rotate(0deg); }
+  100% { background-position: 200% 200%; filter: hue-rotate(360deg); }
+}
+@keyframes neonFlicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+  20%, 24%, 55% { opacity: .4; }
+}
+@keyframes warmBreath {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.3) saturate(1.2); }
+}
+@keyframes roomBreath {
+  from { filter: brightness(.9); }
+  to { filter: brightness(1.2) saturate(1.1); }
+}
+@keyframes zapFlicker {
+  0%, 40%, 60%, 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: .6; transform: translate(-50%, -50%) scale(.95); }
+  55% { opacity: 1; transform: translate(-50%, -50%) scale(1.08); }
+}
+
+/* Product Visual Overlay */
+.pv-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  z-index: 2;
+}
+.pv-icon {
+  font-size: 2.8rem;
+  color: rgba(255,255,255,.25);
+  filter: drop-shadow(0 0 15px rgba(255,255,255,.4));
+}
+.pv-label {
+  font-family: var(--font-heading);
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.4);
+}
+
+/* Product Badge */
+.product-badge {
+  position: absolute;
+  top: .9rem; left: .9rem;
+  z-index: 3;
+  font-family: var(--font-heading);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  padding: .28rem .7rem;
+  border-radius: 99px;
+  text-transform: uppercase;
+}
+.badge-hot { background: var(--primary); color: #fff; box-shadow: 0 0 12px rgba(255,107,53,.6); }
+.badge-new { background: var(--secondary); color: #000; box-shadow: 0 0 12px rgba(0,212,255,.5); }
+
+/* Quick View */
+.product-quick-view {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  z-index: 3;
+  background: rgba(255,107,53,.9);
+  color: #fff;
+  text-align: center;
+  padding: .7rem;
+  font-family: var(--font-heading);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  transform: translateY(100%);
+  transition: transform var(--transition);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  backdrop-filter: blur(8px);
+}
+.product-card:hover .product-quick-view { transform: translateY(0); }
+
+/* Product Info */
+.product-info { padding: 1.3rem 1.3rem 1.5rem; }
+.product-cat {
+  font-size: .7rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  opacity: .85;
+}
+.product-name {
+  font-family: var(--font-heading);
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: .45rem 0 .6rem;
+  line-height: 1.3;
+}
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  font-size: .8rem;
+  color: #FFD700;
+  margin-bottom: .8rem;
+}
+.product-rating span { color: var(--text-dim); font-size: .72rem; margin-left: .2rem; }
+
+.product-price-row {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.price-current {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--text);
+}
+.price-original {
+  font-size: .85rem;
+  color: var(--text-dim);
+  text-decoration: line-through;
+}
+.price-discount {
+  font-size: .72rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  background: rgba(0,255,136,.12);
+  color: var(--accent2);
+  padding: .15rem .5rem;
+  border-radius: 99px;
+}
+
+.btn-add-cart {
+  width: 100%;
+  padding: .75rem;
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  transition: var(--transition);
+}
+.btn-add-cart:hover {
+  box-shadow: var(--shadow-glow-primary);
+  transform: translateY(-2px);
+}
+.btn-add-cart:active { transform: scale(.97); }
+
+/* ═══════════════════════════════════════════════════
+   SHOWCASE / VIDEO
+═══════════════════════════════════════════════════ */
+.showcase-section {
+  padding: 7rem 0;
+  background: var(--bg2);
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.showcase-card.sc-large {
+  grid-column: span 2;
+}
+
+.showcase-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition);
+}
+.showcase-card:hover {
+  border-color: rgba(0,212,255,.35);
+  box-shadow: 0 20px 60px rgba(0,0,0,.7), var(--shadow-glow-blue);
+}
+
+/* Showcase Visuals */
+.showcase-visual {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sc-large .showcase-visual { height: 400px; }
+
+.sv-bedroom {
+  background: linear-gradient(135deg, #2D0050, #7B2FBE, #FF3CAC, #001AFF, #00D4FF);
+  background-size: 400% 400%;
+  animation: gradShift 6s ease infinite;
+}
+.sv-gaming {
+  background: linear-gradient(135deg, #001A00, #00FF00, #00FF9F, #7B2FBE, #001A00);
+  background-size: 300% 300%;
+  animation: gradShift 3s ease infinite;
+}
+.sv-office {
+  background: linear-gradient(135deg, #001A4A, #00D4FF, #E0F0FF, #001A4A);
+  background-size: 300% 300%;
+  animation: gradShift 7s ease infinite;
+}
+.sv-outdoor {
+  background: linear-gradient(135deg, #001A00, #00AA44, #88FF00, #FFD700, #FF8C00, #001A00);
+  background-size: 400% 400%;
+  animation: gradShift 5s ease infinite;
+}
+
+/* Scan line overlay */
+.sv-scan-line {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: rgba(255,255,255,.5);
+  animation: scanDown 4s linear infinite;
+  z-index: 2;
+  box-shadow: 0 0 15px rgba(255,255,255,.6);
+}
+@keyframes scanDown {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+.sv-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(0deg, rgba(255,255,255,.04) 0, rgba(255,255,255,.04) 1px, transparent 1px, transparent 40px),
+                    repeating-linear-gradient(90deg, rgba(255,255,255,.04) 0, rgba(255,255,255,.04) 1px, transparent 1px, transparent 40px);
+  z-index: 1;
+}
+
+.sv-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 3;
+}
+.sv-room-label {
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  background: rgba(0,0,0,.4);
+  padding: .3rem .8rem;
+  border-radius: 99px;
+  margin-bottom: .5rem;
+  display: inline-block;
+  backdrop-filter: blur(8px);
+}
+.sv-stats-row {
+  display: flex;
+  gap: .6rem;
+}
+.sv-stats-row span {
+  font-size: .72rem;
+  color: rgba(255,255,255,.6);
+  background: rgba(0,0,0,.4);
+  padding: .25rem .7rem;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  backdrop-filter: blur(8px);
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 70px; height: 70px;
+  background: rgba(255,107,53,.85);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #fff;
+  transition: var(--transition);
+  box-shadow: 0 0 30px rgba(255,107,53,.7);
+  backdrop-filter: blur(8px);
+}
+.play-btn:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+  box-shadow: 0 0 50px rgba(255,107,53,1);
+}
+
+.showcase-info { padding: 1.4rem 1.6rem 1.8rem; }
+.showcase-info h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+  color: var(--text);
+}
+.showcase-info p { color: var(--text-muted); font-size: .88rem; line-height: 1.6; margin-bottom: .9rem; }
+.sc-link {
+  color: var(--secondary);
+  font-size: .82rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  transition: gap var(--transition);
+}
+.sc-link:hover { gap: .7rem; }
+
+/* ═══════════════════════════════════════════════════
+   WHY US
+═══════════════════════════════════════════════════ */
+.why-us-section {
+  padding: 7rem 0;
+  background: var(--bg);
+}
+.why-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+.why-us-text h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 900;
+  line-height: 1.15;
+  margin: .8rem 0 1rem;
+  color: var(--text);
+}
+.why-us-text h2 span { color: var(--primary); }
+.why-us-text p { color: var(--text-muted); line-height: 1.8; font-size: .95rem; margin-bottom: 1.5rem; }
+.why-us-list {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+.why-us-list li {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: var(--text-muted);
+  font-size: .9rem;
+}
+.why-us-list li i { color: var(--accent2); font-size: .9rem; flex-shrink: 0; }
+
+.why-us-visual { position: relative; }
+.why-visual-bg {
+  position: absolute;
+  inset: -20px;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: var(--radius-xl);
+}
+.why-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: .4;
+}
+.why-orb-1 { width: 300px; height: 300px; background: var(--primary); top: -50px; left: -50px; animation: orbFloat 8s ease-in-out infinite; }
+.why-orb-2 { width: 250px; height: 250px; background: var(--secondary); bottom: -30px; right: -30px; animation: orbFloat 10s ease-in-out infinite reverse; }
+.why-orb-3 { width: 180px; height: 180px; background: var(--accent); top: 40%; left: 30%; animation: orbFloat 6s ease-in-out infinite .5s; }
+@keyframes orbFloat {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(20px, -20px); }
+  66% { transform: translate(-15px, 10px); }
+}
+
+.why-stats-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.wstat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.wstat-card:hover { transform: scale(1.04); }
+.wstat-card i { font-size: 1.8rem; margin-bottom: .7rem; display: block; }
+.wstat-num {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: .2rem;
+}
+.wstat-card small { color: var(--text-muted); font-size: .78rem; }
+.wstat-blue { border-top: 3px solid var(--secondary); }
+.wstat-blue i, .wstat-blue .wstat-num { color: var(--secondary); }
+.wstat-purple { border-top: 3px solid #BF7FFF; }
+.wstat-purple i, .wstat-purple .wstat-num { color: #BF7FFF; }
+.wstat-green { border-top: 3px solid var(--accent2); }
+.wstat-green i, .wstat-green .wstat-num { color: var(--accent2); }
+.wstat-orange { border-top: 3px solid var(--primary); }
+.wstat-orange i, .wstat-orange .wstat-num { color: var(--primary); }
+
+/* ═══════════════════════════════════════════════════
+   TESTIMONIALS
+═══════════════════════════════════════════════════ */
+.testimonials-section {
+  padding: 7rem 0;
+  background: var(--bg2);
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.testi-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: var(--transition);
+  position: relative;
+}
+.testi-card:hover { transform: translateY(-6px); border-color: rgba(255,215,0,.2); box-shadow: var(--shadow-card); }
+.featured-testi {
+  border-color: rgba(255,107,53,.4);
+  box-shadow: 0 0 30px rgba(255,107,53,.12);
+}
+
+.testi-stars {
+  color: #FFD700;
+  font-size: .9rem;
+  display: flex;
+  gap: .2rem;
+  margin-bottom: 1rem;
+}
+.testi-card > p {
+  color: var(--text-muted);
+  font-size: .9rem;
+  line-height: 1.75;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+.testi-author {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+}
+.testi-avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: .85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.tav-1 { background: linear-gradient(135deg, var(--primary), #FF3CAC); color: #fff; }
+.tav-2 { background: linear-gradient(135deg, var(--secondary), var(--accent)); color: #fff; }
+.tav-3 { background: linear-gradient(135deg, var(--accent2), var(--secondary)); color: #000; }
+.tav-4 { background: linear-gradient(135deg, #FFD700, var(--primary)); color: #fff; }
+
+.testi-author strong { display: block; font-size: .88rem; color: var(--text); }
+.testi-author span { font-size: .75rem; color: var(--text-muted); }
+.testi-verified {
+  position: absolute;
+  top: 1.2rem; right: 1.2rem;
+  font-size: .7rem;
+  color: var(--accent2);
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   PAYMENT
+═══════════════════════════════════════════════════ */
+.payment-section {
+  padding: 7rem 0;
+  background: var(--bg);
+}
+.payment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.payment-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: var(--transition);
+}
+.payment-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-card); }
+.payment-upi { border-top: 3px solid var(--primary); }
+.payment-bank { border-top: 3px solid var(--secondary); }
+.payment-card-method { border-top: 3px solid var(--accent2); }
+
+.payment-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.payment-logo-wrap {
+  width: 52px; height: 52px;
+  background: rgba(255,107,53,.12);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.pl-blue { background: rgba(0,212,255,.1); color: var(--secondary); }
+.pl-green { background: rgba(0,255,136,.1); color: var(--accent2); }
+.payment-header h3 {
+  font-family: var(--font-heading);
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: .2rem;
+}
+.payment-header p { font-size: .78rem; color: var(--text-muted); }
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 1.2rem;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+.qr-container canvas, .qr-container img { border-radius: 6px; }
+
+.payment-id {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  background: var(--bg3);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: .7rem 1rem;
+  font-size: .82rem;
+  margin-bottom: .8rem;
+  flex-wrap: wrap;
+}
+.payment-id span { color: var(--text-muted); }
+.payment-id strong { font-family: var(--font-heading); font-size: .78rem; color: var(--primary); }
+.copy-btn {
+  margin-left: auto;
+  color: var(--text-dim);
+  transition: color var(--transition);
+  font-size: .85rem;
+}
+.copy-btn:hover { color: var(--primary); }
+
+.payment-trust {
+  font-size: .72rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+.payment-trust i { color: var(--accent2); }
+
+/* Bank Details */
+.bank-details { margin-bottom: 1rem; }
+.bank-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .6rem 0;
+  border-bottom: 1px solid var(--card-border);
+  font-size: .84rem;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+.bank-row span { color: var(--text-muted); }
+.bank-row strong { font-family: var(--font-heading); font-size: .78rem; color: var(--text); }
+
+/* Card Icons */
+.card-icons-row {
+  display: flex;
+  gap: .7rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.card-icon {
+  flex: 1;
+  min-width: 60px;
+  height: 40px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: .72rem;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--bg3);
+}
+.ci-visa { color: #1A1F71; background: #fff; }
+.ci-mc { color: #EB001B; background: #fff; }
+.ci-amex { color: #007EC1; background: #fff; }
+.ci-rupay { color: #009A44; background: #fff; }
+
+.emi-info {
+  display: flex;
+  gap: .6rem;
+  align-items: flex-start;
+  background: rgba(0,255,136,.06);
+  border: 1px solid rgba(0,255,136,.15);
+  border-radius: var(--radius-sm);
+  padding: .8rem 1rem;
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.2rem;
+}
+.emi-info i { color: var(--accent2); margin-top: .1rem; flex-shrink: 0; }
+
+/* ═══════════════════════════════════════════════════
+   NEWSLETTER
+═══════════════════════════════════════════════════ */
+.newsletter-section {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, rgba(255,107,53,.08), rgba(0,212,255,.06), rgba(123,47,190,.08));
+  border-top: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+}
+.newsletter-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.newsletter-text h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: .4rem;
+}
+.newsletter-text h2 span { color: var(--primary); }
+.newsletter-text p { color: var(--text-muted); font-size: .9rem; }
+
+.newsletter-form {
+  display: flex;
+  gap: .7rem;
+  flex-wrap: wrap;
+  flex: 1;
+  max-width: 480px;
+}
+.newsletter-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: .85rem 1.2rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  color: var(--text);
+  font-size: .9rem;
+  outline: none;
+  transition: border-color var(--transition);
+}
+.newsletter-form input:focus { border-color: var(--primary); }
+.newsletter-form input::placeholder { color: var(--text-dim); }
+
+/* ═══════════════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════════════ */
+.footer {
+  background: var(--bg2);
+  padding: 5rem 0 2rem;
+  border-top: 1px solid var(--card-border);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.8fr repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.footer-logo { margin-bottom: 1rem; }
+.footer-brand p {
+  color: var(--text-muted);
+  font-size: .85rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
+}
+.social-links {
+  display: flex;
+  gap: .7rem;
+}
+.social-links a {
+  width: 38px; height: 38px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: .95rem;
+  transition: var(--transition);
+}
+.social-links a:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(255,107,53,.5);
+}
+
+.footer-col h4 {
+  font-family: var(--font-heading);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+}
+.footer-col ul { display: flex; flex-direction: column; gap: .6rem; }
+.footer-col ul li a {
+  color: var(--text-muted);
+  font-size: .85rem;
+  transition: color var(--transition);
+}
+.footer-col ul li a:hover { color: var(--primary); }
+
+.footer-contact li {
+  display: flex;
+  align-items: flex-start;
+  gap: .6rem;
+  color: var(--text-muted);
+  font-size: .83rem;
+  line-height: 1.5;
+}
+.footer-contact li i { color: var(--primary); margin-top: .15rem; flex-shrink: 0; }
+
+.footer-bottom {
+  border-top: 1px solid var(--card-border);
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer-bottom p { color: var(--text-dim); font-size: .8rem; }
+.footer-bottom-links { display: flex; gap: 1.5rem; }
+.footer-bottom-links a { color: var(--text-dim); font-size: .78rem; transition: color var(--transition); }
+.footer-bottom-links a:hover { color: var(--primary); }
+
+/* ═══════════════════════════════════════════════════
+   CART SIDEBAR
+═══════════════════════════════════════════════════ */
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 1100;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  backdrop-filter: blur(4px);
+}
+.cart-overlay.open { opacity: 1; visibility: visible; }
+
+.cart-sidebar {
+  position: fixed;
+  top: 0; right: 0;
+  width: min(420px, 100vw);
+  height: 100%;
+  background: var(--bg2);
+  border-left: 1px solid var(--card-border);
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform .4s cubic-bezier(.4,0,.2,1);
+  box-shadow: -20px 0 60px rgba(0,0,0,.6);
+}
+.cart-sidebar.open { transform: translateX(0); }
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--card-border);
+}
+.cart-header h3 {
+  font-family: var(--font-heading);
+  font-size: .95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.cart-header h3 i { color: var(--primary); }
+.cart-header button {
+  width: 36px; height: 36px;
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--card-border);
+  color: var(--text-muted);
+  font-size: .9rem;
+  transition: var(--transition);
+}
+.cart-header button:hover { background: rgba(255,0,0,.15); color: #ff4444; border-color: rgba(255,0,0,.3); }
+
+.cart-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.cart-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 2rem;
+}
+.cart-empty i { font-size: 3rem; color: var(--text-dim); }
+.cart-empty p { font-size: .9rem; color: var(--text-muted); }
+
+.cart-item {
+  display: flex;
+  gap: .9rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: .9rem;
+  align-items: center;
+  animation: slideIn .3s ease;
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.cart-item-icon {
+  width: 48px; height: 48px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.cart-item-info { flex: 1; min-width: 0; }
+.cart-item-name {
+  font-size: .83rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: .3rem;
+}
+.cart-item-price {
+  font-family: var(--font-heading);
+  font-size: .88rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.cart-item-qty {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex-shrink: 0;
+}
+.qty-btn {
+  width: 26px; height: 26px;
+  background: var(--bg3);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  color: var(--text);
+  font-size: .85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.qty-btn:hover { background: var(--primary); border-color: var(--primary); }
+.qty-val {
+  font-family: var(--font-heading);
+  font-size: .82rem;
+  font-weight: 700;
+  min-width: 20px;
+  text-align: center;
+}
+.cart-item-remove {
+  color: var(--text-dim);
+  font-size: .8rem;
+  transition: color var(--transition);
+  margin-left: .3rem;
+}
+.cart-item-remove:hover { color: #ff4444; }
+
+.cart-footer {
+  border-top: 1px solid var(--card-border);
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .85rem;
+  color: var(--text-muted);
+}
+.cart-gst { font-size: .8rem; }
+.cart-grand {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+  border-top: 1px solid var(--card-border);
+  padding-top: .6rem;
+  margin-top: .2rem;
+  margin-bottom: .4rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   MODALS
+═══════════════════════════════════════════════════ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.75);
+  z-index: 1300;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+  backdrop-filter: blur(8px);
+}
+.modal-overlay.open { opacity: 1; visibility: visible; }
+
+.modal {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(.9);
+  z-index: 1400;
+  width: min(750px, 95vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--bg2);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 40px 100px rgba(0,0,0,.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform .4s cubic-bezier(.34,1.56,.64,1), opacity .3s ease, visibility .3s ease;
+}
+.modal.open {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.modal-close {
+  position: absolute;
+  top: 1.2rem; right: 1.2rem;
+  width: 36px; height: 36px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  z-index: 10;
+}
+.modal-close:hover { background: rgba(255,0,0,.2); color: #ff4444; }
+
+/* Checkout Modal */
+.checkout-header {
+  padding: 2rem 2rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+  text-align: center;
+}
+.checkout-header h2 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  margin-bottom: .4rem;
+  color: var(--text);
+}
+.checkout-header h2 i { color: var(--primary); }
+.checkout-header p { color: var(--text-muted); font-size: .85rem; }
+
+.checkout-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: start;
+}
+.checkout-qr-wrap {
+  position: relative;
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  display: inline-flex;
+}
+.qr-amount-badge {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: .78rem;
+  font-weight: 700;
+  padding: .25rem .9rem;
+  border-radius: 99px;
+  white-space: nowrap;
+  box-shadow: 0 0 15px rgba(255,107,53,.6);
+}
+
+.checkout-order-id {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+.checkout-order-id strong { color: var(--text); font-family: var(--font-heading); font-size: .8rem; }
+
+.checkout-items-summary {
+  max-height: 140px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.checkout-item-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: .8rem;
+  color: var(--text-muted);
+  padding: .3rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+}
+.checkout-item-row strong { color: var(--primary); font-family: var(--font-heading); font-size: .78rem; }
+
+.checkout-total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: .95rem;
+  font-weight: 800;
+  color: var(--text);
+  padding: .8rem 0;
+  border-top: 1px solid var(--card-border);
+  margin-bottom: 1.2rem;
+}
+.checkout-total-row strong { color: var(--primary); }
+
+.checkout-steps {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1.2rem;
+}
+.step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+  font-size: .7rem;
+  color: var(--text-dim);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.step span {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 2px solid var(--card-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .78rem;
+  font-weight: 700;
+}
+.step.active span { background: var(--primary); border-color: var(--primary); color: #fff; box-shadow: 0 0 12px rgba(255,107,53,.5); }
+.step.active { color: var(--primary); }
+
+.payment-apps-row {
+  display: flex;
+  gap: .6rem;
+  margin-bottom: 1rem;
+}
+.pa-app {
+  flex: 1;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: .65rem;
+  font-weight: 700;
+  border: 1px solid var(--card-border);
+}
+.pa-gpay { background: #fff; color: #4285F4; }
+.pa-phonepe { background: #5F259F; color: #fff; }
+.pa-paytm { background: #00B9F1; color: #fff; }
+.pa-bhim { background: #00693E; color: #fff; }
+
+.checkout-trust {
+  font-size: .72rem;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+.checkout-trust i { color: var(--accent2); }
+
+/* Showcase Modal */
+.showcase-modal { width: min(700px, 95vw); }
+.showcase-anim-wrap {
+  position: relative;
+  height: 340px;
+  overflow: hidden;
+  background: #000;
+}
+.showcase-anim-wrap canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.showcase-anim-label {
+  position: absolute;
+  top: 1rem; left: 1rem;
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  background: rgba(0,0,0,.5);
+  padding: .3rem .8rem;
+  border-radius: 99px;
+  backdrop-filter: blur(8px);
+}
+.showcase-modal-info { padding: 1.5rem 2rem 2rem; }
+.showcase-modal-info h3 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: .5rem;
+}
+.showcase-modal-info p { color: var(--text-muted); font-size: .88rem; line-height: 1.7; }
+
+/* ═══════════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════════ */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(80px);
+  background: linear-gradient(135deg, var(--primary), #FF3CAC);
+  color: #fff;
+  padding: .8rem 1.8rem;
+  border-radius: var(--radius-lg);
+  font-family: var(--font-heading);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(255,107,53,.5);
+  transition: transform .4s cubic-bezier(.34,1.56,.64,1), opacity .3s ease;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════
+   BACK TO TOP
+═══════════════════════════════════════════════════ */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem; right: 2rem;
+  width: 48px; height: 48px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  z-index: 500;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: var(--transition);
+  box-shadow: 0 0 20px rgba(255,107,53,.5);
+}
+.back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+.back-to-top:hover { transform: translateY(-4px); box-shadow: 0 0 30px rgba(255,107,53,.8); }
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE — TABLET (max 1024px)
+═══════════════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .nav-links {
+    position: fixed;
+    top: 70px; left: 0; right: 0;
+    background: rgba(10,10,18,.98);
+    border-bottom: 1px solid var(--card-border);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 1rem 0;
+    transform: translateY(-120%);
+    transition: transform .4s cubic-bezier(.4,0,.2,1);
+    z-index: 999;
+    backdrop-filter: blur(20px);
+  }
+  .nav-links.open { transform: translateY(0); }
+  .nav-link { padding: .9rem 1.5rem; width: 100%; display: block; border-bottom: 1px solid rgba(255,255,255,.04); }
+  .nav-link::after { display: none; }
+  .hamburger { display: flex; }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .why-us-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .showcase-grid { grid-template-columns: 1fr; }
+  .sc-large { grid-column: auto; }
+}
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE — MOBILE (max 768px)
+═══════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+
+  .features-section, .products-section, .showcase-section,
+  .why-us-section, .testimonials-section, .payment-section { padding: 4.5rem 0; }
+
+  .products-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+  .product-visual { height: 180px; }
+
+  .hero-stats { gap: .8rem; }
+  .hstat-div { display: none; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+
+  .checkout-body { grid-template-columns: 1fr; }
+  .checkout-qr-wrap { margin: 0 auto; }
+
+  .newsletter-inner { flex-direction: column; }
+  .newsletter-form { width: 100%; max-width: 100%; }
+
+  .payment-grid { grid-template-columns: 1fr; }
+
+  .why-stats-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE — SMALL MOBILE (max 480px)
+═══════════════════════════════════════════════════ */
+@media (max-width: 480px) {
+  .hero-ctas { flex-direction: column; align-items: center; }
+  .hero-ctas .btn { width: 100%; max-width: 300px; justify-content: center; }
+
+  .products-grid { grid-template-columns: 1fr; }
+  .product-visual { height: 200px; }
+
+  .filter-tabs { gap: .4rem; }
+  .filter-tab { padding: .45rem .9rem; font-size: .67rem; }
+
+  .testimonials-grid { grid-template-columns: 1fr; }
+
+  .checkout-steps { gap: .3rem; }
+  .step { font-size: .62rem; }
+
+  .back-to-top { bottom: 1rem; right: 1rem; width: 42px; height: 42px; }
+
+  .modal { border-radius: var(--radius-lg); }
+
+  .showcase-anim-wrap { height: 240px; }
+  .showcase-visual { height: 220px; }
+  .sc-large .showcase-visual { height: 260px; }
+}
+
+/* ─── iOS Safe Area Support ─── */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .cart-footer, .footer { padding-bottom: max(2rem, env(safe-area-inset-bottom)); }
+}
+
+/* ─── High DPI / Retina ─── */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .logo-pixel { image-rendering: -webkit-optimize-contrast; }
+}
+
+/* ─── Print ─── */
+@media print {
+  .navbar, .cart-sidebar, .modal, .toast, .back-to-top, .hero-canvas { display: none !important; }
+  body { background: #fff; color: #000; }
+}
+
+/* ─── Reduced Motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
   </style>
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav id="navbar">
-  <div class="container">
-    <div class="nav-inner">
-      <a href="#home" class="nav-logo">
-        <div class="logo-monogram">NK</div>
-        <div class="logo-text">
-          <span class="logo-name">Nitin Kumar Sharma</span>
-          <span class="logo-sub">AI/ML &amp; Agentic AI Expert</span>
-        </div>
+  <!-- ═══════════════════════════ LOADING SCREEN ═══════════════════════════ -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader-pixel-grid" id="loaderGrid"></div>
+    <div class="loader-brand">
+      <span class="loader-logo">PIXEL<span>LED</span></span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-text">Initialising pixels...</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ NAVIGATION ═══════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-pixel"></span>
+        PIXEL<span>LED</span>
       </a>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#expertise">Expertise</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#speaking">Speaking</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#showcase" class="nav-link">Showcase</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#payment" class="nav-link">Payment</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <div class="nav-cta">
-        <a href="#speaking" class="btn btn-navy">Book Now</a>
-        <button class="hamburger" id="hamburger" aria-label="Open menu">
+
+      <div class="nav-actions">
+        <button class="nav-search-btn" id="searchToggle" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="cart-btn" id="cartToggle" aria-label="Shopping cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
       </div>
     </div>
-  </div>
-</nav>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobileMenu">
-  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&#10005;</button>
-  <a href="#home" class="mobile-nav-link">Home</a>
-  <a href="#about" class="mobile-nav-link">About</a>
-  <a href="#expertise" class="mobile-nav-link">Expertise</a>
-  <a href="#achievements" class="mobile-nav-link">Achievements</a>
-  <a href="#speaking" class="mobile-nav-link">Speaking</a>
-  <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
-  <a href="#contact" class="mobile-nav-link">Contact</a>
-  <a href="#speaking" class="btn btn-navy mobile-nav-link">Book Now</a>
-</div>
+    <!-- Search Bar -->
+    <div class="nav-search-bar" id="searchBar">
+      <div class="search-inner">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search LED products…" autocomplete="off" />
+        <button id="searchClose"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+  </nav>
 
-<!-- ===== HERO ===== -->
-<section id="home">
-  <div class="hero-grid-bg"></div>
-  <div class="hero-orb hero-orb-1"></div>
-  <div class="hero-orb hero-orb-2"></div>
-  <div class="hero-orb hero-orb-3"></div>
-  <div class="hero-particles" id="heroParticles"></div>
-  <div class="container">
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="home">
+    <canvas id="heroCanvas" class="hero-canvas"></canvas>
+    <div class="hero-overlay"></div>
+
     <div class="hero-content">
-      <!-- Left -->
-      <div class="hero-left">
-        <div class="hero-badge">
-          &#127757;&nbsp; AI/ML &amp; Agentic AI Expert &nbsp;|&nbsp; Global Speaker
-        </div>
-        <h1 class="hero-h1">
-          <span class="name-highlight">Nitin Kumar Sharma</span>
-        </h1>
-        <div class="hero-typewriter-wrap">
-          <span class="typewriter-prefix">I am a</span>
-          <span class="typewriter-text" id="typewriterText"></span>
-        </div>
-        <p class="hero-subtitle">
-          Pioneering AI/ML, Generative AI &amp; Agentic AI solutions across industries.
-          300+ global seminars, trainings and keynotes delivered to leaders worldwide.
-        </p>
-        <div class="hero-btns">
-          <a href="#speaking" class="btn btn-primary">
-            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-            Book for Speaking
-          </a>
-          <a href="Nitin_Kumar_Sharma_Profile.pdf" download="Nitin_Kumar_Sharma_Profile.pdf" class="btn btn-outline">
-            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            Download Profile
-          </a>
-          <a href="https://www.linkedin.com/in/nitin-ai-ml-manager/" target="_blank" rel="noopener" class="btn btn-outline">
-            <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            LinkedIn
-          </a>
-        </div>
-        <div class="hero-social-proof">
-          <div class="proof-item">
-            <span class="proof-number">300+</span>
-            <span class="proof-label">Speaking<br>Events</span>
-          </div>
-          <div class="proof-divider"></div>
-          <div class="proof-item">
-            <span class="proof-number">10+</span>
-            <span class="proof-label">Countries<br>Reached</span>
-          </div>
-          <div class="proof-divider"></div>
-          <div class="proof-item">
-            <span class="proof-number">15+</span>
-            <span class="proof-label">Years in<br>AI/ML</span>
-          </div>
-          <div class="proof-divider"></div>
-          <div class="proof-item">
-            <span class="proof-number">2 Lac+</span>
-            <span class="proof-label">Professionals<br>Trained</span>
-          </div>
-        </div>
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        NEW 2026 COLLECTION — NOW LIVE
       </div>
-      <!-- Right -->
-      <div class="hero-right">
-        <div class="hero-avatar-wrap">
-          <div class="hero-avatar-ring"></div>
-          <div class="hero-avatar-ring-2"></div>
-          <div class="hero-avatar">
-            <img src="Nitin.png" alt="Nitin Kumar Sharma" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" onerror="this.closest('.hero-avatar-wrap').style.display='none'">
-          </div>
-          <!-- Floating tech badges — 8 total -->
-          <div class="tech-badge badge-genai">   <div class="tech-badge-dot blue"></div>Gen AI</div>
-          <div class="tech-badge badge-strategy"><div class="tech-badge-dot purple"></div>AI Strategy</div>
-          <div class="tech-badge badge-llm">     <div class="tech-badge-dot blue"></div>LLMs</div>
-          <div class="tech-badge badge-rag">     <div class="tech-badge-dot green"></div>RAG</div>
-          <div class="tech-badge badge-agentic"> <div class="tech-badge-dot orange"></div>Agentic AI</div>
-          <div class="tech-badge badge-finetune"><div class="tech-badge-dot pink"></div>Fine-Tuning</div>
-          <div class="tech-badge badge-mlops">   <div class="tech-badge-dot teal"></div>MLOps</div>
-          <div class="tech-badge badge-nlp">     <div class="tech-badge-dot gold"></div>NLP</div>
-        </div>
+      <h1 class="hero-title">
+        Illuminate<br />
+        <span class="hero-title-accent">Your World</span><br />
+        with <span class="hero-title-glow">Zuvantra</span>
+      </h1>
+      <p class="hero-subtitle">
+        Premium RGB strips, pixel art displays, smart lighting systems &amp; more.<br />
+        Transform any space into a living canvas of light.
+      </p>
+      <div class="hero-ctas">
+        <a href="#products" class="btn btn-primary">
+          <i class="fas fa-bolt"></i> Shop Now
+        </a>
+        <a href="#showcase" class="btn btn-secondary">
+          <i class="fas fa-play-circle"></i> Watch Demo
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span>50K+</span><small>Happy Customers</small></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span>200+</span><small>Products</small></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span>99%</span><small>Satisfaction</small></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span>24/7</span><small>Support</small></div>
       </div>
     </div>
-  </div>
-  <!-- Scroll down indicator -->
-  <div class="hero-scroll">
-    <span>Scroll</span>
-    <div class="hero-scroll-arrow"></div>
-  </div>
-  <!-- Achievements ticker -->
-  <div class="hero-ticker">
-    <div class="hero-ticker-track">
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Fortune 500 AI Partner</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>300+ Keynotes Delivered</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>10+ Countries Reached</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>2,00,000+ Professionals Trained</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Generative AI Expert</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Enterprise AI Transformation</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>LLM Fine-Tuning Specialist</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Agentic AI Pioneer</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>RAG Architecture Expert</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Global AI Speaker</div>
-      <!-- Duplicate for seamless loop -->
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Fortune 500 AI Partner</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>300+ Keynotes Delivered</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>10+ Countries Reached</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>2,00,000+ Professionals Trained</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Generative AI Expert</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Enterprise AI Transformation</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>LLM Fine-Tuning Specialist</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Agentic AI Pioneer</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>RAG Architecture Expert</div>
-      <div class="hero-ticker-item"><div class="hero-ticker-dot"></div>Global AI Speaker</div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== ABOUT ===== -->
-<section id="about" class="section">
-  <div class="container">
-    <div class="about-grid">
-      <!-- Left: Image -->
-      <div class="about-img-wrap reveal-left">
-        <div class="about-img">
-          <img src="Nitin.png" alt="Nitin Kumar Sharma" style="width:100%;height:100%;object-fit:cover;border-radius:20px;" onerror="this.closest('.about-img-wrap').style.display='none'">
-        </div>
-        <div class="about-img-accent"></div>
-        <div class="about-img-accent2"></div>
-      </div>
-      <!-- Right: Bio -->
-      <div class="reveal-right">
-        <span class="section-label">About Nitin</span>
-        <h2 class="section-title">Shaping the Future of AI-Driven Business</h2>
-        <p class="about-bio">
-          Nitin Kumar Sharma is a globally recognized AI/ML expert, enterprise strategist, and keynote speaker with over 15 years of experience at the intersection of artificial intelligence, machine learning, and business transformation. He has partnered with Fortune 500 companies, government bodies, and leading academic institutions to design and deploy cutting-edge AI solutions.
-        </p>
-        <p class="about-bio">
-          As a pioneer in Generative AI and Agentic AI systems, Nitin has delivered 300+ keynotes, workshops, and training sessions across 10+ countries — inspiring 2,00,000+ professionals to harness the full power of intelligent technologies. His expertise spans LLM fine-tuning, RAG architectures, multi-agent systems, and enterprise AI roadmaps.
-        </p>
-        <p class="about-bio">
-          Whether architecting large-scale MLOps pipelines, leading executive AI strategy sessions, or building next-generation AI products, Nitin brings unmatched depth, clarity, and passion to every engagement.
-        </p>
-        <div class="about-stats">
-          <div class="about-stat reveal-scale delay-1">
-            <div class="about-stat-num">15+</div>
-            <div class="about-stat-label">Years Experience</div>
-          </div>
-          <div class="about-stat reveal-scale delay-2">
-            <div class="about-stat-num">300+</div>
-            <div class="about-stat-label">Speaking Events</div>
-          </div>
-          <div class="about-stat reveal-scale delay-3">
-            <div class="about-stat-num">2,00,000K+</div>
-            <div class="about-stat-label">Professionals Impacted</div>
-          </div>
-          <div class="about-stat reveal-scale delay-4">
-            <div class="about-stat-num">10+</div>
-            <div class="about-stat-label">Countries</div>
-          </div>
-        </div>
-        <div class="skills-grid">
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">TensorFlow</span>
-          <span class="skill-tag">PyTorch</span>
-          <span class="skill-tag">LangChain</span>
-          <span class="skill-tag">OpenAI</span>
-          <span class="skill-tag">Azure AI</span>
-          <span class="skill-tag">AWS ML</span>
-          <span class="skill-tag">Generative AI</span>
-          <span class="skill-tag">LLM Fine-tuning</span>
-          <span class="skill-tag">MLOps</span>
-          <span class="skill-tag">Agentic AI</span>
-          <span class="skill-tag">Data Science</span>
-        </div>
-        <div class="about-linkedin">
-          <a href="https://www.linkedin.com/in/nitin-ai-ml-manager/" target="_blank" rel="noopener" class="btn btn-outline-dark">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            Connect on LinkedIn
-          </a>
-        </div>
-      </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ TICKER ═══════════════════════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>🌈 FREE SHIPPING ON ORDERS OVER ₹999</span>
+      <span>⚡ RGB SMART STRIPS — NOW 30% OFF</span>
+      <span>🔥 NEW: 64×64 PIXEL PANEL LAUNCHED</span>
+      <span>✨ USE CODE PIXEL20 FOR 20% OFF</span>
+      <span>🎮 GAMING RGB SYNC KIT — BESTSELLER</span>
+      <span>🌟 5-STAR RATED BY 50,000+ CUSTOMERS</span>
+      <span>🌈 FREE SHIPPING ON ORDERS OVER ₹999</span>
+      <span>⚡ RGB SMART STRIPS — NOW 30% OFF</span>
+      <span>🔥 NEW: 64×64 PIXEL PANEL LAUNCHED</span>
+      <span>✨ USE CODE PIXEL20 FOR 20% OFF</span>
     </div>
   </div>
-</section>
 
-<!-- ===== EXPERTISE ===== -->
-<section id="expertise" class="section">
-  <div class="container">
-    <div class="expertise-header reveal">
-      <span class="section-label">What I Do</span>
-      <h2 class="section-title">Areas of Expertise</h2>
-      <p class="section-subtitle">From strategy to execution — delivering AI solutions that create measurable business impact across industries.</p>
-    </div>
-    <div class="expertise-grid">
-      <div class="expertise-card reveal delay-1">
-        <div class="expertise-icon">&#129302;</div>
-        <div class="expertise-title">Artificial Intelligence &amp; ML</div>
-        <p class="expertise-desc">End-to-end machine learning solutions — from supervised and unsupervised learning to reinforcement learning, model deployment, and production-grade AI systems.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">Deep Learning</span>
-          <span class="expertise-tag">NLP</span>
-          <span class="expertise-tag">Computer Vision</span>
-        </div>
+  <!-- ═══════════════════════════ FEATURES ═══════════════════════════ -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why PixelLED?</span>
+        <h2 class="section-title">Built for <span>Brilliance</span></h2>
+        <p class="section-sub">Every pixel engineered for maximum luminosity and longevity.</p>
       </div>
-      <div class="expertise-card reveal delay-2">
-        <div class="expertise-icon">&#10024;</div>
-        <div class="expertise-title">Generative AI Solutions</div>
-        <p class="expertise-desc">Designing and deploying production-ready GenAI systems including LLM applications, Retrieval-Augmented Generation (RAG), prompt engineering, and custom fine-tuning pipelines.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">LLMs</span>
-          <span class="expertise-tag">RAG</span>
-          <span class="expertise-tag">Fine-tuning</span>
+      <div class="features-grid">
+        <div class="feature-card" data-aos>
+          <div class="feature-icon-wrap fglow-blue">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3>Smart Technology</h3>
+          <p>App-controlled via Bluetooth &amp; Wi-Fi. Sync with music, voice assistants &amp; schedules.</p>
         </div>
-      </div>
-      <div class="expertise-card reveal delay-3">
-        <div class="expertise-icon">&#129504;</div>
-        <div class="expertise-title">Agentic AI Systems</div>
-        <p class="expertise-desc">Building autonomous AI agents and multi-agent frameworks that plan, reason, use tools, and execute complex workflows with minimal human intervention.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">Autonomous Agents</span>
-          <span class="expertise-tag">Multi-Agent</span>
-          <span class="expertise-tag">ReAct</span>
+        <div class="feature-card" data-aos>
+          <div class="feature-icon-wrap fglow-green">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3>16 Million Colors</h3>
+          <p>Full RGB spectrum with precise PWM dimming. Achieve any shade your imagination demands.</p>
         </div>
-      </div>
-      <div class="expertise-card reveal delay-1">
-        <div class="expertise-icon">&#128202;</div>
-        <div class="expertise-title">Data Science &amp; Analytics</div>
-        <p class="expertise-desc">Turning raw data into strategic insights through advanced analytics, predictive modeling, interactive dashboards, and data storytelling for executive decision-making.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">Predictive Models</span>
-          <span class="expertise-tag">Dashboards</span>
-          <span class="expertise-tag">BI</span>
+        <div class="feature-card" data-aos>
+          <div class="feature-icon-wrap fglow-orange">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>IP67 Waterproof</h3>
+          <p>Dust and water-resistant builds for indoor and outdoor installations. Built to last 50,000+ hrs.</p>
         </div>
-      </div>
-      <div class="expertise-card reveal delay-2">
-        <div class="expertise-icon">&#128187;</div>
-        <div class="expertise-title">Vibe Coding &amp; AI Dev</div>
-        <p class="expertise-desc">Accelerating software development through AI-assisted coding, prompt-driven development workflows, and integrating AI copilots into engineering pipelines.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">GitHub Copilot</span>
-          <span class="expertise-tag">AI Dev Tools</span>
-          <span class="expertise-tag">Cursor</span>
-        </div>
-      </div>
-      <div class="expertise-card reveal delay-3">
-        <div class="expertise-icon">&#127775;</div>
-        <div class="expertise-title">Enterprise AI Strategy</div>
-        <p class="expertise-desc">Crafting comprehensive AI transformation roadmaps for enterprises — from AI readiness assessments, governance frameworks, to full-scale deployment strategies and change management.</p>
-        <div class="expertise-tags">
-          <span class="expertise-tag">Roadmap</span>
-          <span class="expertise-tag">AI Governance</span>
-          <span class="expertise-tag">Transformation</span>
+        <div class="feature-card" data-aos>
+          <div class="feature-icon-wrap fglow-purple">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>24/7 Expert Support</h3>
+          <p>Dedicated support team, installation guides, and a vibrant community forum.</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== ACHIEVEMENTS ===== -->
-<section id="achievements" class="section">
-  <div class="container achievements-inner">
-    <div class="achievements-header reveal">
-      <span class="section-label">By The Numbers</span>
-      <h2 class="section-title">Impact That Speaks Volumes</h2>
-    </div>
-    <div class="counters-grid">
-      <div class="counter-card reveal delay-1">
-        <div class="counter-number"><span class="counter" data-target="300">0</span><span class="counter-suffix">+</span></div>
-        <div class="counter-label">Global Events</div>
+  <!-- ═══════════════════════════ PRODUCTS ═══════════════════════════ -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Collection</span>
+        <h2 class="section-title">Premium <span>LED Products</span></h2>
+        <p class="section-sub">From strips to pixel art displays — curated for every space and setup.</p>
       </div>
-      <div class="counter-card reveal delay-2">
-        <div class="counter-number"><span class="counter" data-target="10">0</span><span class="counter-suffix">+</span></div>
-        <div class="counter-label">Countries</div>
-      </div>
-      <div class="counter-card reveal delay-3">
-        <div class="counter-number"><span class="counter" data-target="15">0</span><span class="counter-suffix">+</span></div>
-        <div class="counter-label">Years Experience</div>
-      </div>
-      <div class="counter-card reveal delay-4">
-        <div class="counter-number"><span class="counter" data-target="200000">0</span><span class="counter-suffix">+</span></div>
-        <div class="counter-label">Professionals Trained</div>
-      </div>
-    </div>
-    <div class="achievement-cards">
-      <div class="achievement-card reveal delay-1">
-        <div class="achievement-icon">&#127908;</div>
-        <div>
-          <div class="achievement-title">Keynote Speaker</div>
-          <p class="achievement-desc">Recognized keynote speaker at international AI conferences, corporate summits, and academic forums — delivering compelling narratives on the future of AI.</p>
-        </div>
-      </div>
-      <div class="achievement-card reveal delay-2">
-        <div class="achievement-icon">&#127891;</div>
-        <div>
-          <div class="achievement-title">Corporate Trainer</div>
-          <p class="achievement-desc">Designed and delivered bespoke AI/ML training programs for enterprise teams, upskilling thousands of professionals across banking, tech, and healthcare sectors.</p>
-        </div>
-      </div>
-      <div class="achievement-card reveal delay-3">
-        <div class="achievement-icon">&#129309;</div>
-        <div>
-          <div class="achievement-title">AI Consultant</div>
-          <p class="achievement-desc">Strategic advisor to C-suite leaders and innovation teams — shaping AI product roadmaps, governance policies, and digital transformation strategies globally.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Partner logos strip -->
-    <div class="logos-strip reveal">
-      <div class="logos-strip-label">Trusted by &amp; Featured At</div>
-      <div class="logos-row">
-        <!-- UPDATE: Replace these placeholders with actual company/conference logos -->
-        <div class="logo-placeholder">Microsoft</div>
-        <div class="logo-placeholder">Google</div>
-        <div class="logo-placeholder">AWS</div>
-        <div class="logo-placeholder">IBM</div>
-        <div class="logo-placeholder">Cognizant</div>
-        <div class="logo-placeholder">TCS</div>
-        <div class="logo-placeholder">Infosys</div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== AI CHAT SECTION ===== -->
-<section id="ai-chat" class="section">
-  <div class="container">
-    <div class="chat-grid">
-      <!-- Left: Info -->
-      <div class="reveal-left">
-        <span class="section-label">Interactive AI</span>
-        <h2 class="section-title">Ask About AI &amp; ML</h2>
-        <p class="section-subtitle" style="margin-bottom:32px;">
-          Get instant insights on Artificial Intelligence, Machine Learning, and emerging tech trends through an AI-powered interface.
-        </p>
-        <div class="chat-feature">
-          <div class="chat-feature-icon">&#129302;</div>
-          <div class="chat-feature-text">
-            <h4>Generative AI Expertise</h4>
-            <p>Deep knowledge of GPT, Claude, Gemini, open-source LLMs, and enterprise-grade GenAI implementations.</p>
-          </div>
-        </div>
-        <div class="chat-feature">
-          <div class="chat-feature-icon">&#128200;</div>
-          <div class="chat-feature-text">
-            <h4>Real-World Use Cases</h4>
-            <p>Practical insights from 15+ years of deploying AI across finance, healthcare, retail, and manufacturing.</p>
-          </div>
-        </div>
-        <div class="chat-feature">
-          <div class="chat-feature-icon">&#127919;</div>
-          <div class="chat-feature-text">
-            <h4>Strategic Guidance</h4>
-            <p>Executive-level AI strategy, roadmapping, and transformation frameworks for enterprise adoption.</p>
-          </div>
-        </div>
+      <!-- Category Filter -->
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-tab active" data-filter="all">All Products</button>
+        <button class="filter-tab" data-filter="strips">LED Strips</button>
+        <button class="filter-tab" data-filter="panels">Pixel Panels</button>
+        <button class="filter-tab" data-filter="signs">Neon Signs</button>
+        <button class="filter-tab" data-filter="smart">Smart Lighting</button>
+        <button class="filter-tab" data-filter="gaming">Gaming RGB</button>
       </div>
-      <!-- Right: Chat UI -->
-      <div class="reveal-right">
-        <div class="chat-window-wrap">
-          <div class="chat-window">
-            <!-- Chat Header -->
-            <div class="chat-header">
-              <div class="chat-header-avatar">AI</div>
-              <div class="chat-header-info">
-                <h4>Nitin's AI Assistant</h4>
-                <p>Powered by Generative AI</p>
-              </div>
-              <div class="chat-online-dot"></div>
-            </div>
-            <!-- Messages -->
-            <div class="chat-messages" id="chatMessages">
-              <div class="msg-wrap ai">
-                <div class="msg-label">AI Assistant</div>
-                <div class="msg-bubble">
-                  Hello! I'm Nitin's AI assistant. Ask me anything about AI/ML, Generative AI, enterprise transformation, or book Nitin for your next event!
-                </div>
-              </div>
-              <div class="msg-wrap user">
-                <div class="msg-label">You</div>
-                <div class="msg-bubble">
-                  What are the key trends in Generative AI for 2025?
-                </div>
-              </div>
-              <div class="msg-wrap ai">
-                <div class="msg-label">AI Assistant</div>
-                <div class="msg-bubble">
-                  Great question! In 2025, Generative AI is dominated by: <strong style="color:#60AFFF">Multimodal LLMs</strong> (GPT-4o, Gemini Ultra) handling text, image, audio &amp; video simultaneously; <strong style="color:#60AFFF">Agentic AI workflows</strong> where LLMs autonomously plan and execute multi-step tasks; <strong style="color:#60AFFF">Enterprise RAG systems</strong> with real-time knowledge retrieval; and <strong style="color:#60AFFF">Small Language Models (SLMs)</strong> optimized for edge deployment. The shift from experimentation to production-grade AI is the defining theme.
-                </div>
-              </div>
-              <div class="msg-wrap user">
-                <div class="msg-label">You</div>
-                <div class="msg-bubble">
-                  How can enterprises adopt Agentic AI?
-                </div>
-              </div>
-              <div class="msg-wrap ai">
-                <div class="msg-label">AI Assistant</div>
-                <div class="msg-bubble">
-                  Agentic AI adoption for enterprises follows a 4-step approach: <strong style="color:#60AFFF">1) Start with bounded agents</strong> — automate specific workflows like document processing or customer support; <strong style="color:#60AFFF">2) Build robust tool ecosystems</strong> — APIs, databases, and internal systems agents can access safely; <strong style="color:#60AFFF">3) Establish governance</strong> — human-in-the-loop checkpoints, audit trails, and kill switches; <strong style="color:#60AFFF">4) Scale with multi-agent orchestration</strong> — multiple specialized agents collaborating under a supervisor model. Nitin can guide your organization through this journey!
-                </div>
-              </div>
-            </div>
-            <!-- Input -->
-            <div class="chat-input-row">
-              <input type="text" class="chat-input" id="chatInput" placeholder="Ask about AI, ML, speaking engagements..." />
-              <button class="chat-send-btn" id="chatSendBtn" aria-label="Send message">&#10148;</button>
-            </div>
-          </div>
-        </div>
-        <div class="chat-demo-note">
-          <span>&#9889;</span>
-          Powered by Llama 3 (Groq) &mdash; Open-source AI model
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== SPEAKING / BOOKING ===== -->
-<section id="speaking" class="section">
-  <div class="container">
-    <div class="speaking-grid">
-      <!-- Left -->
-      <div class="reveal-left">
-        <span class="section-label">Hire Nitin</span>
-        <h2 class="section-title">Book Nitin for Your Event</h2>
-        <p class="section-subtitle">Bring world-class AI expertise to your conference, corporate training, or strategy offsite.</p>
-        <div class="speaking-topics">
-          <div class="topic-item">
-            <div class="topic-icon">&#129302;</div>
-            <span class="topic-text">The Future of Generative AI &amp; LLMs in Enterprise</span>
-          </div>
-          <div class="topic-item">
-            <div class="topic-icon">&#129504;</div>
-            <span class="topic-text">Building Agentic AI Systems from Scratch</span>
-          </div>
-          <div class="topic-item">
-            <div class="topic-icon">&#127775;</div>
-            <span class="topic-text">Enterprise AI Transformation Roadmap</span>
-          </div>
-          <div class="topic-item">
-            <div class="topic-icon">&#128200;</div>
-            <span class="topic-text">MLOps &amp; Production AI Best Practices</span>
-          </div>
-          <div class="topic-item">
-            <div class="topic-icon">&#128187;</div>
-            <span class="topic-text">Responsible AI, Ethics &amp; Governance</span>
-          </div>
-          <div class="topic-item">
-            <div class="topic-icon">&#127891;</div>
-            <span class="topic-text">AI Upskilling &amp; Corporate Training Workshops</span>
-          </div>
-        </div>
-        <!-- Past client logos placeholder -->
-        <div style="margin-top:40px;">
-          <p style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;color:var(--text-light);margin-bottom:16px;">Past Engagements</p>
-          <div style="display:flex;flex-wrap:wrap;gap:10px;">
-            <!-- UPDATE: Replace these with actual past client/event logos -->
-            <div style="padding:8px 16px;border-radius:8px;background:var(--bg);border:1px solid rgba(30,136,229,0.12);font-size:0.75rem;font-weight:600;color:var(--text-light);">TEDx</div>
-            <div style="padding:8px 16px;border-radius:8px;background:var(--bg);border:1px solid rgba(30,136,229,0.12);font-size:0.75rem;font-weight:600;color:var(--text-light);">AI Summit</div>
-            <div style="padding:8px 16px;border-radius:8px;background:var(--bg);border:1px solid rgba(30,136,229,0.12);font-size:0.75rem;font-weight:600;color:var(--text-light);">Google DevFest</div>
-            <div style="padding:8px 16px;border-radius:8px;background:var(--bg);border:1px solid rgba(30,136,229,0.12);font-size:0.75rem;font-weight:600;color:var(--text-light);">AWS re:Invent</div>
-            <div style="padding:8px 16px;border-radius:8px;background:var(--bg);border:1px solid rgba(30,136,229,0.12);font-size:0.75rem;font-weight:600;color:var(--text-light);">Microsoft Ignite</div>
-          </div>
-        </div>
-      </div>
-      <!-- Right: Form -->
-      <div class="reveal-right">
-        <div class="booking-form-card">
-          <div class="form-title">Request Speaking Engagement</div>
-          <div class="form-subtitle">Fill out the form and Nitin's team will respond within 24 hours.</div>
-          <form id="bookingForm" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label class="form-label" for="fname">Full Name *</label>
-                <input type="text" id="fname" class="form-input" placeholder="John Smith" />
-                <span class="form-error" id="fname-error">Please enter your full name.</span>
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="femail">Email Address *</label>
-                <input type="email" id="femail" class="form-input" placeholder="john@company.com" />
-                <span class="form-error" id="femail-error">Please enter a valid email.</span>
-              </div>
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+
+        <!-- 1 -->
+        <div class="product-card" data-category="strips" data-aos>
+          <div class="product-visual vis-rainbow">
+            <div class="pv-overlay">
+              <i class="fas fa-lightbulb pv-icon"></i>
+              <span class="pv-label">RGB Strip</span>
             </div>
-            <div class="form-group">
-              <label class="form-label" for="forg">Organization / Company *</label>
-              <input type="text" id="forg" class="form-input" placeholder="Your Company Name" />
-              <span class="form-error" id="forg-error">Please enter your organization.</span>
+            <span class="product-badge badge-hot">HOT</span>
+            <div class="product-quick-view" data-id="1">
+              <i class="fas fa-eye"></i> Quick View
             </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label class="form-label" for="ftype">Event Type *</label>
-                <select id="ftype" class="form-select">
-                  <option value="">Select event type</option>
-                  <option>Conference / Summit</option>
-                  <option>Workshop / Bootcamp</option>
-                  <option>Corporate Training</option>
-                  <option>Webinar / Virtual</option>
-                  <option>Panel Discussion</option>
-                  <option>Keynote Address</option>
-                </select>
-                <span class="form-error" id="ftype-error">Please select an event type.</span>
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="fdate">Event Date *</label>
-                <input type="date" id="fdate" class="form-input" />
-                <span class="form-error" id="fdate-error">Please select an event date.</span>
-              </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">LED Strips</span>
+            <h3 class="product-name">RGB Smart Strip Pro 5M</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>(2,841)</span>
             </div>
-            <div class="form-group">
-              <label class="form-label" for="flocation">Event Location / Venue</label>
-              <input type="text" id="flocation" class="form-input" placeholder="City, Country or Online" />
+            <div class="product-price-row">
+              <span class="price-current">₹1,299</span>
+              <span class="price-original">₹2,199</span>
+              <span class="price-discount">-41%</span>
             </div>
-            <div class="form-group">
-              <label class="form-label" for="fmessage">Message / Additional Details *</label>
-              <textarea id="fmessage" class="form-textarea" placeholder="Tell us about your event, expected audience size, and preferred topics..."></textarea>
-              <span class="form-error" id="fmessage-error">Please add a brief message.</span>
-            </div>
-            <div id="formSuccess" class="form-success">
-              <div style="font-size:2.5rem;margin-bottom:12px;">&#10003;</div>
-              <h3>Request Submitted!</h3>
-              <p>Thank you! Nitin's team will review your request and get back to you within 24 hours.</p>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;">
-              &#128231; Request Speaking Engagement
+            <button class="btn-add-cart" onclick="addToCart(1, 'RGB Smart Strip Pro 5M', 1299)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
             </button>
-          </form>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="product-card" data-category="strips" data-aos>
+          <div class="product-visual vis-neon-pink">
+            <div class="pv-overlay">
+              <i class="fas fa-wave-square pv-icon"></i>
+              <span class="pv-label">Neon Flex</span>
+            </div>
+            <span class="product-badge badge-new">NEW</span>
+            <div class="product-quick-view" data-id="2">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">LED Strips</span>
+            <h3 class="product-name">Neon Flex Tube 360°</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(1,209)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹1,899</span>
+              <span class="price-original">₹2,999</span>
+              <span class="price-discount">-37%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(2, 'Neon Flex Tube 360°', 1899)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="product-card" data-category="strips" data-aos>
+          <div class="product-visual vis-ocean">
+            <div class="pv-overlay">
+              <i class="fas fa-water pv-icon"></i>
+              <span class="pv-label">Waterproof</span>
+            </div>
+            <div class="product-quick-view" data-id="3">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">LED Strips</span>
+            <h3 class="product-name">Waterproof LED Strip IP67</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              <span>(876)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹1,499</span>
+              <span class="price-original">₹2,299</span>
+              <span class="price-discount">-35%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(3, 'Waterproof LED Strip IP67', 1499)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="product-card" data-category="strips" data-aos>
+          <div class="product-visual vis-pixel-anim">
+            <div class="pv-overlay">
+              <i class="fas fa-stream pv-icon"></i>
+              <span class="pv-label">Addressable</span>
+            </div>
+            <div class="product-quick-view" data-id="4">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">LED Strips</span>
+            <h3 class="product-name">Addressable Pixel Strip WS2812B</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(3,127)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹2,199</span>
+              <span class="price-original">₹3,499</span>
+              <span class="price-discount">-37%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(4, 'Addressable Pixel Strip WS2812B', 2199)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="product-card" data-category="panels" data-aos>
+          <div class="product-visual vis-matrix-panel">
+            <canvas class="mini-matrix-canvas"></canvas>
+            <div class="pv-overlay">
+              <i class="fas fa-th pv-icon"></i>
+              <span class="pv-label">16×16 Matrix</span>
+            </div>
+            <span class="product-badge badge-hot">BESTSELLER</span>
+            <div class="product-quick-view" data-id="5">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Pixel Panels</span>
+            <h3 class="product-name">16×16 LED Pixel Matrix</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(4,502)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹3,499</span>
+              <span class="price-original">₹5,999</span>
+              <span class="price-discount">-42%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(5, '16×16 LED Pixel Matrix', 3499)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="product-card" data-category="panels" data-aos>
+          <div class="product-visual vis-portal">
+            <div class="pv-overlay">
+              <i class="fas fa-border-all pv-icon"></i>
+              <span class="pv-label">32×32 Panel</span>
+            </div>
+            <span class="product-badge badge-new">PRO</span>
+            <div class="product-quick-view" data-id="6">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Pixel Panels</span>
+            <h3 class="product-name">32×32 Pixel Art Display Panel</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>(1,883)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹6,999</span>
+              <span class="price-original">₹10,999</span>
+              <span class="price-discount">-36%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(6, '32×32 Pixel Art Display Panel', 6999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="product-card" data-category="panels" data-aos>
+          <div class="product-visual vis-galaxy">
+            <div class="pv-overlay">
+              <i class="fas fa-star-of-life pv-icon"></i>
+              <span class="pv-label">64×64 Ultra</span>
+            </div>
+            <span class="product-badge badge-hot">NEW</span>
+            <div class="product-quick-view" data-id="7">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Pixel Panels</span>
+            <h3 class="product-name">64×64 Ultra HD Pixel Panel</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(722)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹12,999</span>
+              <span class="price-original">₹18,999</span>
+              <span class="price-discount">-32%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(7, '64×64 Ultra HD Pixel Panel', 12999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="product-card" data-category="signs" data-aos>
+          <div class="product-visual vis-neon-sign">
+            <div class="pv-overlay">
+              <i class="fas fa-signature pv-icon"></i>
+              <span class="pv-label">Neon Sign</span>
+            </div>
+            <span class="product-badge badge-hot">HOT</span>
+            <div class="product-quick-view" data-id="8">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Neon Signs</span>
+            <h3 class="product-name">Custom Neon Sign Kit</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(5,611)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹4,499</span>
+              <span class="price-original">₹7,499</span>
+              <span class="price-discount">-40%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(8, 'Custom Neon Sign Kit', 4499)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="product-card" data-category="signs" data-aos>
+          <div class="product-visual vis-neon-green">
+            <div class="pv-overlay">
+              <i class="fas fa-moon pv-icon"></i>
+              <span class="pv-label">Moon Sign</span>
+            </div>
+            <div class="product-quick-view" data-id="9">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Neon Signs</span>
+            <h3 class="product-name">Neon Moon &amp; Stars Wall Art</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+              <span>(2,190)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹2,799</span>
+              <span class="price-original">₹4,499</span>
+              <span class="price-discount">-38%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(9, 'Neon Moon & Stars Wall Art', 2799)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="product-card" data-category="smart" data-aos>
+          <div class="product-visual vis-warm-glow">
+            <div class="pv-overlay">
+              <i class="fas fa-lightbulb pv-icon"></i>
+              <span class="pv-label">Smart Bulbs</span>
+            </div>
+            <div class="product-quick-view" data-id="10">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Smart Lighting</span>
+            <h3 class="product-name">Smart Bulb Pack (4×) Matter</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>(3,488)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹1,999</span>
+              <span class="price-original">₹3,199</span>
+              <span class="price-discount">-38%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(10, 'Smart Bulb Pack (4×) Matter', 1999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="product-card" data-category="smart" data-aos>
+          <div class="product-visual vis-ambient">
+            <div class="pv-overlay">
+              <i class="fas fa-tv pv-icon"></i>
+              <span class="pv-label">Ambient Kit</span>
+            </div>
+            <span class="product-badge badge-new">NEW</span>
+            <div class="product-quick-view" data-id="11">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Smart Lighting</span>
+            <h3 class="product-name">TV Ambient Backlight Kit</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(6,042)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹2,499</span>
+              <span class="price-original">₹3,999</span>
+              <span class="price-discount">-38%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(11, 'TV Ambient Backlight Kit', 2499)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="product-card" data-category="gaming" data-aos>
+          <div class="product-visual vis-gaming">
+            <div class="pv-overlay">
+              <i class="fas fa-gamepad pv-icon"></i>
+              <span class="pv-label">Gaming RGB</span>
+            </div>
+            <span class="product-badge badge-hot">BESTSELLER</span>
+            <div class="product-quick-view" data-id="12">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Gaming RGB</span>
+            <h3 class="product-name">Gaming RGB Sync Kit Ultra</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(8,301)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹3,999</span>
+              <span class="price-original">₹6,499</span>
+              <span class="price-discount">-38%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(12, 'Gaming RGB Sync Kit Ultra', 3999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="product-card" data-category="gaming" data-aos>
+          <div class="product-visual vis-desk-rgb">
+            <div class="pv-overlay">
+              <i class="fas fa-desktop pv-icon"></i>
+              <span class="pv-label">Desk Setup</span>
+            </div>
+            <div class="product-quick-view" data-id="13">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Gaming RGB</span>
+            <h3 class="product-name">RGB Desk Setup Complete Kit</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>(4,199)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹5,499</span>
+              <span class="price-original">₹8,999</span>
+              <span class="price-discount">-39%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(13, 'RGB Desk Setup Complete Kit', 5499)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="product-card" data-category="smart" data-aos>
+          <div class="product-visual vis-room-glow">
+            <div class="pv-overlay">
+              <i class="fas fa-home pv-icon"></i>
+              <span class="pv-label">Room Kit</span>
+            </div>
+            <span class="product-badge badge-new">BUNDLE</span>
+            <div class="product-quick-view" data-id="14">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Smart Lighting</span>
+            <h3 class="product-name">Full Room Smart LED Bundle</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(2,677)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹8,999</span>
+              <span class="price-original">₹14,999</span>
+              <span class="price-discount">-40%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(14, 'Full Room Smart LED Bundle', 8999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="product-card" data-category="signs" data-aos>
+          <div class="product-visual vis-cyber">
+            <div class="pv-overlay">
+              <i class="fas fa-bolt pv-icon"></i>
+              <span class="pv-label">Cyber Sign</span>
+            </div>
+            <div class="product-quick-view" data-id="15">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Neon Signs</span>
+            <h3 class="product-name">Cyberpunk Neon Lightning Sign</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span>(3,882)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹3,299</span>
+              <span class="price-original">₹5,499</span>
+              <span class="price-discount">-40%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(15, 'Cyberpunk Neon Lightning Sign', 3299)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="product-card" data-category="panels" data-aos>
+          <div class="product-visual vis-hex-panel">
+            <div class="pv-overlay">
+              <i class="fas fa-shapes pv-icon"></i>
+              <span class="pv-label">Hex Panels</span>
+            </div>
+            <span class="product-badge badge-new">NEW</span>
+            <div class="product-quick-view" data-id="16">
+              <i class="fas fa-eye"></i> Quick View
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Pixel Panels</span>
+            <h3 class="product-name">Hexagonal LED Panel Set (9×)</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <span>(1,447)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹7,999</span>
+              <span class="price-original">₹12,999</span>
+              <span class="price-discount">-38%</span>
+            </div>
+            <button class="btn-add-cart" onclick="addToCart(16, 'Hexagonal LED Panel Set (9×)', 7999)">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+      </div><!-- /products-grid -->
+    </div><!-- /container -->
+  </section>
+
+  <!-- ═══════════════════════════ SHOWCASE / VIDEO ═══════════════════════════ -->
+  <section class="showcase-section" id="showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">See it in Action</span>
+        <h2 class="section-title">Live <span>Showcase</span></h2>
+        <p class="section-sub">Watch PixelLED transform everyday spaces into immersive light experiences.</p>
+      </div>
+
+      <div class="showcase-grid">
+
+        <div class="showcase-card sc-large" data-aos>
+          <div class="showcase-visual sv-bedroom">
+            <div class="sv-scan-line"></div>
+            <div class="sv-grid-overlay"></div>
+            <div class="sv-content">
+              <div class="sv-room-label">Bedroom RGB Setup</div>
+              <div class="sv-stats-row">
+                <span><i class="fas fa-palette"></i> 16M Colors</span>
+                <span><i class="fas fa-music"></i> Music Sync</span>
+              </div>
+            </div>
+            <button class="play-btn" onclick="openShowcaseModal('bedroom')">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+          <div class="showcase-info">
+            <h3>Bedroom Transformation</h3>
+            <p>Complete bedroom ambiance with addressable RGB strips, smart bulbs and ceiling panel setup.</p>
+            <a href="#products" class="sc-link">Shop This Setup <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="showcase-card" data-aos>
+          <div class="showcase-visual sv-gaming">
+            <div class="sv-scan-line"></div>
+            <div class="sv-content">
+              <div class="sv-room-label">Gaming Cave</div>
+              <div class="sv-stats-row">
+                <span><i class="fas fa-gamepad"></i> Sync RGB</span>
+              </div>
+            </div>
+            <button class="play-btn" onclick="openShowcaseModal('gaming')">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+          <div class="showcase-info">
+            <h3>Ultimate Gaming Cave</h3>
+            <p>Reactive RGB gaming setup synced with screen content.</p>
+            <a href="#products" class="sc-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="showcase-card" data-aos>
+          <div class="showcase-visual sv-office">
+            <div class="sv-scan-line"></div>
+            <div class="sv-content">
+              <div class="sv-room-label">Smart Office</div>
+              <div class="sv-stats-row">
+                <span><i class="fas fa-briefcase"></i> Focus Mode</span>
+              </div>
+            </div>
+            <button class="play-btn" onclick="openShowcaseModal('office')">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+          <div class="showcase-info">
+            <h3>Productive Smart Office</h3>
+            <p>Circadian rhythm lighting for maximum focus and comfort.</p>
+            <a href="#products" class="sc-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="showcase-card" data-aos>
+          <div class="showcase-visual sv-outdoor">
+            <div class="sv-scan-line"></div>
+            <div class="sv-content">
+              <div class="sv-room-label">Outdoor Garden</div>
+              <div class="sv-stats-row">
+                <span><i class="fas fa-cloud-sun"></i> Weatherproof</span>
+              </div>
+            </div>
+            <button class="play-btn" onclick="openShowcaseModal('outdoor')">
+              <i class="fas fa-play"></i>
+            </button>
+          </div>
+          <div class="showcase-info">
+            <h3>Outdoor Garden Lighting</h3>
+            <p>IP67 waterproof LED strips and solar-powered neon accents.</p>
+            <a href="#products" class="sc-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ WHY US BANNER ═══════════════════════════ -->
+  <section class="why-us-section">
+    <div class="container">
+      <div class="why-us-grid">
+        <div class="why-us-text">
+          <span class="section-tag">Our Promise</span>
+          <h2>Engineered to<br /><span>Outshine</span> the Rest</h2>
+          <p>PixelLED uses only Samsung & Epistar LED chips with CRI 95+ for the most accurate, vibrant colors. Every product undergoes 72-hour burn-in testing before shipping.</p>
+          <ul class="why-us-list">
+            <li><i class="fas fa-check-circle"></i> 2-Year Manufacturer Warranty</li>
+            <li><i class="fas fa-check-circle"></i> 50,000+ Hour LED Lifespan</li>
+            <li><i class="fas fa-check-circle"></i> BIS Certified &amp; RoHS Compliant</li>
+            <li><i class="fas fa-check-circle"></i> Free Same-Day Dispatch (Orders before 2PM)</li>
+            <li><i class="fas fa-check-circle"></i> 30-Day No-Questions Return Policy</li>
+          </ul>
+          <a href="#products" class="btn btn-primary" style="display:inline-flex;margin-top:1.5rem">
+            <i class="fas fa-shopping-bag"></i> Browse Collection
+          </a>
+        </div>
+        <div class="why-us-visual">
+          <div class="why-visual-bg">
+            <div class="why-orb why-orb-1"></div>
+            <div class="why-orb why-orb-2"></div>
+            <div class="why-orb why-orb-3"></div>
+          </div>
+          <div class="why-stats-grid">
+            <div class="wstat-card wstat-blue">
+              <i class="fas fa-users"></i>
+              <span class="wstat-num" data-count="50000">0</span>
+              <small>Customers</small>
+            </div>
+            <div class="wstat-card wstat-purple">
+              <i class="fas fa-box"></i>
+              <span class="wstat-num" data-count="200">0</span>
+              <small>Products</small>
+            </div>
+            <div class="wstat-card wstat-green">
+              <i class="fas fa-star"></i>
+              <span class="wstat-num" data-count="99">0</span>
+              <small>% Satisfaction</small>
+            </div>
+            <div class="wstat-card wstat-orange">
+              <i class="fas fa-award"></i>
+              <span class="wstat-num" data-count="15">0</span>
+              <small>Awards Won</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ TESTIMONIALS ═══════════════════════════ -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Customer Love</span>
+        <h2 class="section-title">What Our <span>Customers Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card" data-aos>
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Absolutely transformed my gaming room. The RGB sync feature is jaw-dropping — it syncs perfectly with my screen. Best purchase of 2024!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar tav-1">AR</div>
+            <div>
+              <strong>Aryan Kapoor</strong>
+              <span>Mumbai, Maharashtra</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card featured-testi" data-aos>
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Ordered the Full Room Bundle — delivery in 12 hours! Installation was plug-and-play. The app is incredibly intuitive. My whole family is obsessed!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar tav-2">PS</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Bengaluru, Karnataka</span>
+            </div>
+          </div>
+          <div class="testi-verified"><i class="fas fa-check-circle"></i> Verified Purchase</div>
+        </div>
+        <div class="testi-card" data-aos>
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"The neon sign kit for my cafe got so many compliments. Quality is premium and the colors are incredibly vibrant. Will order more for other locations!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar tav-3">RV</div>
+            <div>
+              <strong>Rohan Verma</strong>
+              <span>Hyderabad, Telangana</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" data-aos>
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The 16x16 pixel matrix is incredibly fun for my kids' room. QR payment was instant, no hassles. Support team helped with a custom animation setup!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar tav-4">NP</div>
+            <div>
+              <strong>Neha Patel</strong>
+              <span>Ahmedabad, Gujarat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ PAYMENT SECTION ═══════════════════════════ -->
+  <section class="payment-section" id="payment">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Easy Checkout</span>
+        <h2 class="section-title">Pay <span>Instantly</span> via QR</h2>
+        <p class="section-sub">Scan any QR code below with your preferred payment app — fast, safe & secure.</p>
+      </div>
+      <div class="payment-grid">
+        <div class="payment-card payment-upi" data-aos>
+          <div class="payment-header">
+            <div class="payment-logo-wrap">
+              <i class="fas fa-qrcode"></i>
+            </div>
+            <div>
+              <h3>UPI Payment</h3>
+              <p>PhonePe · GPay · Paytm · BHIM</p>
+            </div>
+          </div>
+          <div class="qr-container" id="qrUPI"></div>
+          <div class="payment-id">
+            <span>UPI ID:</span> <strong>dr.nitinjolly-1@oksbi</strong>
+            <button class="copy-btn" onclick="copyText('pixelled@okaxis')">
+              <i class="fas fa-copy"></i>
+            </button>
+          </div>
+          <div class="payment-trust">
+            <i class="fas fa-shield-alt"></i> 256-bit encrypted · NPCI verified
+          </div>
+        </div>
+
+        <div class="payment-card payment-bank" data-aos>
+          <div class="payment-header">
+            <div class="payment-logo-wrap pl-blue">
+              <i class="fas fa-university"></i>
+            </div>
+            <div>
+              <h3>Bank Transfer / NEFT</h3>
+              <p>Direct bank payment</p>
+            </div>
+          </div>
+          <div class="bank-details">
+            <div class="bank-row"><span>Account Name</span><strong>Zuvantra Global</strong></div>
+            <div class="bank-row"><span>Account No.</span><strong>XXXX XXXX 7842</strong></div>
+            <div class="bank-row"><span>IFSC Code</span><strong>HSBC0001234</strong></div>
+            <div class="bank-row"><span>Bank</span><strong>HSBC Bank</strong></div>
+          </div>
+          <div class="payment-trust">
+            <i class="fas fa-lock"></i> SSL secured · 2-factor verified
+          </div>
+        </div>
+
+        <div class="payment-card payment-card-method" data-aos>
+          <div class="payment-header">
+            <div class="payment-logo-wrap pl-green">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <div>
+              <h3>Cards &amp; Wallets</h3>
+              <p>Visa · Mastercard · Amex · RuPay</p>
+            </div>
+          </div>
+          <div class="card-icons-row">
+            <div class="card-icon ci-visa">VISA</div>
+            <div class="card-icon ci-mc">MC</div>
+            <div class="card-icon ci-amex">AMEX</div>
+            <div class="card-icon ci-rupay">RuPay</div>
+          </div>
+          <div class="emi-info">
+            <i class="fas fa-calendar-alt"></i>
+            <span>No-cost EMI available on orders above ₹3,999 — up to 12 months</span>
+          </div>
+          <button class="btn btn-primary w-full" onclick="openCheckout()">
+            <i class="fas fa-lock"></i> Proceed to Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ NEWSLETTER ═══════════════════════════ -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-inner">
+        <div class="newsletter-text">
+          <h2>Join the <span>PixelLED</span> Community</h2>
+          <p>Get exclusive deals, installation tips, and RGB inspiration straight to your inbox.</p>
+        </div>
+        <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+          <input type="email" placeholder="your@email.com" required />
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo">
+            <span class="logo-pixel"></span>PIXEL<span>LED</span>
+          </a>
+          <p>India's #1 premium LED pixel display and smart lighting brand. Illuminate every corner of your world.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">LED Strips</a></li>
+            <li><a href="#">Pixel Panels</a></li>
+            <li><a href="#">Neon Signs</a></li>
+            <li><a href="#">Smart Lighting</a></li>
+            <li><a href="#">Gaming RGB</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Installation Guide</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Warranty Policy</a></li>
+            <li><a href="#">Return &amp; Refund</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Community Forum</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-envelope"></i> info@zuvantra.com</li>
+            <li><i class="fas fa-phone"></i> +91 90135 30900</li>
+            <li><i class="fas fa-map-marker-alt"></i> 42 Tech Park, New Delhi, 110092</li>
+            <li><i class="fas fa-clock"></i> Mon–Sat: 9 AM – 8 PM IST</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Zuvantra Global Pvt. Ltd. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════ CART SIDEBAR ═══════════════════════════ -->
+  <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3><i class="fas fa-shopping-cart"></i> Your Cart</h3>
+      <button onclick="closeCart()" aria-label="Close cart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty" id="cartEmpty">
+        <i class="fas fa-shopping-bag"></i>
+        <p>Your cart is empty</p>
+        <a href="#products" onclick="closeCart()" class="btn btn-primary">Start Shopping</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <span id="cartTotal">₹0</span>
+      </div>
+      <div class="cart-total cart-gst">
+        <span>GST (18%)</span>
+        <span id="cartGST">₹0</span>
+      </div>
+      <div class="cart-total cart-grand">
+        <span>Total</span>
+        <span id="cartGrand">₹0</span>
+      </div>
+      <button class="btn btn-primary w-full" onclick="openCheckout()">
+        <i class="fas fa-qrcode"></i> Pay via QR Code
+      </button>
+      <button class="btn btn-outline w-full" onclick="clearCart()">
+        <i class="fas fa-trash"></i> Clear Cart
+      </button>
+    </div>
+  </aside>
+
+  <!-- ═══════════════════════════ CHECKOUT / QR MODAL ═══════════════════════════ -->
+  <div class="modal-overlay" id="checkoutOverlay" onclick="closeCheckout()"></div>
+  <div class="modal checkout-modal" id="checkoutModal">
+    <button class="modal-close" onclick="closeCheckout()"><i class="fas fa-times"></i></button>
+    <div class="checkout-header">
+      <h2><i class="fas fa-qrcode"></i> Scan to Pay</h2>
+      <p>Open PhonePe, GPay, Paytm or any UPI app and scan the code below.</p>
+    </div>
+    <div class="checkout-body">
+      <div class="checkout-qr-wrap">
+        <div id="checkoutQR" class="checkout-qr-code"></div>
+        <div class="qr-amount-badge" id="qrAmountBadge">₹0</div>
+      </div>
+      <div class="checkout-details">
+        <div class="checkout-order-id">
+          Order ID: <strong id="checkoutOrderId">PXL-000000</strong>
+        </div>
+        <div class="checkout-items-summary" id="checkoutItemsSummary"></div>
+        <div class="checkout-total-row">
+          <span>Grand Total (incl. GST)</span>
+          <strong id="checkoutTotal">₹0</strong>
+        </div>
+        <div class="checkout-steps">
+          <div class="step active"><span>1</span> Scan QR</div>
+          <div class="step"><span>2</span> Confirm Amount</div>
+          <div class="step"><span>3</span> Pay</div>
+        </div>
+        <div class="payment-apps-row">
+          <div class="pa-app pa-gpay">GPay</div>
+          <div class="pa-app pa-phonepe">PhonePe</div>
+          <div class="pa-app pa-paytm">Paytm</div>
+          <div class="pa-app pa-bhim">BHIM</div>
+        </div>
+        <div class="checkout-trust">
+          <i class="fas fa-shield-alt"></i> Payment secured by NPCI · UPI Verified
         </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- ===== TESTIMONIALS ===== -->
-<section id="testimonials" class="section">
-  <div class="container">
-    <div class="testimonials-header reveal">
-      <span class="section-label">Social Proof</span>
-      <h2 class="section-title">What Leaders Say</h2>
-      <p class="section-subtitle">Hear from executives, innovators, and professionals who have experienced Nitin's expertise firsthand.</p>
+  <!-- ═══════════════════════════ SHOWCASE MODAL ═══════════════════════════ -->
+  <div class="modal-overlay" id="showcaseOverlay" onclick="closeShowcaseModal()"></div>
+  <div class="modal showcase-modal" id="showcaseModal">
+    <button class="modal-close" onclick="closeShowcaseModal()"><i class="fas fa-times"></i></button>
+    <div class="showcase-anim-wrap" id="showcaseAnimWrap">
+      <canvas id="showcaseCanvas"></canvas>
+      <div class="showcase-anim-label" id="showcaseAnimLabel">Bedroom RGB Demo</div>
     </div>
-    <div class="carousel-wrap reveal">
-      <div class="carousel-track" id="carouselTrack">
-        <!-- Testimonial 1 -->
-        <div class="testimonial-slide">
-          <div class="testimonial-card">
-            <div class="quote-mark">&ldquo;</div>
-            <div class="testimonial-stars">
-              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
-            </div>
-            <p class="testimonial-text">
-              Nitin's keynote on Generative AI at our annual technology summit was nothing short of spectacular. He has a rare ability to simplify extremely complex AI concepts and present them with infectious energy. Our 800+ attendees left inspired and ready to transform their organizations with AI. Absolutely world-class.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">SA</div>
-              <div>
-                <div class="author-name">Sarah Anderson</div>
-                <!-- UPDATE: Replace with actual testimonial details -->
-                <div class="author-title">Chief Technology Officer &mdash; Global Tech Summit</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Testimonial 2 -->
-        <div class="testimonial-slide">
-          <div class="testimonial-card">
-            <div class="quote-mark">&ldquo;</div>
-            <div class="testimonial-stars">
-              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
-            </div>
-            <p class="testimonial-text">
-              We hired Nitin to train our entire data science and engineering team on Agentic AI and LLM fine-tuning. The depth of his knowledge, combined with his ability to make it immediately practical, was extraordinary. Our teams went from basic AI awareness to building production agents in just 3 days. ROI was immediate.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">RK</div>
-              <div>
-                <div class="author-name">Rajesh Kumar</div>
-                <!-- UPDATE: Replace with actual testimonial details -->
-                <div class="author-title">VP Engineering &mdash; Leading Financial Services Firm</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Testimonial 3 -->
-        <div class="testimonial-slide">
-          <div class="testimonial-card">
-            <div class="quote-mark">&ldquo;</div>
-            <div class="testimonial-stars">
-              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
-            </div>
-            <p class="testimonial-text">
-              Nitin helped us define our 3-year AI transformation roadmap when we had no idea where to start. His strategic thinking, combined with hands-on technical depth, gave our board the confidence to commit $10M to AI initiatives. He's not just a speaker — he's a genuine thought leader and trusted advisor.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">MW</div>
-              <div>
-                <div class="author-name">Michael Weston</div>
-                <!-- UPDATE: Replace with actual testimonial details -->
-                <div class="author-title">CEO &mdash; Healthcare Technology Group</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Testimonial 4 -->
-        <div class="testimonial-slide">
-          <div class="testimonial-card">
-            <div class="quote-mark">&ldquo;</div>
-            <div class="testimonial-stars">
-              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
-            </div>
-            <p class="testimonial-text">
-              Having Nitin speak at our international AI conference in Dubai was a privilege. He commanded the stage with authority, humility, and brilliance. His session on the intersection of Generative AI and enterprise strategy drew the largest audience at the event. We've already invited him back for next year's conference.
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">FH</div>
-              <div>
-                <div class="author-name">Fatima Hassan</div>
-                <!-- UPDATE: Replace with actual testimonial details -->
-                <div class="author-title">Conference Director &mdash; Middle East AI Forum</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-arrows">
-        <button class="carousel-arrow" id="carouselPrev" aria-label="Previous testimonial">&#8592;</button>
-        <button class="carousel-arrow" id="carouselNext" aria-label="Next testimonial">&#8594;</button>
-      </div>
-      <div class="carousel-dots" id="carouselDots">
-        <div class="dot active" data-idx="0"></div>
-        <div class="dot" data-idx="1"></div>
-        <div class="dot" data-idx="2"></div>
-        <div class="dot" data-idx="3"></div>
-      </div>
+    <div class="showcase-modal-info">
+      <h3 id="showcaseModalTitle">Bedroom RGB Setup</h3>
+      <p id="showcaseModalDesc">Experience the full ambiance of a PixelLED smart bedroom setup.</p>
     </div>
   </div>
-</section>
 
-<!-- ===== PAYMENT ===== -->
-<section id="payment" class="section">
-  <div class="container">
-    <div class="reveal" style="text-align:center;margin-bottom:48px;">
-      <span class="section-label">Secure Payment</span>
-      <h2 class="section-title">To Book Mr. Sharma- Pay here</h2>
-      <p class="section-subtitle">Scan the QR code with any UPI app to pay directly.</p>
-    </div>
-    <div class="reveal payment-card" style="display:flex;flex-direction:column;align-items:center;gap:16px;max-width:340px;width:100%;margin:0 auto;">
-      <div style="background:var(--card-bg,#161b22);border:1px solid rgba(0,212,255,0.25);border-radius:16px;padding:32px 28px;display:flex;flex-direction:column;align-items:center;gap:16px;width:100%;">
-        <p style="color:#ffffff;font-size:0.9rem;text-align:center;margin:0;line-height:1.6;">Use GPay, PhonePe, Paytm or any UPI app to scan and pay.</p>
+  <!-- ═══════════════════════════ TOAST ═══════════════════════════ -->
+  <div class="toast" id="toast"></div>
 
-        <!-- QR Code Image: place your qr-code.png file in this folder -->
-        <div class="payment-qr-box" style="width:180px;height:180px;border:2px solid #00d4ff;border-radius:10px;background:#fff;overflow:hidden;display:flex;align-items:center;justify-content:center;box-shadow:0 0 20px rgba(0,212,255,0.25);">
-          <img src="qr-code.png" alt="UPI QR Code - Scan to pay Nitin Kumar Sharma"
-               style="width:100%;height:100%;object-fit:contain;"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
-          <div style="display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;color:#555;font-size:0.75rem;">
-            <div style="font-size:2rem;margin-bottom:6px;">&#x2338;</div>
-            Add <strong>qr-code.png</strong><br/>to this folder
-          </div>
-        </div>
+  <!-- ═══════════════════════════ BACK TO TOP ═══════════════════════════ -->
+  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
 
-        <p style="font-size:0.85rem;color:#ffffff;margin:0;text-align:center;">UPI ID: <span style="color:#00d4ff;font-weight:600;">yourname@upi</span></p>
-        <p style="font-size:0.78rem;color:#00d4ff;margin:0;text-align:center;opacity:0.85;letter-spacing:0.03em;">GPay &bull; PhonePe &bull; Paytm &bull; Any UPI App</p>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- ═══════════════════════════ SCRIPTS ═══════════════════════════ -->
+  <script>
+/* ══════════════════════════════════════════════════
+   PixelLED™ — Main JavaScript
+   Features: Canvas animation, Cart, QR code, Modals,
+             Scroll animations, Filters, Mini matrix
+══════════════════════════════════════════════════ */
 
-<!-- ===== FOOTER ===== -->
-<footer id="footer">
-  <div id="contact"></div>
-  <div class="container">
-    <div class="footer-main">
-      <!-- Col 1: Brand -->
-      <div>
-        <div class="footer-logo-wrap">
-          <a href="#home" class="nav-logo" style="display:inline-flex;">
-            <div class="logo-monogram">NK</div>
-            <div class="logo-text">
-              <span class="logo-name" style="color:white;">Nitin Kumar Sharma</span>
-              <span class="logo-sub">AI/ML &amp; Agentic AI Expert</span>
-            </div>
-          </a>
-        </div>
-        <p class="footer-tagline">
-          Transforming enterprises through the power of Artificial Intelligence. Speaker. Trainer. Strategist. Innovator.
-        </p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/nitin-ai-ml-manager/" target="_blank" rel="noopener" class="social-link linkedin" aria-label="LinkedIn" title="Connect on LinkedIn">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </a>
-          <!-- UPDATE: Replace # with actual Twitter/X profile URL -->
-          <a href="#" class="social-link" aria-label="Twitter/X" title="Follow on X">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.626L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
-          </a>
-          <!-- UPDATE: Replace # with actual GitHub profile URL -->
-          <a href="#" class="social-link" aria-label="GitHub" title="View on GitHub">
-            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-          </a>
-        </div>
-      </div>
-      <!-- Col 2: Quick Links -->
-      <div>
-        <div class="footer-col-title">Quick Links</div>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#about">About Nitin</a>
-          <a href="#expertise">Areas of Expertise</a>
-          <a href="#achievements">Achievements</a>
-          <a href="#speaking">Book for Speaking</a>
-          <a href="#testimonials">Testimonials</a>
-        </div>
-      </div>
-      <!-- Col 3: Contact -->
-      <div>
-        <div class="footer-col-title">Get In Touch</div>
-        <div class="footer-contact-item">
-          <span class="footer-contact-icon">&#9993;</span>
-          <div class="footer-contact-text">
-            <!-- UPDATE: Replace with actual email address -->
-            nksharma.tech@gmail.com
-          </div>
-        </div>
-        <div class="footer-contact-item">
-          <span class="footer-contact-icon">&#127758;</span>
-          <div class="footer-contact-text">
-            <!-- UPDATE: Replace with actual location -->
-            India &bull; Available Worldwide
-          </div>
-        </div>
-        <div class="footer-contact-item">
-          <span class="footer-contact-icon">&#128222;</span>
-          <div class="footer-contact-text">
-            <!-- UPDATE: Replace with actual phone or booking contact -->
-            Available for global speaking engagements @ +91-9990377790
-          </div>
-        </div>
-        <div style="margin-top:24px;">
-          <a href="https://www.linkedin.com/in/nitin-ai-ml-manager/" target="_blank" rel="noopener" class="footer-linkedin-cta">
-            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            Connect on LinkedIn
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-copy">
-        &copy; 2025 <span>Nitin Kumar Sharma</span>. All rights reserved. AI/ML &amp; Agentic AI Expert.
-      </div>
-      <div style="font-size:0.78rem;color:rgba(255,255,255,0.3);">
-        Built with passion for AI innovation
-      </div>
-    </div>
-  </div>
-</footer>
+'use strict';
 
-<!-- Back to Top -->
-<button id="back-to-top" aria-label="Back to top">&#8593;</button>
+/* ─── Global State ─── */
+let cart = JSON.parse(localStorage.getItem('pixelled_cart') || '[]');
 
-<!-- ===== JAVASCRIPT ===== -->
-<script>
-  // ===== NAVBAR SCROLL =====
-  const navbar = document.getElementById('navbar');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 60) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-    // Back to top visibility
-    const btt = document.getElementById('back-to-top');
-    if (window.scrollY > 400) {
-      btt.classList.add('visible');
-    } else {
-      btt.classList.remove('visible');
-    }
-  });
-
-  // ===== HAMBURGER MENU =====
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobileMenu');
-  const mobileMenuClose = document.getElementById('mobileMenuClose');
-  const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-
-  hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('open');
-    mobileMenu.classList.toggle('open');
-    document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
-  });
-
-  const closeMobileMenu = () => {
-    hamburger.classList.remove('open');
-    mobileMenu.classList.remove('open');
-    document.body.style.overflow = '';
-  };
-
-  mobileMenuClose.addEventListener('click', closeMobileMenu);
-  mobileNavLinks.forEach(link => link.addEventListener('click', closeMobileMenu));
-
-  // ===== SCROLL ANIMATIONS (Intersection Observer) =====
-  const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-
-  revealElements.forEach(el => revealObserver.observe(el));
-
-  // ===== COUNTER ANIMATION =====
-  function animateCounter(el, target, duration = 2000) {
-    let start = 0;
-    const startTime = performance.now();
-    const update = (currentTime) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      // Ease out cubic
-      const eased = 1 - Math.pow(1 - progress, 3);
-      const value = Math.floor(eased * target);
-      el.textContent = value >= 1000 ? value.toLocaleString() : value;
-      if (progress < 1) requestAnimationFrame(update);
-      else el.textContent = target >= 1000 ? target.toLocaleString() : target;
-    };
-    requestAnimationFrame(update);
+/* ═══════════════════════════════════════
+   LOADING SCREEN
+═══════════════════════════════════════ */
+(function initLoader() {
+  const grid = document.getElementById('loaderGrid');
+  if (!grid) return;
+  const COLORS = ['#FF6B35','#FF3CAC','#00D4FF','#00FF88','#7B2FBE','#FFD700','#FF0080','#00FFFF'];
+  for (let i = 0; i < 64; i++) {
+    const cell = document.createElement('div');
+    cell.className = 'loader-pixel-cell';
+    cell.style.animationDelay = `${(Math.random() * 1.2).toFixed(2)}s`;
+    cell.style.background = COLORS[Math.floor(Math.random() * COLORS.length)];
+    grid.appendChild(cell);
   }
-
-  const counterElements = document.querySelectorAll('.counter');
-  const counterObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting && !entry.target.dataset.animated) {
-        entry.target.dataset.animated = 'true';
-        const target = parseInt(entry.target.dataset.target, 10);
-        animateCounter(entry.target, target);
-      }
-    });
-  }, { threshold: 0.5 });
-
-  counterElements.forEach(el => counterObserver.observe(el));
-
-  // ===== TESTIMONIAL CAROUSEL =====
-  const track = document.getElementById('carouselTrack');
-  const dots = document.querySelectorAll('.dot');
-  const prevBtn = document.getElementById('carouselPrev');
-  const nextBtn = document.getElementById('carouselNext');
-  let currentSlide = 0;
-  const totalSlides = 4;
-  let autoplayInterval;
-
-  function goToSlide(n) {
-    currentSlide = (n + totalSlides) % totalSlides;
-    track.style.transform = `translateX(-${currentSlide * 100}%)`;
-    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentSlide));
-  }
-
-  function startAutoplay() {
-    autoplayInterval = setInterval(() => goToSlide(currentSlide + 1), 5000);
-  }
-
-  function resetAutoplay() {
-    clearInterval(autoplayInterval);
-    startAutoplay();
-  }
-
-  prevBtn.addEventListener('click', () => { goToSlide(currentSlide - 1); resetAutoplay(); });
-  nextBtn.addEventListener('click', () => { goToSlide(currentSlide + 1); resetAutoplay(); });
-
-  dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      goToSlide(parseInt(dot.dataset.idx, 10));
-      resetAutoplay();
-    });
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.getElementById('loading-screen').classList.add('hidden');
+    }, 2200);
   });
+  // Fallback after 3.5s
+  setTimeout(() => {
+    const ls = document.getElementById('loading-screen');
+    if (ls) ls.classList.add('hidden');
+  }, 3500);
+})();
 
-  startAutoplay();
+/* ═══════════════════════════════════════
+   HERO CANVAS — Zuvantra Animation
+═══════════════════════════════════════ */
+(function initHeroCanvas() {
+  const canvas = document.getElementById('heroCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
 
-  // Touch swipe for carousel
-  let touchStartX = 0;
-  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
-  track.addEventListener('touchend', e => {
-    const diff = touchStartX - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 50) {
-      goToSlide(diff > 0 ? currentSlide + 1 : currentSlide - 1);
-      resetAutoplay();
-    }
-  });
-
-  // ===== BOOKING FORM VALIDATION =====
-  const bookingForm = document.getElementById('bookingForm');
-  const formSuccess = document.getElementById('formSuccess');
-
-  function validateField(inputId, errorId, validationFn) {
-    const input = document.getElementById(inputId);
-    const error = document.getElementById(errorId);
-    const isValid = validationFn(input.value);
-    input.classList.toggle('error', !isValid);
-    error.classList.toggle('visible', !isValid);
-    return isValid;
-  }
-
-  bookingForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    const nameValid = validateField('fname', 'fname-error', v => v.trim().length >= 2);
-    const emailValid = validateField('femail', 'femail-error', v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v));
-    const orgValid = validateField('forg', 'forg-error', v => v.trim().length >= 2);
-    const typeValid = validateField('ftype', 'ftype-error', v => v !== '');
-    const dateValid = validateField('fdate', 'fdate-error', v => v !== '');
-    const msgValid = validateField('fmessage', 'fmessage-error', v => v.trim().length >= 20);
-
-    if (nameValid && emailValid && orgValid && typeValid && dateValid && msgValid) {
-      [...bookingForm.children].forEach(child => {
-        if (child.id !== 'formSuccess') child.style.display = 'none';
-      });
-      formSuccess.classList.add('visible');
-      formSuccess.style.display = 'block';
-    }
-  });
-
-  // Clear error on input
-  ['fname', 'femail', 'forg', 'ftype', 'fdate', 'fmessage'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.addEventListener('input', () => {
-        el.classList.remove('error');
-        const errEl = document.getElementById(`${id}-error`);
-        if (errEl) errEl.classList.remove('visible');
-      });
-    }
-  });
-
-  // ===== CHAT INTERFACE (Offline FAQ Bot) =====
-  const chatInput    = document.getElementById('chatInput');
-  const chatSendBtn  = document.getElementById('chatSendBtn');
-  const chatMessages = document.getElementById('chatMessages');
-
-  const FAQ = [
-    { keys: ['who','nitin','about','introduce','yourself'],
-      ans: "Nitin Kumar Sharma is a Manager & Project Head (AI/ML) at Cognizant and a globally recognized Agentic AI Architect. With 13+ years of experience, he has delivered 250+ seminars across the globe and trained 10,000+ professionals in AI/ML and Generative AI." },
-    { keys: ['expertise','skill','speciali','know','expert'],
-      ans: "Nitin's core expertise includes: Agentic RAG, LangGraph, CrewAI, LLM Security & Prompt Injection hardening, MLOps (Kubeflow, MLflow), Public Services AI Stack, Multi-agent orchestration with AutoGen, and enterprise AI strategy on Azure & AWS." },
-    { keys: ['speak','book','keynote','seminar','event','engag','hire','invite'],
-      ans: "To book Nitin for a speaking engagement, keynote, or workshop — scroll to the 'Book for Speaking' section on this page and fill out the request form, or connect directly on LinkedIn: linkedin.com/in/nitin-ai-ml-manager/" },
-    { keys: ['contact','email','reach','linkedin','connect'],
-      ans: "You can connect with Nitin on LinkedIn at linkedin.com/in/nitin-ai-ml-manager/ or use the booking form in the 'Book for Speaking' section of this website." },
-    { keys: ['experience','year','long','work','career'],
-      ans: "Nitin has 13+ years of experience in project leadership and AI/ML. He leads mission-critical AI portfolios at Cognizant, specializing in production-grade reasoning agents and autonomous enterprise systems." },
-    { keys: ['seminar','jec','kukas','talk','audience','train'],
-      ans: "Nitin has delivered 250+ global seminars, including a landmark session at JEC Kukas for 200+ engineering students. His sessions cover AI in Industrial Systems, MLOps Scaling, and Real-world Agentic AI use cases." },
-    { keys: ['langgraph','crewai','langchain','autogen','rag','agent','agentic'],
-      ans: "Nitin is an expert in Agentic AI frameworks including LangGraph, CrewAI, LangChain, and AutoGen. He designs multi-agent systems that reason, plan, and execute complex enterprise workflows autonomously." },
-    { keys: ['mlops','mlflow','kubeflow','pipeline','deploy','docker','kubernetes'],
-      ans: "Nitin builds robust MLOps pipelines with CI/CD integration, automated retraining, and monitoring using tools like MLflow, Kubeflow, Docker, and Kubernetes for production-grade AI systems." },
-    { keys: ['security','llm security','prompt injection','owasp','red team'],
-      ans: "Nitin specializes in ML Security — hardening LLM runtimes against prompt injection attacks, building autonomous security orchestration agents, and applying OWASP LLM Top 10 defenses in enterprise environments." },
-    { keys: ['pay','payment','razorpay','fee','cost','price','charge'],
-      ans: "You can pay for a speaking engagement booking directly on this website using Razorpay (cards, UPI, net banking) or by scanning the QR code in the Payment section below." },
-    { keys: ['hello','hi','hey','good morning','good afternoon','good evening','greet'],
-      ans: "Hello! I'm Nitin's AI assistant. I can answer questions about Nitin's expertise, experience, seminars, and how to book him for speaking engagements. How can I help you?" },
-    { keys: ['thank','thanks','great','awesome','wonderful'],
-      ans: "You're welcome! Feel free to ask anything else about Nitin or reach out via LinkedIn for direct inquiries." },
+  const COLORS = [
+    '#FF6B35','#FF3CAC','#00D4FF','#00FF88',
+    '#7B2FBE','#FFD700','#FF0080','#00FFFF',
+    '#FF8C00','#ADFF2F','#FF69B4','#00FA9A',
+    '#1E90FF','#FF1493','#7FFF00','#FF4500'
   ];
 
-  function getOfflineReply(msg) {
-    const lower = msg.toLowerCase();
-    for (const faq of FAQ) {
-      if (faq.keys.some(k => lower.includes(k))) return faq.ans;
-    }
-    return "I can answer questions about Nitin Kumar Sharma's expertise, experience, seminars, and speaking bookings. Try asking: 'Who is Nitin?', 'What are his skills?', or 'How do I book him for an event?'";
-  }
+  let W, H, cols, rows, cells = [];
+  const CELL = 22, GAP = 2, UNIT = CELL + GAP;
 
-  function addMessage(text, isUser, isError) {
-    const wrap   = document.createElement('div');
-    wrap.className = 'msg-wrap ' + (isUser ? 'user' : 'ai');
-    const label  = document.createElement('div');
-    label.className = 'msg-label';
-    label.textContent = isUser ? 'You' : 'AI Assistant';
-    const bubble = document.createElement('div');
-    bubble.className = 'msg-bubble' + (isError ? ' error' : '');
-    bubble.textContent = text;
-    wrap.appendChild(label);
-    wrap.appendChild(bubble);
-    chatMessages.appendChild(wrap);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-  }
-
-  function showTyping() {
-    const wrap = document.createElement('div');
-    wrap.className = 'msg-wrap ai';
-    wrap.id = 'typingWrap';
-    const label = document.createElement('div');
-    label.className = 'msg-label';
-    label.textContent = 'AI Assistant';
-    const ind = document.createElement('div');
-    ind.className = 'typing-indicator';
-    ind.innerHTML = '<div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>';
-    wrap.appendChild(label);
-    wrap.appendChild(ind);
-    chatMessages.appendChild(wrap);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-  }
-
-  function removeTyping() {
-    var el = document.getElementById('typingWrap');
-    if (el) el.remove();
-  }
-
-  function handleChatSend() {
-    var msg = chatInput.value.trim();
-    if (!msg || chatSendBtn.disabled) return;
-    addMessage(msg, true, false);
-    chatInput.value = '';
-    chatSendBtn.disabled = true;
-    showTyping();
-    setTimeout(function() {
-      removeTyping();
-      addMessage(getOfflineReply(msg), false, false);
-      chatSendBtn.disabled = false;
-      chatInput.focus();
-    }, 700);
-  }
-
-  chatSendBtn.addEventListener('click', handleChatSend);
-  chatInput.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && !e.shiftKey) handleChatSend();
-  });
-
-  // ===== BACK TO TOP =====
-  document.getElementById('back-to-top').addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-
-  // ===== SMOOTH SCROLL FOR NAV LINKS =====
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
-      if (href === '#') return;
-      const target = document.querySelector(href);
-      if (target) {
-        e.preventDefault();
-        const offset = 80;
-        const top = target.getBoundingClientRect().top + window.scrollY - offset;
-        window.scrollTo({ top, behavior: 'smooth' });
+  function resize() {
+    W = canvas.width = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+    cols = Math.ceil(W / UNIT) + 1;
+    rows = Math.ceil(H / UNIT) + 1;
+    cells = [];
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        cells.push({
+          x: c * UNIT,
+          y: r * UNIT,
+          color: COLORS[Math.floor(Math.random() * COLORS.length)],
+          alpha: Math.random() * 0.15,
+          targetAlpha: Math.random() * 0.4,
+          speed: 0.008 + Math.random() * 0.025,
+          glowing: Math.random() < 0.05
+        });
       }
+    }
+  }
+
+  let animId;
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    cells.forEach(cell => {
+      // Interpolate alpha
+      cell.alpha += (cell.targetAlpha - cell.alpha) * cell.speed;
+      if (Math.abs(cell.targetAlpha - cell.alpha) < 0.002) {
+        cell.targetAlpha = Math.random() * (cell.glowing ? 0.75 : 0.35);
+        if (Math.random() < 0.02) {
+          cell.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+          cell.glowing = Math.random() < 0.08;
+        }
+        cell.speed = 0.008 + Math.random() * 0.025;
+      }
+      ctx.save();
+      ctx.globalAlpha = cell.alpha;
+      if (cell.glowing && cell.alpha > 0.3) {
+        ctx.shadowColor = cell.color;
+        ctx.shadowBlur = 12;
+      }
+      ctx.fillStyle = cell.color;
+      const r = 3;
+      ctx.beginPath();
+      ctx.roundRect(cell.x, cell.y, CELL, CELL, r);
+      ctx.fill();
+      ctx.restore();
     });
+    animId = requestAnimationFrame(draw);
+  }
+
+  resize();
+  draw();
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(resize, 200);
   });
 
-  // ===== TYPEWRITER =====
-  const roles = [
-    'AI/ML Expert',
-    'GenAI Strategist',
-    'Global Keynote Speaker',
-    'Enterprise AI Architect',
-    'AI Transformation Leader',
-    'LLM & RAG Specialist'
-  ];
-  let roleIdx = 0, charIdx = 0, deleting = false;
-  const twEl = document.getElementById('typewriterText');
-  function typewrite() {
-    if (!twEl) return;
-    const current = roles[roleIdx];
-    if (!deleting) {
-      twEl.textContent = current.slice(0, ++charIdx);
-      if (charIdx === current.length) { deleting = true; setTimeout(typewrite, 1800); return; }
-    } else {
-      twEl.textContent = current.slice(0, --charIdx);
-      if (charIdx === 0) { deleting = false; roleIdx = (roleIdx + 1) % roles.length; }
-    }
-    setTimeout(typewrite, deleting ? 48 : 88);
-  }
-  typewrite();
+  // Pause when not visible for performance
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) cancelAnimationFrame(animId);
+    else draw();
+  });
+})();
 
-  // ===== HERO PARTICLES =====
-  const particleContainer = document.getElementById('heroParticles');
-  if (particleContainer) {
-    for (let i = 0; i < 28; i++) {
-      const p = document.createElement('div');
-      p.className = 'particle';
-      const size = Math.random() * 3 + 2;
-      p.style.cssText = `width:${size}px;height:${size}px;left:${Math.random()*100}%;bottom:-10px;opacity:${Math.random()*0.4+0.1};animation-duration:${Math.random()*14+10}s;animation-delay:${Math.random()*12}s;`;
-      particleContainer.appendChild(p);
+/* ═══════════════════════════════════════
+   MINI MATRIX CANVAS (product card)
+═══════════════════════════════════════ */
+function initMiniMatrices() {
+  const canvases = document.querySelectorAll('.mini-matrix-canvas');
+  canvases.forEach(canvas => {
+    canvas.width = canvas.offsetWidth || 260;
+    canvas.height = canvas.offsetHeight || 220;
+    const ctx = canvas.getContext('2d');
+    const COLS_N = 16, ROWS_N = 16;
+    const CW = canvas.width / COLS_N;
+    const CH = canvas.height / ROWS_N;
+    const COLORS = ['#FF0000','#00FF00','#0000FF','#FF00FF','#FFFF00','#00FFFF','#FF6B35','#00FF88'];
+    const grid = Array.from({length: ROWS_N}, () =>
+      Array.from({length: COLS_N}, () => ({
+        color: COLORS[Math.floor(Math.random() * COLORS.length)],
+        on: Math.random() > .5,
+        timer: Math.floor(Math.random() * 40)
+      }))
+    );
+
+    function drawMatrix() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      grid.forEach((row, r) => {
+        row.forEach((cell, c) => {
+          cell.timer--;
+          if (cell.timer <= 0) {
+            cell.on = !cell.on;
+            cell.timer = 15 + Math.floor(Math.random() * 50);
+            if (cell.on) cell.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+          }
+          if (cell.on) {
+            ctx.save();
+            ctx.shadowColor = cell.color;
+            ctx.shadowBlur = 6;
+            ctx.fillStyle = cell.color;
+            ctx.globalAlpha = .85;
+            ctx.fillRect(c * CW + 1, r * CH + 1, CW - 2, CH - 2);
+            ctx.restore();
+          } else {
+            ctx.fillStyle = '#111';
+            ctx.globalAlpha = .6;
+            ctx.fillRect(c * CW + 1, r * CH + 1, CW - 2, CH - 2);
+            ctx.globalAlpha = 1;
+          }
+        });
+      });
+      requestAnimationFrame(drawMatrix);
     }
+    drawMatrix();
+  });
+}
+
+/* ═══════════════════════════════════════
+   NAVBAR
+═══════════════════════════════════════ */
+const navbar = document.getElementById('navbar');
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+  document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 400);
+}, { passive: true });
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('open');
+});
+
+// Close menu on link click
+navLinks.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('open');
+  });
+});
+
+// Search toggle
+const searchToggle = document.getElementById('searchToggle');
+const searchBar = document.getElementById('searchBar');
+const searchClose = document.getElementById('searchClose');
+const searchInput = document.getElementById('searchInput');
+
+searchToggle.addEventListener('click', () => {
+  searchBar.classList.toggle('open');
+  if (searchBar.classList.contains('open')) searchInput.focus();
+});
+searchClose.addEventListener('click', () => {
+  searchBar.classList.remove('open');
+  searchInput.value = '';
+});
+
+// Live search filter
+searchInput.addEventListener('input', (e) => {
+  const q = e.target.value.toLowerCase().trim();
+  document.querySelectorAll('.product-card').forEach(card => {
+    const name = card.querySelector('.product-name')?.textContent.toLowerCase() || '';
+    const cat  = card.querySelector('.product-cat')?.textContent.toLowerCase() || '';
+    card.classList.toggle('hidden', !!q && !name.includes(q) && !cat.includes(q));
+  });
+  // Reset filter tabs
+  if (q) {
+    document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
   }
-</script>
+});
+
+/* ═══════════════════════════════════════
+   PRODUCT FILTER TABS
+═══════════════════════════════════════ */
+document.getElementById('filterTabs').addEventListener('click', (e) => {
+  const tab = e.target.closest('.filter-tab');
+  if (!tab) return;
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  const filter = tab.dataset.filter;
+  document.querySelectorAll('.product-card').forEach(card => {
+    const show = filter === 'all' || card.dataset.category === filter;
+    card.classList.toggle('hidden', !show);
+  });
+  searchInput.value = '';
+});
+
+/* ═══════════════════════════════════════
+   INTERSECTION OBSERVER — Scroll Animations
+═══════════════════════════════════════ */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      // Stagger children
+      const siblings = entry.target.parentElement.querySelectorAll('[data-aos]');
+      siblings.forEach((el, i) => {
+        el.style.transitionDelay = `${i * 0.08}s`;
+      });
+    }
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+/* ═══════════════════════════════════════
+   ANIMATED COUNTERS
+═══════════════════════════════════════ */
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const el = entry.target;
+    const target = parseInt(el.dataset.count, 10);
+    const duration = 1800;
+    const start = performance.now();
+    function step(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.floor(ease * target).toLocaleString('en-IN');
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+    counterObserver.unobserve(el);
+  });
+}, { threshold: 0.4 });
+
+document.querySelectorAll('.wstat-num').forEach(el => counterObserver.observe(el));
+
+/* ═══════════════════════════════════════
+   CART MANAGEMENT
+═══════════════════════════════════════ */
+function saveCart() {
+  localStorage.setItem('pixelled_cart', JSON.stringify(cart));
+}
+
+function addToCart(id, name, price) {
+  const existing = cart.find(i => i.id === id);
+  if (existing) {
+    existing.qty++;
+  } else {
+    cart.push({ id, name, price, qty: 1 });
+  }
+  saveCart();
+  renderCart();
+  updateCartBadge();
+  showToast(`✅ ${name.slice(0, 28)}… added to cart`);
+}
+
+function updateQty(id, delta) {
+  const item = cart.find(i => i.id === id);
+  if (!item) return;
+  item.qty = Math.max(0, item.qty + delta);
+  if (item.qty === 0) cart = cart.filter(i => i.id !== id);
+  saveCart();
+  renderCart();
+  updateCartBadge();
+}
+
+function removeFromCart(id) {
+  cart = cart.filter(i => i.id !== id);
+  saveCart();
+  renderCart();
+  updateCartBadge();
+}
+
+function clearCart() {
+  cart = [];
+  saveCart();
+  renderCart();
+  updateCartBadge();
+}
+
+function getCartTotal() {
+  return cart.reduce((sum, i) => sum + i.price * i.qty, 0);
+}
+
+function updateCartBadge() {
+  const count = cart.reduce((s, i) => s + i.qty, 0);
+  const badge = document.getElementById('cartBadge');
+  badge.textContent = count;
+  badge.classList.add('pop');
+  setTimeout(() => badge.classList.remove('pop'), 300);
+}
+
+function renderCart() {
+  const container = document.getElementById('cartItems');
+  const footer = document.getElementById('cartFooter');
+  const empty = document.getElementById('cartEmpty');
+
+  if (cart.length === 0) {
+    container.innerHTML = '';
+    container.appendChild(empty);
+    empty.style.display = 'flex';
+    footer.style.display = 'none';
+    return;
+  }
+
+  empty.style.display = 'none';
+  footer.style.display = 'flex';
+
+  // Re-append empty so it stays (hidden)
+  container.innerHTML = '';
+
+  cart.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'cart-item';
+    div.innerHTML = `
+      <div class="cart-item-icon"><i class="fas fa-bolt"></i></div>
+      <div class="cart-item-info">
+        <div class="cart-item-name">${escHtml(item.name)}</div>
+        <div class="cart-item-price">₹${(item.price * item.qty).toLocaleString('en-IN')}</div>
+      </div>
+      <div class="cart-item-qty">
+        <button class="qty-btn" onclick="updateQty(${item.id}, -1)">−</button>
+        <span class="qty-val">${item.qty}</span>
+        <button class="qty-btn" onclick="updateQty(${item.id}, 1)">+</button>
+      </div>
+      <button class="cart-item-remove" onclick="removeFromCart(${item.id})" aria-label="Remove">
+        <i class="fas fa-times"></i>
+      </button>
+    `;
+    container.appendChild(div);
+  });
+
+  const subtotal = getCartTotal();
+  const gst = Math.round(subtotal * 0.18);
+  const grand = subtotal + gst;
+  document.getElementById('cartTotal').textContent = `₹${subtotal.toLocaleString('en-IN')}`;
+  document.getElementById('cartGST').textContent = `₹${gst.toLocaleString('en-IN')}`;
+  document.getElementById('cartGrand').textContent = `₹${grand.toLocaleString('en-IN')}`;
+}
+
+function openCart() {
+  document.getElementById('cartSidebar').classList.add('open');
+  document.getElementById('cartOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeCart() {
+  document.getElementById('cartSidebar').classList.remove('open');
+  document.getElementById('cartOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('cartToggle').addEventListener('click', () => {
+  document.getElementById('cartSidebar').classList.contains('open') ? closeCart() : openCart();
+});
+
+/* ═══════════════════════════════════════
+   CHECKOUT / QR MODAL
+═══════════════════════════════════════ */
+let checkoutQRInstance = null;
+
+function openCheckout() {
+  if (cart.length === 0) {
+    showToast('🛒 Add products to cart first!');
+    return;
+  }
+  closeCart();
+
+  const subtotal = getCartTotal();
+  const gst = Math.round(subtotal * 0.18);
+  const grand = subtotal + gst;
+  const orderId = 'PXL-' + Date.now().toString().slice(-6);
+
+  document.getElementById('checkoutOrderId').textContent = orderId;
+  document.getElementById('checkoutTotal').textContent = `₹${grand.toLocaleString('en-IN')}`;
+  document.getElementById('qrAmountBadge').textContent = `₹${grand.toLocaleString('en-IN')}`;
+
+  // Build items summary
+  const summaryEl = document.getElementById('checkoutItemsSummary');
+  summaryEl.innerHTML = cart.map(i =>
+    `<div class="checkout-item-row">
+      <span>${escHtml(i.name)} ×${i.qty}</span>
+      <strong>₹${(i.price * i.qty).toLocaleString('en-IN')}</strong>
+    </div>`
+  ).join('');
+
+  // Generate UPI QR
+  const upiString = `upi://pay?pa=pixelled@okaxis&pn=PixelLED+Technologies&am=${grand}&cu=INR&tn=${encodeURIComponent(`Order ${orderId} - PixelLED`)}&mc=5999`;
+
+  const qrEl = document.getElementById('checkoutQR');
+  qrEl.innerHTML = '';
+
+  if (typeof QRCode !== 'undefined') {
+    checkoutQRInstance = new QRCode(qrEl, {
+      text: upiString,
+      width: 200,
+      height: 200,
+      colorDark: '#000000',
+      colorLight: '#ffffff',
+      correctLevel: QRCode.CorrectLevel.M
+    });
+  } else {
+    qrEl.innerHTML = `<div style="width:200px;height:200px;display:flex;align-items:center;justify-content:center;background:#f0f0f0;border-radius:8px;color:#333;font-family:monospace;font-size:.7rem;padding:1rem;text-align:center">QR Code<br/>${upiString}</div>`;
+  }
+
+  document.getElementById('checkoutOverlay').classList.add('open');
+  document.getElementById('checkoutModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCheckout() {
+  document.getElementById('checkoutOverlay').classList.remove('open');
+  document.getElementById('checkoutModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ═══════════════════════════════════════
+   PAYMENT QR (Static in payment section)
+═══════════════════════════════════════ */
+function initStaticQR() {
+  const el = document.getElementById('qrUPI');
+  if (!el) return;
+  const upiStr = 'upi://pay?pa=pixelled@okaxis&pn=PixelLED+Technologies&cu=INR&tn=PixelLED+Order';
+  if (typeof QRCode !== 'undefined') {
+    new QRCode(el, {
+      text: upiStr,
+      width: 160,
+      height: 160,
+      colorDark: '#000000',
+      colorLight: '#ffffff',
+      correctLevel: QRCode.CorrectLevel.M
+    });
+  } else {
+    el.innerHTML = `<div style="width:160px;height:160px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;border-radius:8px;color:#555;font-size:.7rem;text-align:center;padding:1rem">Scan with UPI App</div>`;
+  }
+}
+
+/* ═══════════════════════════════════════
+   SHOWCASE MODAL — Animated Canvas
+═══════════════════════════════════════ */
+const showcaseData = {
+  bedroom: {
+    title: 'Bedroom RGB Transformation',
+    desc: 'Full 360° addressable RGB strips behind headboard, smart ceiling panel, and reactive bedside lamps — all synced via the PixelLED app.',
+    label: 'Bedroom RGB Demo',
+    palette: ['#FF00FF','#7B2FBE','#FF3CAC','#001AFF','#00D4FF','#FF6B35']
+  },
+  gaming: {
+    title: 'Ultimate Gaming Cave Setup',
+    desc: 'Reactive RGB gaming strips and monitor bias lighting that sync with your screen content in real-time using the PixelLED Sync app.',
+    label: 'Gaming Cave Demo',
+    palette: ['#00FF00','#00FF9F','#39FF14','#7FFF00','#ADFF2F','#00FFFF']
+  },
+  office: {
+    title: 'Smart Circadian Office',
+    desc: 'Auto-adjusting color temperature from cool white (focus) to warm amber (evening) tuned to your circadian rhythm for peak productivity.',
+    label: 'Smart Office Demo',
+    palette: ['#E0F8FF','#B0E0FF','#00BFFF','#4169E1','#001AFF','#87CEEB']
+  },
+  outdoor: {
+    title: 'Weatherproof Garden Lighting',
+    desc: 'IP67-rated LED strips and solar-powered neon signs to illuminate walkways, pergolas, and garden features through all seasons.',
+    label: 'Outdoor Garden Demo',
+    palette: ['#00FF00','#88FF00','#FFD700','#FF8C00','#FF6B35','#00FA9A']
+  }
+};
+
+let showcaseCanvasAnim = null;
+
+function openShowcaseModal(type) {
+  const data = showcaseData[type];
+  if (!data) return;
+  document.getElementById('showcaseModalTitle').textContent = data.title;
+  document.getElementById('showcaseModalDesc').textContent = data.desc;
+  document.getElementById('showcaseAnimLabel').textContent = data.label;
+
+  // Start canvas animation
+  const canvas = document.getElementById('showcaseCanvas');
+  canvas.width = canvas.offsetWidth || 700;
+  canvas.height = canvas.offsetHeight || 340;
+  if (showcaseCanvasAnim) cancelAnimationFrame(showcaseCanvasAnim);
+  runShowcaseAnimation(canvas, data.palette);
+
+  document.getElementById('showcaseOverlay').classList.add('open');
+  document.getElementById('showcaseModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeShowcaseModal() {
+  document.getElementById('showcaseOverlay').classList.remove('open');
+  document.getElementById('showcaseModal').classList.remove('open');
+  document.body.style.overflow = '';
+  if (showcaseCanvasAnim) { cancelAnimationFrame(showcaseCanvasAnim); showcaseCanvasAnim = null; }
+}
+
+function runShowcaseAnimation(canvas, palette) {
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+
+  // Particle wave effect
+  const particles = Array.from({length: 120}, () => ({
+    x: Math.random() * W,
+    y: Math.random() * H,
+    vx: (Math.random() - .5) * 1.5,
+    vy: (Math.random() - .5) * 1.5,
+    size: 3 + Math.random() * 8,
+    color: palette[Math.floor(Math.random() * palette.length)],
+    alpha: Math.random(),
+    pulse: Math.random() * Math.PI * 2
+  }));
+
+  let t = 0;
+  function frame() {
+    ctx.fillStyle = 'rgba(5,5,15,.15)';
+    ctx.fillRect(0, 0, W, H);
+    t += 0.025;
+
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy + Math.sin(t + p.pulse) * 0.3;
+      p.pulse += 0.03;
+      if (p.x < 0) p.x = W;
+      if (p.x > W) p.x = 0;
+      if (p.y < 0) p.y = H;
+      if (p.y > H) p.y = 0;
+
+      ctx.save();
+      ctx.globalAlpha = (.5 + Math.sin(p.pulse) * .4) * p.alpha;
+      ctx.shadowColor = p.color;
+      ctx.shadowBlur = 20;
+      ctx.fillStyle = p.color;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    });
+
+    // Horizontal scan line
+    const scanY = (t * 50) % H;
+    const grad = ctx.createLinearGradient(0, scanY - 4, 0, scanY + 4);
+    grad.addColorStop(0, 'rgba(255,255,255,0)');
+    grad.addColorStop(.5, 'rgba(255,255,255,.3)');
+    grad.addColorStop(1, 'rgba(255,255,255,0)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, scanY - 4, W, 8);
+
+    showcaseCanvasAnim = requestAnimationFrame(frame);
+  }
+  frame();
+}
+
+/* ═══════════════════════════════════════
+   COPY TO CLIPBOARD
+═══════════════════════════════════════ */
+function copyText(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('📋 Copied to clipboard!');
+  }).catch(() => {
+    // Fallback
+    const el = document.createElement('textarea');
+    el.value = text;
+    el.style.position = 'fixed'; el.style.opacity = '0';
+    document.body.appendChild(el);
+    el.select(); document.execCommand('copy');
+    document.body.removeChild(el);
+    showToast('📋 Copied!');
+  });
+}
+
+/* ═══════════════════════════════════════
+   NEWSLETTER SUBSCRIBE
+═══════════════════════════════════════ */
+function subscribeNewsletter(e) {
+  e.preventDefault();
+  const email = e.target.querySelector('input[type=email]').value;
+  showToast(`🎉 Subscribed! Check ${email} for 15% off.`);
+  e.target.reset();
+}
+
+/* ═══════════════════════════════════════
+   TOAST NOTIFICATION
+═══════════════════════════════════════ */
+let toastTimer;
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+/* ═══════════════════════════════════════
+   SMOOTH SCROLL for nav links
+═══════════════════════════════════════ */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', (e) => {
+    const target = document.querySelector(anchor.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const offset = 80; // navbar height
+      const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+
+/* ═══════════════════════════════════════
+   ESCAPE KEY closes modals
+═══════════════════════════════════════ */
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeCart();
+    closeCheckout();
+    closeShowcaseModal();
+  }
+});
+
+/* ═══════════════════════════════════════
+   QUICK VIEW — placeholder
+═══════════════════════════════════════ */
+document.querySelectorAll('.product-quick-view').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const productId = btn.dataset.id;
+    const card = btn.closest('.product-card');
+    const name = card.querySelector('.product-name')?.textContent || 'Product';
+    const price = card.querySelector('.price-current')?.textContent || '';
+    showToast(`👁 ${name} — ${price} — tap Add to Cart to order!`);
+  });
+});
+
+/* ═══════════════════════════════════════
+   ESCAPE HTML helper
+═══════════════════════════════════════ */
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/* ═══════════════════════════════════════
+   ACTIVE NAV LINK on scroll
+═══════════════════════════════════════ */
+const sections = document.querySelectorAll('section[id], footer[id]');
+const navItems = document.querySelectorAll('.nav-link');
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navItems.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+      });
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => sectionObserver.observe(s));
+
+/* ═══════════════════════════════════════
+   INIT ON DOM READY
+═══════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', () => {
+  renderCart();
+  updateCartBadge();
+  initMiniMatrices();
+
+  // Delay static QR init until QRCode library loaded
+  if (typeof QRCode !== 'undefined') {
+    initStaticQR();
+  } else {
+    setTimeout(initStaticQR, 1000);
+  }
+
+  // Re-observe after DOM updates
+  document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+  console.log('%cPixelLED™ ⚡', 'font-family:monospace;font-size:2rem;color:#FF6B35;font-weight:900;text-shadow:0 0 10px #FF6B35');
+  console.log('%cIlluminate Your World — v1.0.0', 'font-family:monospace;color:#00D4FF');
+});
+
+/* ═══════════════════════════════════════
+   EXPOSE globally for onclick attrs
+═══════════════════════════════════════ */
+window.addToCart = addToCart;
+window.updateQty = updateQty;
+window.removeFromCart = removeFromCart;
+window.clearCart = clearCart;
+window.openCheckout = openCheckout;
+window.closeCheckout = closeCheckout;
+window.closeCart = closeCart;
+window.openShowcaseModal = openShowcaseModal;
+window.closeShowcaseModal = closeShowcaseModal;
+window.copyText = copyText;
+window.subscribeNewsletter = subscribeNewsletter;
+  </script>
 </body>
 </html>
